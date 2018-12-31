@@ -1,0 +1,56 @@
+//: arrays/GeneratorsTest.java
+package arrays;
+
+import net.mindview.util.CountingGenerator;
+import net.mindview.util.Generator;
+
+/**
+ *
+ *
+ * 444
+ *
+ * 下面是一组使用随机数生成器的Generator,因为Random构造器使用的常量进行初始化，所以，每次用这些Generator中的一个来运行程序，
+ * 所产生的都是可以重复的
+ *
+ *
+ * 1
+ */
+public class GeneratorsTest {
+    public static int size = 10;
+
+    public static void test(Class<?> surroundingClass) {
+        for (Class<?> type : surroundingClass.getClasses()) {
+            System.out.print(type.getSimpleName() + ": ");
+            try {
+                Generator<?> g = (Generator<?>) type.newInstance();
+                for (int i = 0; i < size; i++) {
+                    System.out.printf(g.next() + " ");
+                }
+                System.out.println();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        float a = 1.0f;
+        a ++;
+        System.out.println(a );
+
+
+
+        test(CountingGenerator.class);
+
+    }
+} /* Output:
+Double: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0
+Float: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0
+Long: 0 1 2 3 4 5 6 7 8 9
+Integer: 0 1 2 3 4 5 6 7 8 9
+Short: 0 1 2 3 4 5 6 7 8 9
+String: abcdefg hijklmn opqrstu vwxyzAB CDEFGHI JKLMNOP QRSTUVW XYZabcd efghijk lmnopqr
+Character: a b c d e f g h i j
+Byte: 0 1 2 3 4 5 6 7 8 9
+Boolean: true false true false true false true false true false
+*///:~

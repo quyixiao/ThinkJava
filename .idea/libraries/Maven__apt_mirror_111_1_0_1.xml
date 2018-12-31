@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: apt:mirror:111:1.0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/apt/mirror/1.0.1/mirror-1.0.1-111.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/apt/mirror/1.0.1/mirror-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/apt/mirror/1.0.1/mirror-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

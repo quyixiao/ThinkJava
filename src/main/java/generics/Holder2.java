@@ -1,0 +1,40 @@
+package generics;//: generics/Holder2.java
+
+
+/****
+ *
+ * 在java se5 之前，我们可以让这个类直接持有Object类型对象
+ *
+ *
+ *
+ *
+ * 354 页
+ *
+ *
+ * 我们只会使用容器来存储一种类型的对象，泛型的主要目的之一就是用不来指定容器要持有什么类型的对象，而且由编译器来保证类型正确性
+ *
+ */
+public class Holder2 {
+    private Object a;
+
+    public Holder2(Object a) {
+        this.a = a;
+    }
+
+    public void set(Object a) {
+        this.a = a;
+    }
+
+    public Object get() {
+        return a;
+    }
+
+    public static void main(String[] args) {
+        Holder2 h2 = new Holder2(new Automobile());
+        Automobile a = (Automobile) h2.get();
+        h2.set("Not an Automobile");
+        String s = (String) h2.get();
+        h2.set(1); // Autoboxes to Integer
+        Integer x = (Integer) h2.get();
+    }
+} ///:~

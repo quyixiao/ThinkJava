@@ -1,0 +1,78 @@
+//: exceptions/E23_FailingConstructor2.java
+/****************** Exercise 23 *****************
+ * Add a class with a dispose() method to the
+ * previous exercise. Modify FailingConstructor so
+ * that the constructor creates one of these
+ * disposable objects as a member object, after which
+ * the constructor might throw an exception, after
+ * which it creates a second disposable member object.
+ Error Handling with Exceptions 243
+ * Write code to properly guard against failure, and
+ * in main() verify that all possible failure
+ * situations are covered.
+ ***********************************************/
+package exceptions;
+
+
+/*****
+ *
+ *
+ * 275页
+ *      在前一个练习中添加一个dispose()方法，修改FailingConstructor，使其构造器
+ *  可以将那些可去除对象之一当作一个成员对象创建，然后该构造器可能会抛出一个异常，之后
+ *  它将创建第二个可去除成员对象，编写能够确保不出现故障的代码，并在main()中验证所有可能的
+ *  故障情形都被覆盖了。
+ *
+ *
+ *
+ * 1
+ */
+class WithDispose {
+    private final int id;
+
+    WithDispose(int id) {
+        this.id = id;
+    }
+
+    void dispose() {
+        System.out.println("WithDispose.dispose(): " + id);
+    }
+}
+
+class FailingConstructor2 {
+    private final WithDispose wd1, wd2;
+
+    FailingConstructor2(boolean fail)
+            throws ConstructionException {
+        wd1 = new WithDispose(1);
+        try {
+            // "Simulate" other code that might throw exceptions
+            if (fail) throw new ConstructionException();
+        } catch (ConstructionException e) {
+            wd1.dispose();
+            throw e;
+        }
+        wd2 = new WithDispose(2);
+    }
+}
+
+public class E23_FailingConstructor2 {
+    public static void main(String args[]) {
+        for (boolean b = false; ; b = !b)
+            try {
+                System.out.println("Constructing...");
+                FailingConstructor2 fc = new FailingConstructor2(b);
+                try {
+                    System.out.println("Processing...");
+                } finally {
+                    // We do not have a decent method to call for
+                    // cleanup!
+                    System.out.println("Cleanup...");
+                }
+            } catch (ConstructionException e) {
+                System.out.println("Construction has failed: " + e);
+                break;
+            }
+
+    }
+}

@@ -1,0 +1,31 @@
+1: package io;//: io/FileOutputShortcut.java
+2: 
+3: import java.io.BufferedReader;
+4: import java.io.IOException;
+5: import java.io.PrintWriter;
+6: import java.io.StringReader;
+7: 
+8: 
+9: /**
+10:  * PrintWriter 中添加了一个辅助的构造器，使得你不必在每次希望创建文本文件并向其中写入时，都去执行所有的装饰工作，
+11:  * 下面是用这样的快捷的方式重写了BasicFileoutput.java
+12:  */
+13: public class FileOutputShortcut {
+14:     static String file = "/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/FileOutputShortcut.out";
+15: 
+16:     public static void main(String[] args)
+17:             throws IOException {
+18:         BufferedReader in = new BufferedReader(
+19:                 new StringReader(
+20:                         BufferedInputFile.read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/FileOutputShortcut.java")));
+21:         // Here's the shortcut:
+22:         PrintWriter out = new PrintWriter(file);
+23:         int lineCount = 1;
+24:         String s;
+25:         while ((s = in.readLine()) != null)
+26:             out.println(lineCount++ + ": " + s);
+27:         out.close();
+28:         // Show the stored file:
+29:         System.out.println(BufferedInputFile.read(file));
+30:     }
+31: } /* (Execute to see output) *///:~
