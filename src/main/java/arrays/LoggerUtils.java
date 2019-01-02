@@ -25,6 +25,17 @@ public class LoggerUtils {
         System.out.println(sb.toString());
     }
 
+
+    /**
+     * 不需要传递参数
+     * @param msg
+     */
+    public static void info(int msg) {
+        Throwable throwable = new Throwable();
+        StringBuffer sb = getStringBuffer(msg+"",throwable,getLevel(throwable));
+        System.out.println(sb.toString());
+    }
+
     /**
      * 不需要传递参数
      *
@@ -34,6 +45,17 @@ public class LoggerUtils {
         Throwable throwable = new Throwable();
         StringBuffer sb = getStringBuffer(msg,throwable,level);
          System.out.println(sb.toString());
+    }
+
+    /**
+     * 不需要传递参数
+     *
+     * @param msg
+     */
+    public static void info(int msg,int level) {
+        Throwable throwable = new Throwable();
+        StringBuffer sb = getStringBuffer(msg+"",throwable,level);
+        System.out.println(sb.toString());
     }
 
     public static void error(Exception e) {

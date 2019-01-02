@@ -18,6 +18,10 @@ import static net.mindview.util.Print.print;
  *
  * 484页
  *
+ *
+ *
+ * 1
+ *
  */
 public class E12_MapsDemo {
     private static void test(Map<String, String> map) {

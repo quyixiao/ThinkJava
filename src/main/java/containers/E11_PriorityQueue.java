@@ -23,9 +23,17 @@ import java.util.Random;
  * ，使用这个Integer域来实现Compareble,用这个类的对象来填充PriorityQueue，然后使用poll()抽取这些值
  * 以展示该队列将按照我们顺序产生这些值
  *
+ *
+ *
+ * 1
+ *
+ *
+ *
+ *
  */
 class Item implements Comparable<Item> {
     private static final Random rnd = new Random(47);
+
     private Integer priority = rnd.nextInt(101);
 
     public int compareTo(Item arg) {

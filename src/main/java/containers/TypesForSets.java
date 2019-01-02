@@ -33,10 +33,10 @@ import java.util.TreeSet;
  * <p>
  * <p>
  * <p>
- *
- *
- *
- *
+ * <p>
+ * <p>
+ * <p>
+ * <p>
  * 1
  */
 class SetType {
@@ -47,8 +47,11 @@ class SetType {
     }
 
     public boolean equals(Object o) {
-        return o instanceof SetType && (i == ((SetType) o).i);
+        boolean result = o instanceof SetType && (i == ((SetType) o).i);
+        //LoggerUtils.info(result+"");
+        return result;
     }
+
 
     public String toString() {
         return Integer.toString(i);
@@ -72,7 +75,10 @@ class TreeType extends SetType
     }
 
     public int compareTo(TreeType arg) {
-        return (arg.i < i ? -1 : (arg.i == i ? 0 : 1));
+        int result = (arg.i < i ? -1 : (arg.i == i ? 0 : 1));
+
+        // LoggerUtils.info(result  );
+        return result;
     }
 }
 
@@ -90,20 +96,30 @@ public class TypesForSets {
 
     static <T> void test(Set<T> set, Class<T> type) {
         fill(set, type);
+        System.out.println(set);
         fill(set, type); // Try to add duplicates
+        System.out.println(set);
         fill(set, type);
         System.out.println(set);
     }
 
     public static void main(String[] args) {
         test(new HashSet<HashType>(), HashType.class);
+        System.out.println("=============11111111111===============================");
         test(new LinkedHashSet<HashType>(), HashType.class);
+        System.out.println("==============22222222222==============================");
         test(new TreeSet<TreeType>(), TreeType.class);
+        System.out.println("==============33333333333333=======+++++++++++++++++++++++");
         // Things that don't work:
         test(new HashSet<SetType>(), SetType.class);
+        System.out.println("-------------444444444444444----------------------------");
         test(new HashSet<TreeType>(), TreeType.class);
+        System.out.println("-----------------------3----------------333");
         test(new LinkedHashSet<SetType>(), SetType.class);
         test(new LinkedHashSet<TreeType>(), TreeType.class);
+
+
+        System.out.println("111111111111111111111111111");
         try {
             test(new TreeSet<SetType>(), SetType.class);
         } catch (Exception e) {

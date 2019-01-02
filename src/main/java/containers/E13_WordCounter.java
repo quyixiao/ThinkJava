@@ -20,6 +20,9 @@ import java.util.List;
  *
  * @param <K>
  * @param <V>
+ *
+ *
+ *     1
  */
 class AssociativeArray1<K, V> {
     private Object[][] pairs;
@@ -63,14 +66,19 @@ class AssociativeArray1<K, V> {
 
 public class E13_WordCounter {
     public static void main(String[] args) {
-        List<String> words =
-                new TextFile("E12_MapsDemo.java", "\\W+");
-        AssociativeArray1<String, Integer> map =
-                new AssociativeArray1<String, Integer>(words.size());
+        List<String> words = new TextFile("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/containers/E12_MapsDemo.java", "\\W+");
+
+
+        AssociativeArray1<String, Integer> map = new AssociativeArray1<String, Integer>(words.size());
+
+
         for (String word : words) {
+
             Integer freq = map.get(word);
             map.put(word, freq == null ? 1 : freq + 1);
+
         }
+
         System.out.println(map);
     }
 } 

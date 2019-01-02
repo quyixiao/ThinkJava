@@ -4,9 +4,22 @@ package containers;//: containers/ToDoList.java
 import java.util.PriorityQueue;
 
 /**
+ *
+ *
+ *
+ * 481
+ *
+ *
+ *
  * 在第11章曾经给出过优先级队列的一个简单介绍，其中更有趣的问题是to-do列表
  * ，该列表中每个对象都包含一个字符串和一个主要的以及次要的优先级值，该列表
  * 的排序也是通过实现Compareable而进行控制的
+ *
+ *
+ *
+ * 1
+ *
+ *
  */
 class ToDoList extends PriorityQueue<ToDoList.ToDoItem> {
     static class ToDoItem implements Comparable<ToDoItem> {
@@ -43,16 +56,24 @@ class ToDoList extends PriorityQueue<ToDoList.ToDoItem> {
 
     public static void main(String[] args) {
         ToDoList toDoList = new ToDoList();
+
+
         toDoList.add("Empty trash", 'C', 4);
         toDoList.add("Feed dog", 'A', 2);
         toDoList.add("Feed bird", 'B', 7);
         toDoList.add("Mow lawn", 'C', 3);
         toDoList.add("Water lawn", 'A', 1);
         toDoList.add("Feed cat", 'B', 1);
+
+
         while (!toDoList.isEmpty())
             System.out.println(toDoList.remove());
     }
-} /* Output:
+}
+
+
+
+/* Output:
 A1: Water lawn
 A2: Feed dog
 B1: Feed cat

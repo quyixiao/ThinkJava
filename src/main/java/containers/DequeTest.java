@@ -7,7 +7,10 @@ import static net.mindview.util.Print.printnb;
 
 
 /**
+ * 482
  * 你不太可能在两端都放入元素并且抽取它们，Deque 不如 Queue那样常用
+ * <p>
+ * 1
  */
 public class DequeTest {
     static void fillTest(Deque<Integer> deque) {
@@ -21,12 +24,14 @@ public class DequeTest {
         Deque<Integer> di = new Deque<Integer>();
         fillTest(di);
         print(di);
-        while (di.size() != 0)
+        while (di.size() != 0) {
             printnb(di.removeFirst() + " ");
+        }
         print();
         fillTest(di);
-        while (di.size() != 0)
+        while (di.size() != 0) {
             printnb(di.removeLast() + " ");
+        }
     }
 }
 
