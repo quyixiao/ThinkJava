@@ -19,6 +19,9 @@ import static net.mindview.util.Print.printnb;
  *
  * @param <K>
  * @param <V>
+ *
+ *
+ *     1
  */
 // Does not support null value as key!
 class SlowMap2<K, V> extends AbstractMap<K, V> {
@@ -162,6 +165,11 @@ public class E16_SlowMapTest {
     public static void main(String[] args) {
         System.out.println("Testing SlowMap");
         test(new SlowMap<Integer, String>());
+
+        System.out.println("============================================================");
+
+
+
         System.out.println("Testing SlowMap2");
         test(new SlowMap2<Integer, String>());
     }

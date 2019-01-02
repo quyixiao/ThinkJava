@@ -6,13 +6,18 @@ import net.mindview.util.Countries;
 import java.util.*;
 
 /**
+ *
+ *
+ *
+ * 490
  * put 方法只是将键与值放入相
+ *
  * @param <K>
  * @param <V>
  *
  *
+ *     1
  *
- *     
  */
 public class SlowMap<K, V> extends AbstractMap<K, V> {
     private List<K> keys = new ArrayList<K>();
@@ -46,11 +51,16 @@ public class SlowMap<K, V> extends AbstractMap<K, V> {
     public static void main(String[] args) {
         SlowMap<String, String> m = new SlowMap<String, String>();
         m.putAll(Countries.capitals(15));
+
         System.out.println(m);
-        System.out.println(m.get("BULGARIA"));
+        System.out.println(m.get("BURUNDI"));
         System.out.println(m.entrySet());
     }
-} /* Output:
+}
+
+
+
+/* Output:
 {CAMEROON=Yaounde, CHAD=N'djamena, CONGO=Brazzaville, CAPE VERDE=Praia, ALGERIA=Algiers, COMOROS=Moroni, CENTRAL AFRICAN REPUBLIC=Bangui, BOTSWANA=Gaberone, BURUNDI=Bujumbura, BENIN=Porto-Novo, BULGARIA=Sofia, EGYPT=Cairo, ANGOLA=Luanda, BURKINA FASO=Ouagadougou, DJIBOUTI=Dijibouti}
 Sofia
 [CAMEROON=Yaounde, CHAD=N'djamena, CONGO=Brazzaville, CAPE VERDE=Praia, ALGERIA=Algiers, COMOROS=Moroni, CENTRAL AFRICAN REPUBLIC=Bangui, BOTSWANA=Gaberone, BURUNDI=Bujumbura, BENIN=Porto-Novo, BULGARIA=Sofia, EGYPT=Cairo, ANGOLA=Luanda, BURKINA FASO=Ouagadougou, DJIBOUTI=Dijibouti]
