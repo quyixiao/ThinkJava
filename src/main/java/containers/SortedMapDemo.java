@@ -10,14 +10,17 @@ import static net.mindview.util.Print.print;
 
 
 /**
+ * 486
  * 此处，键值对是按照的次序排序的，TreeMap中的次序是有序的，因此"位置"的概念才有意义，所以才能取得第一个和
  * 最后一个，所以才能取得第一个和最后一个元素，并且可以提取Map的子集
- *
+ * <p>
+ * <p>
+ * <p>
+ * 1
  */
 public class SortedMapDemo {
     public static void main(String[] args) {
-        TreeMap<Integer, String> sortedMap =
-                new TreeMap<Integer, String>(new CountingMapData(10));
+        TreeMap<Integer, String> sortedMap = new TreeMap<Integer, String>(new CountingMapData(10));
         print(sortedMap);
         Integer low = sortedMap.firstKey();
         Integer high = sortedMap.lastKey();
@@ -29,8 +32,8 @@ public class SortedMapDemo {
             if (i == 6) high = it.next();
             else it.next();
         }
-        print(low);
-        print(high);
+        print("------------"+low);
+        print("========="+high);
         print(sortedMap.subMap(low, high));
         print(sortedMap.headMap(high));
         print(sortedMap.tailMap(low));

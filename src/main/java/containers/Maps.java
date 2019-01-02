@@ -11,15 +11,21 @@ import static net.mindview.util.Print.printnb;
 
 
 /**
+ * 485
  * printkey () 展示了如何生成Map的Collection视图，keySet() 方法返回由Map的键组成的Set
  * 因为在JavaSE5 提供了改进的打印支持，你可以直接打印values() 方法结果，该方法会产生一个
  * 包含Map中所有的值的Collection ，注意 键必须是唯一的，而值可以有重复的，由于这些Collection
  * 背后是由Map支持的，所以对Collection的任何改动都会反映到与之间相关联的Map
- *
- *
+ * <p>
+ * <p>
  * 此程序的剩余部分提供了每种Map操作的简单示例，并测试了每种基本类型的Map
+ * <p>
+ * <p>
+ * <p>
  *
  *
+ *
+ * 1
  */
 public class Maps {
     public static void printKeys(Map<Integer, String> map) {
@@ -56,6 +62,7 @@ public class Maps {
 
     public static void main(String[] args) {
         test(new HashMap<Integer, String>());
+        System.out.println("================================================================");
         test(new TreeMap<Integer, String>());
         test(new LinkedHashMap<Integer, String>());
         test(new IdentityHashMap<Integer, String>());

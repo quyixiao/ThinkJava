@@ -16,6 +16,10 @@ import static net.mindview.util.Print.printnb;
  *
  * 486页
  *
+ *
+ *
+ * 1
+ *
  */
 public class E14_PropertiesDemo {
     static void printKeys(Map<Object, Object> map) {
