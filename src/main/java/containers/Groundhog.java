@@ -1,6 +1,15 @@
 package containers;//: containers/Groundhog.java
 // Looks plausible, but doesn't work as a HashMap key.
 
+
+/****
+ * 488
+ *
+ *
+ *
+ * 1
+ *
+ */
 public class Groundhog {
     protected int number;
 

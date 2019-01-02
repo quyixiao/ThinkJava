@@ -3,6 +3,11 @@ package containers;//: containers/Prediction.java
 
 import java.util.Random;
 
+
+/****
+ * 488
+ *
+ */
 public class Prediction {
     private static Random rand = new Random(47);
     private boolean shadow = rand.nextDouble() > 0.5;
