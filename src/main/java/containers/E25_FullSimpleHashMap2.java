@@ -89,8 +89,7 @@ class SimpleHashMap5<K, V> extends AbstractMap<K, V> {
             buckets[index] = newPair;
         Entry<K, V> prevPair = null;        // Previous element
         boolean found = false;
-        for (Entry<K, V> pair = buckets[index]; pair != null;
-             pair = pair.next) {
+        for (Entry<K, V> pair = buckets[index]; pair != null; pair = pair.next) {
             if (pair.getKey().equals(key)) {
                 oldValue = pair.getValue();
                 // Replace old with new
@@ -191,21 +190,23 @@ class SimpleHashMap5<K, V> extends AbstractMap<K, V> {
 
 public class E25_FullSimpleHashMap2 {
     public static void main(String args[]) {
-        SimpleHashMap5<String, String> m =
-                new SimpleHashMap5<String, String>(),
-                m2 = new SimpleHashMap5<String, String>();
+        SimpleHashMap5<String, String> m = new SimpleHashMap5<String, String>(), m2 = new SimpleHashMap5<String, String>();
         m.putAll(Countries.capitals(10));
         m2.putAll(Countries.capitals(10));
+
         print("m.size() = " + m.size());
         print("m.isEmpty() = " + m.isEmpty());
         print("m.equals(m2) = " + m.equals(m2));
-        print("m.containsKey(\"BENIN\") = " +
-                m.containsKey("BENIN"));
-        print("m.containsKey(\"MARS\") = " +
-                m.containsKey("MARS"));
+        System.out.println("=============================");
+
+        print("m.containsKey(\"BENIN\") = " + m.containsKey("BENIN"));
+        print("m.containsKey(\"MARS\") = " + m.containsKey("MARS"));
+        System.out.println("+++++++++++++++++++++++++++++++++++++++");
+
         print("m.keySet() = " + m.keySet());
         print("m.values() = " + m.values());
         m.remove("ALGERIA");
+        System.out.println("=====================================");
         print("m = " + m);
     }
 }

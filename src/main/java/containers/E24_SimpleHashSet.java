@@ -5,6 +5,7 @@
  ***********************************************/
 package containers;
 
+import arrays.LoggerUtils;
 import net.mindview.util.Countries;
 
 import java.util.*;
@@ -12,6 +13,9 @@ import java.util.*;
 
 /**
  * 495页
+ *
+ *
+ * 1
  *
  * @param <K>
  */
@@ -86,8 +90,11 @@ class SimpleHashSet<K> extends AbstractSet<K> {
             }
 
             public void remove() {
+
                 if (canRemove) {
+                    LoggerUtils.info("remove");
                     canRemove = false;
+                    System.out.println("index1 = "  + index1 + " ,index2 = " + index2 );
                     buckets[index1].remove(--index2);
                     if (buckets[index1].isEmpty())  // Housekeeping...
                         buckets[index1++] = null;
@@ -107,6 +114,7 @@ public class E24_SimpleHashSet {
         m.addAll(Countries.names(10));
         System.out.println("m = " + m);
         System.out.println("m.size() = " + m.size());
+        System.out.println("=====================================================");
         Iterator<String> it = m.iterator();
         System.out.println("it.next()= " + it.next());
         it.remove();
