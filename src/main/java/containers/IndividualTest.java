@@ -11,16 +11,25 @@ import java.util.TreeSet;
 
 /**
  * 498页
- * 不懂
+ * <p>
+ * <p>
+ * <p>
  *
+ *
+ *
+ *
+ *
+ * 1
  */
 public class IndividualTest {
     public static void main(String[] args) {
         Set<Individual> pets = new TreeSet<Individual>();
-        for (List<? extends Pet> lp :
-                MapOfList.petPeople.values())
-            for (Pet p : lp)
+        for (List<? extends Pet> lp : MapOfList.petPeople.values()) {
+            for (Pet p : lp) {
+                System.out.println(p);
                 pets.add(p);
+            }
+        }
         System.out.println(pets);
     }
 } /* Output:

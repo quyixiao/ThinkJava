@@ -8,9 +8,16 @@ import java.util.Map;
 
 import static net.mindview.util.Print.print;
 
+
+/****
+ * 497
+ *
+ *
+ *
+ * 1
+ */
 public class CountedString {
-    private static List<String> created =
-            new ArrayList<String>();
+    private static List<String> created = new ArrayList<String>();
     private String s;
     private int id = 0;
 
@@ -46,8 +53,7 @@ public class CountedString {
     }
 
     public static void main(String[] args) {
-        Map<CountedString, Integer> map =
-                new HashMap<CountedString, Integer>();
+        Map<CountedString, Integer> map = new HashMap<CountedString, Integer>();
         CountedString[] cs = new CountedString[5];
         for (int i = 0; i < cs.length; i++) {
             cs[i] = new CountedString("hi");
