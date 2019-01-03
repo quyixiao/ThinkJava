@@ -6,17 +6,26 @@ import net.mindview.util.Countries;
 import java.util.*;
 
 /**
+ *
+ *
+ * 493
+ *
+ *
  * get() 方法按照与put() 方法相同的的方式计算在buckets 数组中的索引（这个很重要，因为这样可以保证两个方法可以计算出相同的位置）
  * 如果此位置有LinkedList存在，就对其进行查询。
- *
+ * <p>
  * 注意： 这个实现并不意味着对特性进行调优，它只是想要展示映射表执行的各种操作，如果你浏览一下java的hashMap 源码
  * ，你就会发现调过优化的实现，同样，为了简单，simpleHashMap 使用了与SortMap的相同的方式来实现entrySet() ,这个
  * 方法有些过于简单了，不能用于能用的map
  *
- *
- *
  * @param <K>
  * @param <V>
+ *
+ *
+ *
+ * 1
+ *
+ *
  */
 public class SimpleHashMap<K, V> extends AbstractMap<K, V> {
     // Choose a prime number for the hash table
@@ -25,8 +34,7 @@ public class SimpleHashMap<K, V> extends AbstractMap<K, V> {
     // You can't have a physical array of generics,
     // but you can upcast to one:
     @SuppressWarnings("unchecked")
-    LinkedList<MapEntry<K, V>>[] buckets =
-            new LinkedList[SIZE];
+    LinkedList<MapEntry<K, V>>[] buckets = new LinkedList[SIZE];
 
     public V put(K key, V value) {
         V oldValue = null;
@@ -73,9 +81,13 @@ public class SimpleHashMap<K, V> extends AbstractMap<K, V> {
     public static void main(String[] args) {
         SimpleHashMap<String, String> m = new SimpleHashMap<String, String>();
         m.putAll(Countries.capitals(25));
+
         System.out.println(m);
         System.out.println(m.get("ERITREA"));
         System.out.println(m.entrySet());
+
+
+
     }
 } /* Output:
 {CAMEROON=Yaounde, CONGO=Brazzaville, CHAD=N'djamena, COTE D'IVOIR (IVORY COAST)=Yamoussoukro, CENTRAL AFRICAN REPUBLIC=Bangui, GUINEA=Conakry, BOTSWANA=Gaberone, BISSAU=Bissau, EGYPT=Cairo, ANGOLA=Luanda, BURKINA FASO=Ouagadougou, ERITREA=Asmara, THE GAMBIA=Banjul, KENYA=Nairobi, GABON=Libreville, CAPE VERDE=Praia, ALGERIA=Algiers, COMOROS=Moroni, EQUATORIAL GUINEA=Malabo, BURUNDI=Bujumbura, BENIN=Porto-Novo, BULGARIA=Sofia, GHANA=Accra, DJIBOUTI=Dijibouti, ETHIOPIA=Addis Ababa}

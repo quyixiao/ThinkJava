@@ -18,6 +18,10 @@ import java.util.ListIterator;
  *
  * @param <K>
  * @param <V>
+ *
+ *
+ *
+ *     1
  */
 class SimpleHashMap2<K, V> extends SimpleHashMap<K, V> {
     @Override
@@ -58,8 +62,7 @@ class SimpleHashMap2<K, V> extends SimpleHashMap<K, V> {
 
 public class E20_SimpleHashMapCollisons {
     public static void main(String[] args) {
-        SimpleHashMap2<String, String> m =
-                new SimpleHashMap2<String, String>();
+        SimpleHashMap2<String, String> m = new SimpleHashMap2<String, String>();
         m.putAll(Countries.capitals(25));
         m.putAll(Countries.capitals(25));
         System.out.println(m);

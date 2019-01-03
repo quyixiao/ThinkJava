@@ -10,6 +10,20 @@ import net.mindview.util.Countries;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+
+/*****
+ *
+ *
+ *
+ * 495
+ *
+ * 实现SimpleHashMap 的Clear()方法的remove()方法
+ *
+ *
+ * 1
+ * @param <K>
+ * @param <V>
+ */
 class SimpleHashMap3<K, V> extends SimpleHashMap<K, V> {
     @SuppressWarnings("unchecked")
     public void clear() {
@@ -54,7 +68,13 @@ public class E22_SimpleHashMapClearRemove {
         m.clear();
         System.out.println("After clearing: " + m);
     }
-} /* Output:
+}
+
+
+
+
+
+/* Output:
          {ANGOLA=Luanda, CHAD=N'djamena, CAPE VERDE=Praia,
          ALGERIA=Algiers, BURKINA FASO=Ouagadougou, CENTRAL AFRICAN
          REPUBLIC=Bangui, BENIN=Porto-Novo, BOTSWANA=Gaberone,
