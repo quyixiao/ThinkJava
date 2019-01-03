@@ -22,10 +22,15 @@ import static net.mindview.util.Print.print;
  *
  * 499页
  *
+ *
+ *
+ * 1
+ *
+ *
+ *
  */
 class CountedString3 {
-    private static List<String> created =
-            new ArrayList<String>();
+    private static List<String> created = new ArrayList<String>();
     private String s;
     private int id = 0;
 
@@ -63,13 +68,13 @@ class CountedString3 {
 
 public class E27_CountedString3 {
     public static void main(String[] args) {
-        Map<CountedString3, Integer> map =
-                new HashMap<CountedString3, Integer>();
+        Map<CountedString3, Integer> map = new HashMap<CountedString3, Integer>();
         CountedString3[] cs = new CountedString3[5];
         for (int i = 0; i < cs.length; i++) {
             cs[i] = new CountedString3("hi");
             map.put(cs[i], i); // Autobox int -> Integer
         }
+        print(map);
         for (CountedString3 cstring : cs) {
             print("Looking up " + cstring);
 

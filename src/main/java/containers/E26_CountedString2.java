@@ -19,6 +19,9 @@ import static net.mindview.util.Print.print;
 /***
  * 499页
  *
+ *
+ * 1
+ *
  */
 class CountedString2 {
     private static List<String> created =
@@ -64,8 +67,7 @@ class CountedString2 {
 
 public class E26_CountedString2 {
     public static void main(String[] args) {
-        Map<CountedString2, Integer> map =
-                new HashMap<CountedString2, Integer>();
+        Map<CountedString2, Integer> map = new HashMap<CountedString2, Integer>();
         CountedString2[] cs = new CountedString2[5];
         for (int i = 0; i < cs.length; i++) {
             cs[i] = new CountedString2("hi", 'c');
