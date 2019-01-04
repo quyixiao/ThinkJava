@@ -7,6 +7,8 @@
  ***********************************************/
 package containers;
 
+import arrays.LoggerUtils;
+
 import static net.mindview.util.Print.print;
 
 
@@ -54,6 +56,7 @@ class Tuple {
 
         @SuppressWarnings("unchecked")
         public int compareTo(T2<A, B> o) {
+            LoggerUtils.info("=========================");
             int res = ((Comparable<A>) first).compareTo(o.first);
             if (res != 0) return res;
             return ((Comparable<B>) second).compareTo(o.second);
@@ -209,8 +212,7 @@ class Tuple {
                 @SuppressWarnings("unchecked")
                 T5<A, B, C, D, E> o = (T5<A, B, C, D, E>) obj;
                 return (fifth == null ?
-                        o.fifth == null : fifth.equals(o.fifth)) &&
-                        tuple.equals(o.tuple);
+                        o.fifth == null : fifth.equals(o.fifth)) /*&& tuple.equals(o.tuple)*/;
             }
             return false;
         }
@@ -257,8 +259,7 @@ class Tuple {
         return new T4<A, B, C, D>(a, b, c, d);
     }
 
-    public static <A, B, C, D, E>
-    T5<A, B, C, D, E> tuple(A a, B b, C c, D d, E e) {
+    public static <A, B, C, D, E> T5<A, B, C, D, E> tuple(A a, B b, C c, D d, E e) {
         return new T5<A, B, C, D, E>(a, b, c, d, e);
     }
 }
@@ -266,13 +267,18 @@ class Tuple {
 public class E28_Tuple {
     public static void main(String[] args) {
         Tuple.T5<String, Integer, Boolean, Short, Long>
-                t5_1 = Tuple.tuple("a", 1, false, (short) 2, 3L),
+                t5_1 = Tuple.tuple("a", 1, false, (short) 2, 4L),
                 t5_2 = Tuple.tuple("b", 2, true, (short) 3, 4L);
+
         print("t5_1 = " + t5_1);
         print("t5_2 = " + t5_2);
+
         print("t5_1.equals(t5_1) = " + t5_1.equals(t5_1));
         print("t5_1.equals(t5_2) = " + t5_1.equals(t5_2));
+
         print("t5_1.compareTo(t5_1) = " + t5_1.compareTo(t5_1));
         print("t5_1.compareTo(t5_2) = " + t5_1.compareTo(t5_2));
+
+
     }
 } 
