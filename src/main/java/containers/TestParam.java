@@ -4,6 +4,8 @@ package containers;//: containers/TestParam.java
 
 /**
  * 500 页
+ * <p>
+ * <p>
  *
  *
  * 为了使用这个框架，你需要将待测容器以及Test对象列表传递给Tester.run()方法，这些都是重载的泛型的
@@ -16,7 +18,7 @@ package containers;//: containers/TestParam.java
  *
  *
  *
- *
+ * 1
  */
 public class TestParam {
     public final int size;

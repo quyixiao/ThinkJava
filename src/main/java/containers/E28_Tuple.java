@@ -17,6 +17,10 @@ import static net.mindview.util.Print.print;
  *
  * 499页
  *
+ *
+ *
+ * 1
+ *
  */
 class Tuple {
     public static class T2<A, B>

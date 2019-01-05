@@ -16,7 +16,6 @@ public class CountingIntegerList extends AbstractList<Integer> {
     }
 
     public Integer get(int index) {
-        LoggerUtils.info("index:"+index);
         return Integer.valueOf(index);
 
     }

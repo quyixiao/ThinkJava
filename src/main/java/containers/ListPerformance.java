@@ -2,6 +2,7 @@ package containers;//: containers/ListPerformance.java
 // Demonstrates performance differences in Lists.
 // {Args: 100 500} Small to keep build testing short
 
+import com.alibaba.fastjson.JSON;
 import net.mindview.util.CountingGenerator;
 import net.mindview.util.CountingIntegerList;
 import net.mindview.util.Generated;
@@ -10,31 +11,41 @@ import java.util.*;
 
 
 /**
- *
  * 502页
- *
+ * <p>
  * 对list  的选择
- *
- *
+ * <p>
+ * <p>
  * 不懂
- *
+ * <p>
  * 每个测试都需要仔细的思考，以确保可以产生有意义的结果，例如，add测试首先清除List
  * 然后重新填充它到指定的列表中尺寸中，因此，clean()的调用也就成了该测试的一部分，并且
  * 可能会对执行时间产生影响，尤其是对小型的测试，尽管这里的结果看起来相当的合理，但是你可
  * 设想重写测试框架，使得在计时循环之外有一个对准备方法的调用，在本例中将包括clear() 调用
- *
- *
+ * <p>
+ * <p>
  * 注意：对于每个测试，你都必须准确的计算次要发生的操作的数量以及从test() 种返回的值，因此计时是正确的
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  *
  *
  */
 public class ListPerformance {
     static Random rand = new Random();
     static int reps = 1000;
-    static List<Test<List<Integer>>> tests =
-            new ArrayList<Test<List<Integer>>>();
-    static List<Test<LinkedList<Integer>>> qTests =
-            new ArrayList<Test<LinkedList<Integer>>>();
+    static List<Test<List<Integer>>> tests = new ArrayList<Test<List<Integer>>>();
+
+
+
+
+
+
+    static List<Test<LinkedList<Integer>>> qTests = new ArrayList<Test<LinkedList<Integer>>>();
 
     static {
         tests.add(new Test<List<Integer>>("add") {
@@ -186,24 +197,25 @@ public class ListPerformance {
                     // produces a non-resizeable array-backed list:
                     @Override
                     protected List<Integer> initialize(int size) {
-                        Integer[] ia = Generated.array(Integer.class,
-                                new CountingGenerator.Integer(), size);
+                        Integer[] ia = Generated.array(Integer.class, new CountingGenerator.Integer(), size);
                         return Arrays.asList(ia);
                     }
                 };
+
+
         arrayTest.setHeadline("Array as List");
         arrayTest.timedTest();
-        Tester.defaultParams = TestParam.array(
-                10, 5000, 100, 5000, 1000, 1000, 10000, 200);
-        if (args.length > 0)
+        Tester.defaultParams = TestParam.array(10, 5000, 100, 5000, 1000, 1000, 10000, 200);
+        if (args.length > 0) {
             Tester.defaultParams = TestParam.array(args);
+        }
         ListTester.run(new ArrayList<Integer>(), tests);
         ListTester.run(new LinkedList<Integer>(), tests);
         ListTester.run(new Vector<Integer>(), tests);
+
         Tester.fieldWidth = 12;
-        Tester<LinkedList<Integer>> qTest =
-                new Tester<LinkedList<Integer>>(
-                        new LinkedList<Integer>(), qTests);
+
+        Tester<LinkedList<Integer>> qTest = new Tester<LinkedList<Integer>>(new LinkedList<Integer>(), qTests);
         qTest.setHeadline("Queue tests");
         qTest.timedTest();
     }

@@ -1,6 +1,18 @@
 package containers;//: containers/Test.java
 // Framework for performing timed tests of containers.
 
+
+/******
+ *
+ *
+ * 500
+ *
+ *
+ *
+ * 1
+ *
+ * @param <C>
+ */
 public abstract class Test<C> {
     String name;
 
