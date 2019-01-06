@@ -10,7 +10,7 @@ import static net.mindview.util.Print.print;
  * 514 页
  *
  *
- *
+ * 1
  */
 public class ListSortSearch {
     public static void main(String[] args) {
@@ -18,17 +18,20 @@ public class ListSortSearch {
                 new ArrayList<String>(Utilities.list);
         list.addAll(Utilities.list);
         print(list);
+
+        System.out.println("===========================================");
         Collections.shuffle(list, new Random(47));
         print("Shuffled: " + list);
+        System.out.println("------------------------------------------------");
         // Use a ListIterator to trim off the last elements:
         ListIterator<String> it = list.listIterator(10);
         while (it.hasNext()) {
             it.next();
             it.remove();
         }
-        print("Trimmed: " + list);
+        print("oooooooooTrimmed: " + list);
         Collections.sort(list);
-        print("Sorted: " + list);
+        print("111111111111111111Sorted: " + list);
         String key = list.get(7);
         int index = Collections.binarySearch(list, key);
         print("Location of " + key + " is " + index +
@@ -36,8 +39,7 @@ public class ListSortSearch {
         Collections.sort(list, String.CASE_INSENSITIVE_ORDER);
         print("Case-insensitive sorted: " + list);
         key = list.get(7);
-        index = Collections.binarySearch(list, key,
-                String.CASE_INSENSITIVE_ORDER);
+        index = Collections.binarySearch(list, key, String.CASE_INSENSITIVE_ORDER);
         print("Location of " + key + " is " + index +
                 ", list.get(" + index + ") = " + list.get(index));
     }

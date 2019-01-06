@@ -32,6 +32,9 @@ import java.util.*;
  *
  *
  *
+ * 1
+ *
+ *
  *
  *
  */
@@ -205,6 +208,7 @@ public class ListPerformance {
 
         arrayTest.setHeadline("Array as List");
         arrayTest.timedTest();
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++");
         Tester.defaultParams = TestParam.array(10, 5000, 100, 5000, 1000, 1000, 10000, 200);
         if (args.length > 0) {
             Tester.defaultParams = TestParam.array(args);

@@ -4,15 +4,10 @@ package containers;//: containers/Tester.java
 import java.util.List;
 
 /**
- *
  * 501 页
  * 为了使用这个框架，你需要将待测容器以及Test对象传递给方法，这些都是重载的泛型使得方法，它们可以减少在使用它们是所必需
  *
- * @param <C>
- *
- *
- *
- *     0
+ * @param <C> 0
  */
 public class Tester<C> {
     public static int fieldWidth = 8;
@@ -108,5 +103,17 @@ public class Tester<C> {
 
 
     public static void main(String[] args) {
+
+        System.out.format(numberField(), 10l);
+        System.out.println("");
+        System.out.format(stringField(), "size");
+        System.out.println("");
+
+        for (TestParam param : defaultParams) {
+            System.out.println("size:\t" + param.size + "loops :" + param.loops);
+
+        }
     }
+
+
 } ///:~

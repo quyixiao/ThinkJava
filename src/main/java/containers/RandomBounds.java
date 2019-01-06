@@ -6,11 +6,7 @@ import static net.mindview.util.Print.print;
 
 
 /**
- *  507 页
- *
- *
- *
- *
+ * 507 页
  */
 
 public class RandomBounds {
@@ -22,14 +18,14 @@ public class RandomBounds {
     }
 
     public static void main(String[] args) {
-        if (args.length != 1) {
-            usage();
-        }
-        if (args[0].equals("lower")) {
+
+        String[] args1 = new String []{"lower"};
+
+        if (args1[0].equals("lower")) {
             while (Math.random() != 0.0)
                 ; // Keep trying
             print("Produced 0.0!");
-        } else if (args[0].equals("upper")) {
+        } else if (args1[0].equals("upper")) {
             while (Math.random() != 1.0)
                 ; // Keep trying
             print("Produced 1.0!");

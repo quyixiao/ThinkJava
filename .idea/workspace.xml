@@ -6,21 +6,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E28_Tuple.class" afterPath="$PROJECT_DIR$/target/classes/containers/E28_Tuple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Test.class" afterPath="$PROJECT_DIR$/target/classes/containers/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/TestParam.class" afterPath="$PROJECT_DIR$/target/classes/containers/TestParam.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Tuple$T2.class" afterPath="$PROJECT_DIR$/target/classes/containers/Tuple$T2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Tuple$T3.class" afterPath="$PROJECT_DIR$/target/classes/containers/Tuple$T3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Tuple$T4.class" afterPath="$PROJECT_DIR$/target/classes/containers/Tuple$T4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Tuple$T5.class" afterPath="$PROJECT_DIR$/target/classes/containers/Tuple$T5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Tuple.class" afterPath="$PROJECT_DIR$/target/classes/containers/Tuple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/containers/Synchronization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E36_MapEntrySlowMap.class" afterPath="$PROJECT_DIR$/target/classes/containers/E36_MapEntrySlowMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E37_SimpleHashMapArrays.class" afterPath="$PROJECT_DIR$/target/classes/containers/E37_SimpleHashMapArrays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/FailFast.class" afterPath="$PROJECT_DIR$/target/classes/containers/FailFast.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$10.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$11.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$4.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$5.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$6.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$7.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$8.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$9.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$ListTester.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$ListTester.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListSortSearch.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListSortSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapEntryComp.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapEntryComp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap1$EntrySet$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap1$EntrySet$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap1$EntrySet.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap1$EntrySet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap1.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap2.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapEntrySlowMap2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/RandomBounds.class" afterPath="$PROJECT_DIR$/target/classes/containers/RandomBounds.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/SimpleHashMap6.class" afterPath="$PROJECT_DIR$/target/classes/containers/SimpleHashMap6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Tester.class" afterPath="$PROJECT_DIR$/target/classes/containers/Tester.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/Utilities.class" afterPath="$PROJECT_DIR$/target/classes/containers/Utilities.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/E28_Tuple.java" afterPath="$PROJECT_DIR$/src/main/java/containers/E28_Tuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/E34_StringSetPerformance.java" afterPath="$PROJECT_DIR$/src/main/java/containers/E34_StringSetPerformance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/E35_MapPerformance2.java" afterPath="$PROJECT_DIR$/src/main/java/containers/E35_MapPerformance2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/E36_MapEntrySlowMap.java" afterPath="$PROJECT_DIR$/src/main/java/containers/E36_MapEntrySlowMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/E37_SimpleHashMapArrays.java" afterPath="$PROJECT_DIR$/src/main/java/containers/E37_SimpleHashMapArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/FailFast.java" afterPath="$PROJECT_DIR$/src/main/java/containers/FailFast.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/ListPerformance.java" afterPath="$PROJECT_DIR$/src/main/java/containers/ListPerformance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/Test.java" afterPath="$PROJECT_DIR$/src/main/java/containers/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/TestParam.java" afterPath="$PROJECT_DIR$/src/main/java/containers/TestParam.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/ListSortSearch.java" afterPath="$PROJECT_DIR$/src/main/java/containers/ListSortSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/RandomBounds.java" afterPath="$PROJECT_DIR$/src/main/java/containers/RandomBounds.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/Tester.java" afterPath="$PROJECT_DIR$/src/main/java/containers/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/mindview/util/CountingIntegerList.java" afterPath="$PROJECT_DIR$/src/main/java/net/mindview/util/CountingIntegerList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/containers/Utilities.java" afterPath="$PROJECT_DIR$/src/main/java/containers/Utilities.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,109 +108,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="E28_Tuple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/containers/E28_Tuple.java">
+      <file leaf-file-name="E35_MapPerformance2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/E35_MapPerformance2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="E36_MapEntrySlowMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/E36_MapEntrySlowMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2688">
+              <caret line="150" column="61" lean-forward="false" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="E37_SimpleHashMapArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/E37_SimpleHashMapArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListSortSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/ListSortSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizationComparisons.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynchronizationComparisons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Synchronization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/Synchronization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FailFast.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/containers/FailFast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38703">
+              <caret line="1986" column="36" lean-forward="false" selection-start-line="1986" selection-start-column="36" selection-end-line="1986" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#81688#81689#0" expanded="true" />
+                <element signature="e#81742#81743#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/containers/Test.java">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestParam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/containers/TestParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/containers/Tester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding>
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListPerformance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/containers/ListPerformance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generated.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/Generated.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountingIntegerList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/CountingIntegerList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23079">
-              <caret line="1154" column="26" lean-forward="false" selection-start-line="1154" selection-start-column="26" selection-end-line="1154" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2604">
-              <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-              <folding>
-                <element signature="e#5748#5749#0" expanded="true" />
-                <element signature="e#5784#5785#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comparable.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="135" column="15" lean-forward="false" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+            <state relative-caret-position="23646">
+              <caret line="1183" column="43" lean-forward="false" selection-start-line="1183" selection-start-column="43" selection-end-line="1183" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -243,15 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/containers/CollectionMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/Unsupported.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/E07_CrossInsertion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/Lists.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/E08_SList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arrays/LoggerUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/TypesForSets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/SortedSetDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/main/java/containers/E11_PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/util/Deque.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/mindview/util/Deque.java" />
@@ -291,9 +308,18 @@
         <option value="$PROJECT_DIR$/src/main/java/containers/E28_Tuple.java" />
         <option value="$PROJECT_DIR$/src/main/java/containers/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/containers/TestParam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/containers/Tester.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/mindview/util/CountingIntegerList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/RandomBounds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/E34_StringSetPerformance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/Tester.java" />
         <option value="$PROJECT_DIR$/src/main/java/containers/ListPerformance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/E35_MapPerformance2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/E36_MapEntrySlowMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/E37_SimpleHashMapArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/ListSortSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/Synchronization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/containers/FailFast.java" />
       </list>
     </option>
   </component>
@@ -357,10 +383,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -412,10 +434,41 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="E28_Tuple.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
+            <path>
+              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="E31_StringContainer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="E36_MapEntrySlowMap.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="E37_SimpleHashMapArrays.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,15 +513,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListPerformance">
-    <configuration name="E26_CountedString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FailFast">
+    <configuration name="E35_MapPerformance2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="containers.E26_CountedString2" />
+      <option name="MAIN_CLASS_NAME" value="containers.E35_MapPerformance2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -480,33 +533,14 @@
       <module name="ThinkJava" />
       <envs />
     </configuration>
-    <configuration name="E27_CountedString3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FailFast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="containers.E27_CountedString3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkJava" />
-      <envs />
-    </configuration>
-    <configuration name="E28_Tuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="containers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="containers.E28_Tuple" />
+      <option name="MAIN_CLASS_NAME" value="containers.FailFast" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -537,14 +571,33 @@
       <module name="ThinkJava" />
       <envs />
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ListSortSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="containers.Tester" />
+      <option name="MAIN_CLASS_NAME" value="containers.ListSortSearch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkJava" />
+      <envs />
+    </configuration>
+    <configuration name="Utilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="containers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="containers.Utilities" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -637,19 +690,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.E26_CountedString2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.E27_CountedString3" />
-      <item index="2" class="java.lang.String" itemvalue="Application.E28_Tuple" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ListPerformance" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Tester" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ListPerformance" />
+      <item index="1" class="java.lang.String" itemvalue="Application.E35_MapPerformance2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Utilities" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ListSortSearch" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FailFast" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ListPerformance" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Tester" />
-        <item index="2" class="java.lang.String" itemvalue="Application.E28_Tuple" />
-        <item index="3" class="java.lang.String" itemvalue="Application.E27_CountedString3" />
-        <item index="4" class="java.lang.String" itemvalue="Application.E26_CountedString2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FailFast" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ListSortSearch" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Utilities" />
+        <item index="3" class="java.lang.String" itemvalue="Application.E35_MapPerformance2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ListPerformance" />
       </list>
     </recent_temporary>
   </component>
@@ -916,12 +969,14 @@
       <workItem from="1546493465414" duration="2105000" />
       <workItem from="1546515421332" duration="4643000" />
       <workItem from="1546578707865" duration="2144000" />
-      <workItem from="1546666402765" duration="1357000" />
+      <workItem from="1546666402765" duration="1389000" />
+      <workItem from="1546758116602" duration="6830000" />
+      <workItem from="1546791909572" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="781882000" />
+    <option name="totallyTimeSpent" value="788747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1876" y="-165" width="1865" height="1059" extended-state="0" />
@@ -939,9 +994,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28207847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36373276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31389183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -959,6 +1013,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31389183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="-1757" y="-57" width="1623" height="769" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279603" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -981,102 +1036,11 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Maps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2163">
-          <caret line="131" column="17" lean-forward="false" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2163">
-          <caret line="138" column="11" lean-forward="false" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E14_PropertiesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/SortedMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/CountingMapData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/LinkedHashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Groundhog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Groundhog2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/SpringDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Prediction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/containers/SpringDetector2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1109,13 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E16_SlowMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2436">
-          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1201,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="341" column="18" lean-forward="false" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4221">
           <caret line="224" column="12" lean-forward="false" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1202,7 @@
         <state relative-caret-position="420">
           <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <element signature="e#388#400#0" expanded="true" />
+            <element signature="e#388#400#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1268,14 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E29_ListPerformance2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/containers/E25_FullSimpleHashMap2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3738">
@@ -1288,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2352">
           <caret line="135" column="15" lean-forward="false" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,36 +1242,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2604">
           <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/containers/E28_Tuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="370">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23079">
+        <state relative-caret-position="488">
           <caret line="1154" column="26" lean-forward="false" selection-start-line="1154" selection-start-column="26" selection-end-line="1154" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/TestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,15 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,25 +1273,177 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/RandomBounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E33_ListPerformance3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="157" column="13" lean-forward="false" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E29_ListPerformance2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="125" column="24" lean-forward="false" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/TestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/containers/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#1400#1401#0" expanded="false" />
+            <element signature="e#1438#1439#0" expanded="false" />
+            <element signature="e#1543#1544#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E34_StringSetPerformance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/containers/ListPerformance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="-1858">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#865#886#0" expanded="false" />
+            <element signature="e#961#988#0" expanded="false" />
+            <element signature="e#6495#6510#0" expanded="false" />
+            <element signature="e#7579#7600#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E16_SlowMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="173" column="46" lean-forward="true" selection-start-line="173" selection-start-column="46" selection-end-line="173" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E35_MapPerformance2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E36_MapEntrySlowMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="150" column="61" lean-forward="false" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/E37_SimpleHashMapArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23646">
+          <caret line="1183" column="43" lean-forward="false" selection-start-line="1183" selection-start-column="43" selection-end-line="1183" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/ListSortSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SynchronizationComparisons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38703">
+          <caret line="1986" column="36" lean-forward="false" selection-start-line="1986" selection-start-column="36" selection-end-line="1986" selection-end-column="36" />
+          <folding>
+            <element signature="e#81688#81689#0" expanded="true" />
+            <element signature="e#81742#81743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/containers/FailFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>

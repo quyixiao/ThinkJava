@@ -13,6 +13,10 @@ import java.util.*;
  *
  * 511页
  *
+ *
+ *
+ * 1
+ *
  */
 public class E35_MapPerformance2 {
     static List<Test<Map<Integer, Integer>>> tests =
@@ -45,8 +49,7 @@ public class E35_MapPerformance2 {
             int test(Map<Integer, Integer> map, TestParam tp) {
                 int loops = tp.loops * 10;
                 for (int i = 0; i < loops; i++) {
-                    Iterator<Map.Entry<Integer, Integer>> it =
-                            map.entrySet().iterator();
+                    Iterator<Map.Entry<Integer, Integer>> it = map.entrySet().iterator();
                     while (it.hasNext())
                         it.next();
                 }

@@ -12,16 +12,21 @@ import static net.mindview.util.Print.print;
  *
  *
  *
+ *
+ *
+ *
+ *
+ * 1
  */
 public class Utilities {
-    static List<String> list = Arrays.asList(
-            "one Two three Four five six one".split(" "));
+    static List<String> list = Arrays.asList("one Two three Four five six one".split(" "));
 
     public static void main(String[] args) {
         print(list);
         print("'list' disjoint (Four)?: " +
                 Collections.disjoint(list,
                         Collections.singletonList("Four")));
+
         print("max: " + Collections.max(list));
         print("min: " + Collections.min(list));
         print("max w/ comparator: " + Collections.max(list,
