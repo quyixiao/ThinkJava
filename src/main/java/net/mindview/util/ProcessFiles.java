@@ -4,6 +4,10 @@ package net.mindview.util;
 import java.io.File;
 import java.io.IOException;
 
+
+/****
+ *
+ */
 public class ProcessFiles {
     public interface Strategy {
         void process(File file);
@@ -52,6 +56,6 @@ public class ProcessFiles {
             public void process(File file) {
                 System.out.println(file);
             }
-        }, "java").start(args);
+        }, "java").start(new String[]{"typeinfo"});
     }
 } /* (Execute to see output) *///:~

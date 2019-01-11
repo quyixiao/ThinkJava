@@ -11,6 +11,11 @@ import net.mindview.util.Directory;
 
 import java.io.File;
 
+
+/******
+
+ *
+ */
 public class E04_DirSize2 {
     public static void main(String[] args) {
         Directory.TreeInfo ti;
@@ -21,7 +26,6 @@ public class E04_DirSize2 {
         long total = 0;
         for (File file : ti)
             total += file.length();
-        System.out.println(
-                ti.files.size() + " file(s), " + total + " bytes");
+        System.out.println(ti.files.size() + " file(s), " + total + " bytes");
     }
 }

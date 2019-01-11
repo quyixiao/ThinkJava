@@ -14,6 +14,16 @@ import java.util.regex.Pattern;
 
 /****
  *
+ *
+ *  *      程序设计中的一项常见的任务就是在文件中集上执行操作，这些文件要么在本地目录中，要么遍布于整个
+ *  目录中，如果有一种工具能够为你产生这个文件集操作，它是非常有用的，下面的被用工具类就可以通过使用local()
+ *  方法产生由本地中的文件中构成的file对象数组，或者通过使用walk()方法产生给定目录下的由整个目录树中所有的文件中构成的List<File>
+ *  （File对象比文件名更有用，因为file对象包含更多的信息）这些文件是基于你提供的正则表达式而被选中的
+ *
+ *
+ *
+ *  1
+ *
  */
 public final class Directory {
     public static File[] local(File dir, final String regex) {
@@ -75,7 +85,6 @@ public final class Directory {
         for (File item : startDir.listFiles()) {
             if (item.isDirectory()) {
                 result.dirs.add(item);
-                System.out.println("======================" + item);
                 result.addAll(recurseDirs(item, regex));
             } else // Regular file
                 if (item.getName().matches(regex))

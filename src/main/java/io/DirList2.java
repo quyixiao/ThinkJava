@@ -9,20 +9,20 @@ import java.util.regex.Pattern;
 
 
 /**
- *   527 页
- *
- *
- *
- *   1
- *
- *
- *
- *
+ * 527 页
+ * <p>
+ * <p>
+ * <p>
+ * 1
  */
 public class DirList2 {
 
 
     /**
+     *
+     *
+     *
+     *
      * 注意：传向filter() 的参数必须是final 的，这在匿名的内部类中是必需的，这样它才能使用来自该类
      * 范围之外的对象
      * 这个类设计有所改进，因为现在FilenameFilter 类紧密地和DirList2 绑定在一起，然而，我们可以
@@ -39,6 +39,7 @@ public class DirList2 {
 
             public boolean accept(File dir, String name) {
 
+                System.out.println("====================" + name);
 
                 return pattern.matcher(name).matches();
 
@@ -51,17 +52,18 @@ public class DirList2 {
     public static void main(String[] args) {
         File path = new File(".");
         String[] list;
-        if (args.length == 0) {
-            list = path.list();
-        } else {
-            list = path.list(filter(args[0]));
-        }
+        list = path.list(filter("target"));
+/*
         Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);
         for (String dirItem : list) {
-            System.out.println(dirItem);
-        }
+            System.out.println("++++++++++++++++" + dirItem);
+        }*/
     }
-} /* Output:
+}
+
+
+
+/* Output:
 DirectoryDemo.java
 DirList.java
 DirList2.java

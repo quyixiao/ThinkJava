@@ -9,13 +9,15 @@ import java.util.regex.Pattern;
 
 
 /**
- *
  * 527
- *
- *
- *
+ * <p>
+ * <p>
+ * <p>
  * 1
  *
+ *
+ *
+ * 既然匿名内部类直接使用args[0],那传递给main()方法的参数现在就是final的
  *
  *
  */
@@ -39,7 +41,11 @@ public class DirList3 {
             System.out.println(dirItem);
         }
     }
-} /* Output:
+}
+
+
+
+/* Output:
 DirectoryDemo.java
 DirList.java
 DirList2.java

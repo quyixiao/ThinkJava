@@ -14,6 +14,10 @@ import static net.mindview.util.Print.print;
  * 513 页
  *
  * Directory 实用
+ *
+ *
+ *
+ * 1
  */
 public class DirectoryDemo {
 
@@ -23,25 +27,24 @@ public class DirectoryDemo {
         // All directories:
         PPrint.pprint(Directory.walk(".").dirs);
         // All files beginning with 'T'
-        for (File file : Directory.local(".", "T.*")) {
-            print(file);
+        for (File file : Directory.local("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io", "T.*")) {
+            print("wwwwwwwwwwwwwwwwwwwwwwwww" + file);
         }
 
 
         print("----------------------");
         // All Java files beginning with 'T':
-        for (File file : Directory.walk(".", "T.*\\.java")) {
-            print(file);
+        for (File file : Directory.walk("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io", "T.*\\.java")) {
+            print("ooooooooooooooooooooooooooooo" + file);
         }
 
 
         print("======================");
 
         // Class files containing "Z" or "z":
-        for (File file : Directory.walk(".", ".*[Zz].*\\.class")) {
-            print(file);
+        for (File file : Directory.walk("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io", ".*[Zz].*\\.java")) {
+            print("rrrrrrrrrrrrrrr" + file);
         }
-
 
 
     }

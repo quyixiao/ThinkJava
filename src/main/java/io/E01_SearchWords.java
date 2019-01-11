@@ -19,7 +19,18 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-
+/*****
+ *
+ *
+ * 528 页
+ *      修改DirList.java（或其变体之一）,以便FileNameFilter能够打开每个文件，使用net.mindviev.util.TextFile工具
+ *  并检查命令行已随的参数是否存在于那个文件中，以此检查结果来决定是否的接受这个文件
+ *
+ *
+ *
+ *
+ * 1
+ */
 public class E01_SearchWords {
     public static void main(final String[] args) {
         File path = new File(".");
