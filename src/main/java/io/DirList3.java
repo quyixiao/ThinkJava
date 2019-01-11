@@ -10,6 +10,14 @@ import java.util.regex.Pattern;
 
 /**
  *
+ * 527
+ *
+ *
+ *
+ * 1
+ *
+ *
+ *
  */
 public class DirList3 {
     public static void main(final String[] args) {
@@ -17,9 +25,9 @@ public class DirList3 {
         String[] list;
         if (args.length == 0) {
             list = path.list();
-        }else {
+        } else {
             list = path.list(new FilenameFilter() {
-                private Pattern pattern = Pattern.compile(args[0]);
+                private Pattern pattern = Pattern.compile("txt");
 
                 public boolean accept(File dir, String name) {
                     return pattern.matcher(name).matches();

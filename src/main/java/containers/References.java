@@ -52,6 +52,10 @@ import java.util.LinkedList;
  *
  *
  *
+ *
+ * 1
+ *
+ *
  */
 class VeryBig {
     private static final int SIZE = 10000;
@@ -72,8 +76,7 @@ class VeryBig {
 }
 
 public class References {
-    private static ReferenceQueue<VeryBig> rq =
-            new ReferenceQueue<VeryBig>();
+    private static ReferenceQueue<VeryBig> rq = new ReferenceQueue<VeryBig>();
 
     public static void checkQueue() {
         Reference<? extends VeryBig> inq = rq.poll();
@@ -86,19 +89,15 @@ public class References {
         // Or, choose size via the command line:
         if (args.length > 0)
             size = new Integer(args[0]);
-        LinkedList<SoftReference<VeryBig>> sa =
-                new LinkedList<SoftReference<VeryBig>>();
+        LinkedList<SoftReference<VeryBig>> sa = new LinkedList<SoftReference<VeryBig>>();
         for (int i = 0; i < size; i++) {
-            sa.add(new SoftReference<VeryBig>(
-                    new VeryBig("Soft " + i), rq));
+            sa.add(new SoftReference<VeryBig>(new VeryBig("Soft " + i), rq));
             System.out.println("Just created: " + sa.getLast());
             checkQueue();
         }
-        LinkedList<WeakReference<VeryBig>> wa =
-                new LinkedList<WeakReference<VeryBig>>();
+        LinkedList<WeakReference<VeryBig>> wa = new LinkedList<WeakReference<VeryBig>>();
         for (int i = 0; i < size; i++) {
-            wa.add(new WeakReference<VeryBig>(
-                    new VeryBig("Weak " + i), rq));
+            wa.add(new WeakReference<VeryBig>(new VeryBig("Weak " + i), rq));
             System.out.println("Just created: " + wa.getLast());
             checkQueue();
         }

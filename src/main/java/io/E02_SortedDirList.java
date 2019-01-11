@@ -18,6 +18,17 @@ import java.util.regex.Pattern;
 
 import static net.mindview.util.Print.print;
 
+
+/****
+ *
+ * 一个产生列表，另一个产生与其参数的一个正则表达式，相匹配的列表的子集
+ *
+ *
+ *
+ *
+ * 1
+ *
+ */
 class SortedDirList {
     private File path;
 

@@ -6,13 +6,13 @@ import java.util.WeakHashMap;
 
 /**
  * 520 页
- *
+ * <p>
  * 运行此程序，会看到垃圾回收器每隔三个键就跳过一个，因为指向那个键的普通引用被存
  * 入了keys 数组，所以那些对象不能被垃圾回收器回收
- *
- *
- *
- *  Vector 和Enumeration
+ * <p>
+ * <p>
+ * <p>
+ * Vector 和Enumeration
  * Vector 是唯一一个自我扩展的序列，所以它被大量的使用，它的缺点多到这里都难以描述
  * 基本上，可将其看作AarrayList ,但是具有又长又难记的方法名很多，在订正过的java容器
  * 类库中，Verctor 被改造过的，可将其归类为Collection 和List ，这样做有点不妥当的
@@ -20,7 +20,13 @@ import java.util.WeakHashMap;
  *
  *
  *
+ * 如同本章前面的所述，Key类必须有hashCode()和equeal()，因为在散列数据结构中，它被用作键
+ * ，有关的hashCode()的主题在本章的前面部分己经描述过了
  *
+ *
+ *
+ *
+ * 1
  *
  */
 class Element {

@@ -1,8 +1,6 @@
 package containers;//: containers/Stacks.java
 // Demonstration of Stack Class.
 
-import sun.jvm.hotspot.ui.tree.DoubleTreeNodeAdapter;
-
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -11,7 +9,25 @@ import static net.mindview.util.Print.printnb;
 
 
 /**
+ * 522页
+ * <p>
+ * <p>
+ * <p>
+ * <p>
+ * String表示是从Month enum常量中生成的，用push()插入Stack，然后再从栈的顶端弹出来
+ * 用pop()，这里特别要强调的是，可以在Stack对象上执行Vector操作，这不会有任何问题，因为
+ * 继承的作用使得Stack是一个Vector，因此所有的可以对Vector执行的操作，都可以对Stack执行
+ * 例如 ，elementAt()
+ * <p>
  *
+ *
+ *
+ * 前面曾经说过，如果需要栈的行为，应该使用LinkedList,或者从LinkedList类中创建一个net.indview.util.Stack类
+ *
+ *
+ *
+ *
+ * 1
  */
 enum Month {
     JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE,
@@ -27,12 +43,15 @@ public class Stacks {
         // Treating a stack as a Vector:
         stack.addElement("The last line");
         print("element 5 = " + stack.elementAt(5));
+        System.out.println("====================================================");
         print("popping elements:");
         while (!stack.empty()) {
             printnb(stack.pop() + " ");
         }
+        System.out.println();
 
 
+        System.out.println("============");
 
         // Using a LinkedList as a Stack:
         LinkedList<String> lstack = new LinkedList<String>();
@@ -48,7 +67,6 @@ public class Stacks {
         // the Holding Your Objects Chapter:
         net.mindview.util.Stack<String> stack2 =
                 new net.mindview.util.Stack<String>();
-
 
 
         System.out.println();
