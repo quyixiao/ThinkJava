@@ -14,13 +14,21 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
+/***
+ *
+ * 540
+ *
+ *      打开一个文本文件，每次读取一行内容，将每行作为一个String读入，并将那个String对象置入一个
+ * LinkedList中，按相反的顺序打印LinkedList中的所有的行
+ *
+ *
+ *
+ */
 public class E07_FileIntoList {
     // Throw exceptions to console:
-    public static List<String>
-    read(String filename) throws IOException {
+    public static List<String> read(String filename) throws IOException {
         // Reading input by lines:
-        BufferedReader in = new BufferedReader(
-                new FileReader(filename));
+        BufferedReader in = new BufferedReader(new FileReader(filename));
         String s;
         List<String> list = new LinkedList<String>();
         while ((s = in.readLine()) != null)
@@ -29,11 +37,16 @@ public class E07_FileIntoList {
         return list;
     }
 
-    public static void main(String[] args)
-            throws IOException {
-        List<String> list = read("E07_FileIntoList.java");
-        for (ListIterator<String> it =
-             list.listIterator(list.size()); it.hasPrevious(); )
+    public static void main(String[] args) throws IOException {
+        List<String> list = read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E07_FileIntoList.java");
+        //倒序打印
+        /*for (ListIterator<String> it = list.listIterator(list.size()); it.hasPrevious(); ) {
             System.out.println(it.previous());
+        }*/
+        //正序打印
+        for(String s:list){
+            System.out.println(s);
+        }
     }
+
 }

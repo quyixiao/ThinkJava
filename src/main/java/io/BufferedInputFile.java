@@ -6,11 +6,16 @@ import java.io.IOException;
 
 
 /**
+ *
+ * 540
+ *
+ *
+ *
  * 字符串sb 用来累积文件的全部内容，包括必须添加的换行符，因为readLine() 已将它们删掉
  * 最后调用close() 来关闭文件
  *
  *
- *
+ * 1
  */
 public class BufferedInputFile {
     // Throw exceptions to console:
