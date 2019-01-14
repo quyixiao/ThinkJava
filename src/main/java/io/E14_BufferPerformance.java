@@ -13,14 +13,12 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class E14_BufferPerformance {
-    static String file = "E14_BufferPerformance.out";
+    static String file = "/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E14_BufferPerformance.out";
 
     public static void main(String[] args)
             throws IOException {
-        List<String> list = E07_FileIntoList.read(
-                "E14_BufferPerformance.java");
-        PrintWriter out = new PrintWriter(
-                new BufferedWriter(new FileWriter(file)));
+        List<String> list = E07_FileIntoList.read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E14_BufferPerformance.java");
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)));
         int lineCount = 1;
         long t1 = System.currentTimeMillis();
         for (String s : list) {

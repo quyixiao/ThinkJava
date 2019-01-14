@@ -12,9 +12,19 @@ import java.util.ListIterator;
 import java.util.Set;
 
 
+/****
+ * 540
+ *
+ *
+ * 查找文件中的单词
+ *
+ *
+ * 1
+ *
+ */
+
 public class E10_FindWords {
-    public static void main(String[] args)
-            throws java.io.IOException {
+    public static void main(String[] args) throws java.io.IOException {
         if (args.length < 2) {
             System.err.println(
                     "Usage: java E10_FindWords file words");
@@ -24,8 +34,7 @@ public class E10_FindWords {
         for (int i = 1; i < args.length; i++)
             words.add(args[i]);
         List<String> list = E07_FileIntoList.read(args[0]);
-        for (ListIterator<String> it =
-             list.listIterator(list.size()); it.hasPrevious(); ) {
+        for (ListIterator<String> it = list.listIterator(list.size()); it.hasPrevious(); ) {
             String candidate = it.previous();
             for (String word : words)
                 if (candidate.indexOf(word) != -1) {

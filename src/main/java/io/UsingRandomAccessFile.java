@@ -11,23 +11,22 @@ import java.io.RandomAccessFile;
  * 确切的位置，因为极有可能将保存的double数据作为一个简单的字节序列，char 或其他类型读入，因此，我们必须
  * ：要么为文件中数据采用固定的格式，要么将额外的的信息保存到文件中，以便是更容易的存储和读取复杂的数据
  * 结构的方式
- *
- *
- *
+ * <p>
+ * <p>
+ * <p>
  * 可以自行选择的是第二个构造器参数，我们可指定以 只读 方式或 读写的方式打开一个程序，它可以存储后获取
  * RandomAccessFile 类能够提供的所有不同的只读，方式或读写方式打开一个RandomAccessFile文件
- *
- *
+ * <p>
+ * <p>
  * 管道流
- *
+ * <p>
  * PipedInputStream ,PipedOutputStream ，PipedReader,PipedWriter 在本章只是简单的提到，但是这并不
  * 表明它们没有什么用处，它们的价值只有在我们开始理解多线程之后，才会显现，因为管道流用于任务之间的通信，
  * 这些在第 21 章会用一个示例进行讲述
- *
- *
- *
- *
- *
+ * <p>
+ * <p>
+ * <p>
+ * 1
  */
 public class UsingRandomAccessFile {
     static String file = "rtest.dat";
@@ -35,14 +34,12 @@ public class UsingRandomAccessFile {
     static void display() throws IOException {
         RandomAccessFile rf = new RandomAccessFile(file, "r");
         for (int i = 0; i < 7; i++)
-            System.out.println(
-                    "Value " + i + ": " + rf.readDouble());
+            System.out.println("Value " + i + ": " + rf.readDouble());
         System.out.println(rf.readUTF());
         rf.close();
     }
 
-    public static void main(String[] args)
-            throws IOException {
+    public static void main(String[] args) throws IOException {
         RandomAccessFile rf = new RandomAccessFile(file, "rw");
         for (int i = 0; i < 7; i++)
             rf.writeDouble(i * 1.414);
@@ -55,7 +52,11 @@ public class UsingRandomAccessFile {
         rf.close();
         display();
     }
-} /* Output:
+}
+
+
+
+/* Output:
 Value 0: 0.0
 Value 1: 1.414
 Value 2: 2.828

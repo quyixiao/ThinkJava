@@ -4,31 +4,42 @@
 4: 
 5: 
 6: /**
-7:  * FileWriter 对象可能向文件写入数据，首先，创建一个与指定文件连接的FileWriter ,实际上，我们通常会用
-8:  * BufferdWriter 将其包装起来用以缓冲输出，尝试移除此包装来感受对性能的影响，缓冲往往能显著地增加I/O 的操作
-9:  * 性能，在本例中，为了提供格式化机制，它被装饰成了PrintWriter ，按照这种方式创建的数据文件可作为普通文本读取
-10:  *
-11:  *
-12:  *
-13:  * 542 页
-14:  *
-15:  */
-16: public class BasicFileOutput {
-17:     static String file = "/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/BasicFileOutput.out";
-18: 
-19:     public static void main(String[] args)
-20:             throws IOException {
-21:         BufferedReader in = new BufferedReader(
-22:                 new StringReader(
-23:                         BufferedInputFile.read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/BasicFileOutput.java")));
-24:         PrintWriter out = new PrintWriter(
-25:                 new BufferedWriter(new FileWriter(file)));
-26:         int lineCount = 1;
-27:         String s;
-28:         while ((s = in.readLine()) != null)
-29:             out.println(lineCount++ + ": " + s);
-30:         out.close();
-31:         // Show the stored file:
-32:         System.out.println(BufferedInputFile.read(file));
-33:     }
-34: } /* (Execute to see output) *///:~
+7:  *
+8:  *
+9:  * 542
+10:  * FileWriter 对象可能向文件写入数据，首先，创建一个与指定文件连接的FileWriter ,实际上，我们通常会用
+11:  * BufferdWriter 将其包装起来用以缓冲输出，尝试移除此包装来感受对性能的影响，缓冲往往能显著地增加I/O 的操作
+12:  * 性能，在本例中，为了提供格式化机制，它被装饰成了PrintWriter ，按照这种方式创建的数据文件可作为普通文本读取
+13:  * <p>
+14:  * <p>
+15:  * <p>
+16:  * 542 页
+17:  * <p>
+18:  * 当文本行被写入文件时，行号就会增加，注意并未用到LinenUmberInputStream ，因为这个类没有多大的帮助
+19:  * ，所以我们没有必要用它，人本例中，记录自己的行号是多么的容易。
+20:  * 一旦读完输入数据流，readline 会返回null, 我们可能看到要为out显式的调用close() ,如果我们不为所有的输出
+21:  * 文件调用close() ，就会发现，缓冲区的内容不会被刷新清空，那么它们也就不完整。
+22:  *
+23:  *
+24:  *
+25:  * 1
+26:  */
+27: public class BasicFileOutput {
+28:     static String file = "/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/BasicFileOutput.out";
+29: 
+30:     public static void main(String[] args)
+31:             throws IOException {
+32:         BufferedReader in = new BufferedReader(
+33:                 new StringReader(
+34:                         BufferedInputFile.read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/BasicFileOutput.java")));
+35:         PrintWriter out = new PrintWriter(
+36:                 new BufferedWriter(new FileWriter(file)));
+37:         int lineCount = 1;
+38:         String s;
+39:         while ((s = in.readLine()) != null)
+40:             out.println(lineCount++ + ": " + s);
+41:         out.close();
+42:         // Show the stored file:
+43:         System.out.println(BufferedInputFile.read(file));
+44:     }
+45: } /* (Execute to see output) *///:~

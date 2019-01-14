@@ -10,15 +10,17 @@ import java.util.TreeSet;
 
 
 /**
+ *
+ * 547    页
  * read() 将每行添加到StringBuffer ，并且为每行加上换行符，因为在读的过程中换行符会被
  * 去除掉，接着返回一个包含整个文件的字符串，write() 打开文本并将其写入文件，在这两个方法完成时
  * ，都要记着用close() 关闭文件
+ * <p>
+ * <p>
  *
  *
- *  547    页
  *
- *
- *
+ * 1
  */
 public class TextFile extends ArrayList<String> {
     // Read a file as a single string:

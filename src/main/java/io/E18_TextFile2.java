@@ -76,14 +76,13 @@ public class E18_TextFile2 {
         throws IOException
 
     {
-        String file =
-                TextFile2.read("E18_TextFile2.java");
-        TextFile2.write("test.txt", file);
-        TextFile2 text = new TextFile2("test.txt");
-        text.write("test2.txt");
+        String file = TextFile2.read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E18_TextFile2.java");
+        TextFile2.write("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/test.txt", file);
+        TextFile2 text = new TextFile2("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/test.txt");
+        text.write("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/test2.txt");
         // Break into unique sorted list of words:
         TreeSet<String> words = new TreeSet<String>(
-                new TextFile2("E18_TextFile2.java", "\\W+"));
+                new TextFile2("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E18_TextFile2.java", "\\W+"));
         // Display the capitalized words:
         System.out.println(words.headSet("a"));
     }

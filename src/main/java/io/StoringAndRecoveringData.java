@@ -5,13 +5,15 @@ import java.io.*;
 
 /**
  * 543 页
- *
+ * <p>
  * PrintWriter 可以对数据进行格式化，以便人们的阅读，但是为了输出可供另一个流 恢复的数据，
  * 我们需要用DataOutputStream 写入数据，并用DataInputStream恢复数据，并用DataInputStream恢复数据
  * 当然这些流可以是任何形式的，但在下面的示例中使用的是一个文件，并且对于读和写都进行了缓冲处理，注意
  * DataOutputStream和DataInputStream 是面向字节的，因此要使用InputStream 和outputStream
  *
  *
+ *
+ * 1
  *
  */
 public class StoringAndRecoveringData {
@@ -30,9 +32,7 @@ public class StoringAndRecoveringData {
                         new FileInputStream("Data.txt")));
 
 
-
         System.out.println(in.readDouble());
-
 
 
         // Only readUTF() will recover the

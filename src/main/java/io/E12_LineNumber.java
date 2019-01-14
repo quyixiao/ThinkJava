@@ -15,19 +15,23 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.ListIterator;
 
+/***
+ *
+ *
+ * 541
+ *
+ * 注意read()是以int形式返回下一个字节，因此，必须类型转换为char才能正确打印
+ *
+ * 1
+ */
 public class E12_LineNumber {
-    public static void main(String[] args)
-            throws java.io.IOException {
-        if (args.length != 2) {
-            System.err.println(
-                    "Usage: java E12_LineNumber infile outfile");
-            return;
-        }
-        List<String> list = E07_FileIntoList.read(args[0]);
+    public static void main(String[] args) throws java.io.IOException {
+
+        List<String> list = E07_FileIntoList.read("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E12_LineNumber.java");
         PrintWriter out =
                 new PrintWriter(
                         new BufferedWriter(
-                                new FileWriter(args[1])));
+                                new FileWriter("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E12_LineNumber1.java")));
         // We need to count backwards...
         int line = list.size();
         for (ListIterator<String> it =

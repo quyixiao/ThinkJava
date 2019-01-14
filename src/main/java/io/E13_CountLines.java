@@ -10,7 +10,7 @@ package io;
 import java.io.*;
 
 public class E13_CountLines {
-    static String file = "E13_CountLines.out";
+    static String file = "/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E13_CountLines.out";
 
     public static void main(String[] args)
             throws IOException {
@@ -19,7 +19,7 @@ public class E13_CountLines {
         // explicitly buffer it:
         LineNumberReader in =
                 new LineNumberReader(
-                        new FileReader("E13_CountLines.java"));
+                        new FileReader("/Users/quyixiao/Desktop/source/ThinkJava/src/main/java/io/E13_CountLines.java"));
         PrintWriter out = new PrintWriter(
                 new BufferedWriter(new FileWriter(file)));
         String s;
