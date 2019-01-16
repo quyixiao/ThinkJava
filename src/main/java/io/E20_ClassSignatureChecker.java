@@ -12,12 +12,19 @@ import net.mindview.util.Directory;
 import java.io.File;
 import java.io.IOException;
 
-public class E20_ClassSignatureChecker {
-    final static byte[] signature =
-            {(byte) 202, (byte) 254, (byte) 186, (byte) 190};
 
-    public static void main(String[] args)
-            throws IOException {
+/*****
+ *
+ * cafebabe
+ *
+ *
+ *
+ * 1
+ */
+public class E20_ClassSignatureChecker {
+    final static byte[] signature = {(byte) 202, (byte) 254, (byte) 186, (byte) 190};
+
+    public static void main(String[] args) throws IOException {
         String dir = ".";
         if (args.length == 1)
             dir = args[0];

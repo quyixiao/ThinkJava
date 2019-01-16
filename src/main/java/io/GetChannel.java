@@ -12,7 +12,7 @@ import java.nio.channels.FileChannel;
  * 552 页
  *
  *
- *
+ * 1
  */
 public class GetChannel {
     private static final int BSIZE = 1024;
