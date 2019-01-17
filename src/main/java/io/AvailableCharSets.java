@@ -8,6 +8,13 @@ import java.util.SortedMap;
 import static net.mindview.util.Print.print;
 import static net.mindview.util.Print.printnb;
 
+
+/*****
+ * 555
+ *
+ *
+ * 1
+ */
 public class AvailableCharSets {
     public static void main(String[] args) {
         SortedMap<String, Charset> charSets = Charset.availableCharsets();
