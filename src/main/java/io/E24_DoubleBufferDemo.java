@@ -7,6 +7,15 @@ package io;
 import java.nio.ByteBuffer;
 import java.nio.DoubleBuffer;
 
+
+/****
+ * 559
+ *
+ *
+ *
+ * 1
+ *
+ */
 public class E24_DoubleBufferDemo {
     private static final int BSIZE = 1024;
 
@@ -14,8 +23,7 @@ public class E24_DoubleBufferDemo {
         ByteBuffer bb = ByteBuffer.allocate(BSIZE);
         DoubleBuffer db = bb.asDoubleBuffer();
         // Store an array of double:
-        db.put(
-                new double[]{1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6});
+        db.put(new double[]{1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6});
         // Absolute location read and write:
         System.out.println(db.get(3));
         db.put(3, 0.3);

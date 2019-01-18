@@ -4,6 +4,20 @@ package io;//: io/IntBufferDemo.java
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 
+
+/****
+ *
+ *
+ *
+ * 557
+ *
+ *
+ * 视图缓冲器
+ *
+ *
+ * 1
+ *
+ */
 public class IntBufferDemo {
     private static final int BSIZE = 1024;
 

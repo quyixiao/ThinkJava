@@ -7,14 +7,15 @@ import static net.mindview.util.Print.printnb;
 
 
 /**
- * 359 页
+ * 558页
  *
+ *
+ * 1
  *
  */
 public class ViewBuffers {
     public static void main(String[] args) {
-        ByteBuffer bb = ByteBuffer.wrap(
-                new byte[]{0, 0, 0, 0, 0, 0, 0, 'a'});
+        ByteBuffer bb = ByteBuffer.wrap(new byte[]{0, 0, 0, 0, 0, 0, 0, 'a'});
         bb.rewind();
         printnb("Byte Buffer ");
         while (bb.hasRemaining())
@@ -57,6 +58,9 @@ public class ViewBuffers {
             printnb(db.position() + " -> " + db.get() + ", ");
     }
 }
+
+
+
 
 
 

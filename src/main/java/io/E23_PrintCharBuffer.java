@@ -33,8 +33,7 @@ public class E23_PrintCharBuffer {
 
     public static void main(String[] args) {
         System.out.println("Default Encoding is: " + encoding);
-        CharBuffer buffer =
-                ByteBuffer.allocate(16).asCharBuffer();
+        CharBuffer buffer = ByteBuffer.allocate(16).asCharBuffer();
         buffer.put("ABCDE" + (char) 0x01 + "FG");
         buffer.rewind();
         System.out.println(buffer); // Print everything
