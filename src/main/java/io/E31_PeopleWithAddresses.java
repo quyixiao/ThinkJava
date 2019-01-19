@@ -16,6 +16,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
+/****
+ * 下面的图阐明了nio类之间的关系，便于理解怎么移动和转换数据，例如，如果想把这个
+ * 数据写到文件中去，那么就应该使用ByteBuffer.wrap（）方法数组包装起来，然后
+ * 用getChannel()方法在fileinputOputStream()上打开一个通道 ，接着将来来自于
+ * byteBuffer的数据写到FileChanel()中如下图所示
+ *
+ *
+ * 注意，byteBuffer是将数据移动到出通道，接着将来自于byteBu
+ */
 class Person {
     private String first, last, address, city, state;
     private int zipCode;
@@ -92,6 +102,7 @@ class People extends ArrayList<Person> {
 
     }
 }
+
 
 public class E31_PeopleWithAddresses {
     public static void main(String[] args) throws Exception {
