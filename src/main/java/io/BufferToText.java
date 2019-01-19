@@ -10,6 +10,8 @@ import java.nio.charset.Charset;
 
 /**
  *
+ * 测试如果我是一个有用的人，我觉得这个是好的，因为有人
+ * 他觉得是这样的，
  */
 public class BufferToText {
     private static final int BSIZE = 1024;
