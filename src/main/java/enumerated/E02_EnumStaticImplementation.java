@@ -8,6 +8,12 @@ package enumerated;
 
 import java.util.Random;
 
+
+/****
+ * 596 1
+ * 修改上例，编写一个static next()方法取代实现Generater接口，对比这两种方式，各自有什么优缺点。
+ *
+ */
 enum CartoonCharacter {
     SLAPPY, SPANKY, PUNCHY, SILLY, BOUNCY, NUTTY, BOB;
     private static Random rand = new Random(47);

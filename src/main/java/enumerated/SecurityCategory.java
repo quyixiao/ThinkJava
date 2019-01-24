@@ -16,16 +16,21 @@ import net.mindview.util.Enums;
  *
  *
  *
+ *
+ * 1
+ *
  */
 enum SecurityCategory {
     STOCK(Security.Stock.class), BOND(Security.Bond.class);
     Security[] values;
+
     SecurityCategory(Class<? extends Security> kind) {
         values = kind.getEnumConstants();
     }
 
     interface Security {
         enum Stock implements Security {SHORT, LONG, MARGIN}
+
         enum Bond implements Security {MUNICIPAL, JUNK}
     }
 
@@ -39,7 +44,12 @@ enum SecurityCategory {
             System.out.println(category + ": " + category.randomSelection());
         }
     }
-} /* Output:
+}
+
+
+
+
+/* Output:
 BOND: MUNICIPAL
 BOND: MUNICIPAL
 STOCK: MARGIN

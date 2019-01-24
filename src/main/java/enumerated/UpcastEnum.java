@@ -13,6 +13,9 @@ enum Search {HITHER, YON}
  * Enum，那么()方法就不访问了，不过在，Class中有一个getEnumConstants()方法，所以即便Enum接口中没有
  * values()方法，我们仍然可能通过Class对象取得所有的enum实例
  *
+ *
+ *
+ * 1
 
  *
  */

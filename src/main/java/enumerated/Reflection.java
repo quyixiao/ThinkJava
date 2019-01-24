@@ -15,18 +15,26 @@ enum Explore {HERE, THERE}
 
 
 /**
+ *
+ * 594 页
+ *
+ *
  * 答案是：values() 是由编译器添加的static方法，可以看出，在创建Explor的过程中，编译器
  * 不为其添加了valuesOf()方法，这可能有点令人迷惑，Enum类不是己经有valueOf()方法了吗
  * 不过Enum中的ValesOf（）方法需要两个参数，而这个新增的方法只需一个参数，由于这里使用的
  * set只存储方法的名字，而不考虑方法的签名，所以在调用Explore.removeAll(Enum)之后，就只
  * 剩下了，从最后的输出可以看到，编译器将Explore标记为final类，所以无法得到
+ * <p>
+ * <p>
+ * 答案是： values() 是由编译器添加static 方法，可以看出，在创建Explore的过程中，编译器
+ * 还为其添加了valuesOf()方法，这可能有点令人迷惑， Enum类不是己经有valueOf()方法了吗，不过
+ * Enum 中的valueOf() 方法需要两个参数，而这个新增的方法只需一个参数，由于这里使用的Set只存
+ * 储方法的名字，而不是考虑方法的签名，所以在调用Explore.removeAll(Enum)之后，就只剩下了。
  *
  *
- *  答案是： values() 是由编译器添加static 方法，可以看出，在创建Explore的过程中，编译器
- *  还为其添加了valuesOf()方法，这可能有点令人迷惑， Enum类不是己经有valueOf()方法了吗，不过
- *  Enum 中的valueOf() 方法需要两个参数，而这个新增的方法只需一个参数，由于这里使用的Set只存
- *  储方法的名字，而不是考虑方法的签名，所以在调用Explore.removeAll(Enum)之后，就只剩下了。
  *
+ *
+ * 1
  *
  *
  */
