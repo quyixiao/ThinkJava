@@ -10,7 +10,7 @@ import net.mindview.util.Enums;
  * 599 页
  *
  *
- * Security 接口的作用是将其所包含的enum组合成一个公共的类型，这一点是有必要的，然后securityCategory
+ * Security 接口的作用是将其所包含的enum组合成一个公共的类型，这一点是有必要的，然后securityCategoryery lottery
  * 才能将Security 中的enum作为其构造器的参数使用，以起到组织的效果
  *
  *

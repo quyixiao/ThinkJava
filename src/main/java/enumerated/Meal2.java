@@ -14,6 +14,9 @@ import net.mindview.util.Enums;
  *
  *
  *
+ *
+ * 1
+ *
  */
 public enum Meal2 {
     APPETIZER(Food.Appetizer.class),
