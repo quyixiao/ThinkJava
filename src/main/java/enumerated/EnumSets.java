@@ -100,6 +100,7 @@ import static net.mindview.util.Print.print;
  *  注意，除了特殊的INput实例之外 ，其他的input都有一个相应的价格，因此在接口中定义了amount()方法，然而，对那两个特殊的Input实例而
  *  ，调用amount()方法并不合适，所以如果程序员调用它们的amount()方法都会异常抛出，在定义接口的了一个方法，然后在你调用该
  *
+ *
  * 1
  *
  */

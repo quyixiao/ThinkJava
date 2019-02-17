@@ -24,6 +24,13 @@ import static net.mindview.util.Print.print;
  *
  *
  *
+ * 答案是，values()是由编译器添加的static方法，可以看出，在创建Explore的过程中，编译器还为其添加了一个VAlueOf()方法，
+ * 这可能参数,而这个新增的方法只需一个参数，由于这里使用的SEt只存储了方法的名字，
+ * 而不考虑方法的签名，所以在调用Explore.removeAll（Enum）之后，就只剩下【values】了。
+ *
+ * 从最后的输出中可以看到，编译器将Explore标记为final类，所以无法继承自Enum，其中还有一个static的初始化的名字，
+ * 而
+ *
  *
  * 1
  *

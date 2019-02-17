@@ -7,8 +7,20 @@ import net.mindview.util.Generator;
 import java.util.Random;
 
 
-/****
+/***
+ *
+ *
+ * 596页
+ *
+ *
  * 然而，在我们创建一个新的enums时，可以同时实现一个或多个接口：
+ *
+ * 我们已经知道，所有的enum都继承自java.lang.Enums类，由于，java不支持多重继承，所以
+ * 你的enum不能再继承其他类，
+ *
+ *
+ *
+ * 1
  *
  */
 enum CartoonCharacter

@@ -18,6 +18,28 @@ import java.util.Random;
 import static net.mindview.util.Print.print;
 import static net.mindview.util.Print.printnb;
 
+
+/****
+ *
+ *
+ *
+ * 600
+ *
+ *
+ *
+ * 提示，使用可变参数，要记住，可变参数会自动为你创建一个数组
+ *
+ *
+ *
+ * 试比较以下两种方式的优缺点，第一，将appetizer，MainCourse，Desert和
+ * Coffee嵌入在food内部，第二，将它们实现为单独的enum，并我各自实现food接口。
+ *
+ *
+ *
+ *
+ *
+ * 1
+ */
 enum CharacterCategory {
     VOWEL('a', 'e', 'i', 'o', 'u') {
         public String toString() {

@@ -17,6 +17,10 @@ import java.util.EnumSet;
  *
  *  显然，EnumSet可能应用于多个64个元素的enum，所以我猜测，Enum会在必要的时候增加一个long。
  *
+ *  
+ *
+ *
+ * 1
  *
  *
  *

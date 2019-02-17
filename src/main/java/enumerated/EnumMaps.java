@@ -46,6 +46,21 @@ import static net.mindview.util.Print.printnb;
  * 再使用一个EnumSet来保存客户选择
  *
  *
+ * 与常量相关的方法，constant-spccific methods 将在下一节中介绍，相比，EnumMap有一个优点，
+ * 那EnumMap允许程序员改变值对象，而常量相关的方法在编译期就被固定了
+ *
+ * 稍后你会看到，在你有多种类型的enum，而且它们之间存在互操作的情况下，我们可以用EnumMap实现多路分发
+ *
+ *
+ *
+ * java的Enum有一个非常有趣的特性，那它鸡程序员为enum实例编写方法，从而为每个enum实例赋予各自不同的行为，
+ * 要实现常量相关的方法，你需要为enum定义一个enum或多个abstract方法，然后为每个enum实例该抽象方法，
+ * 参考下面的抽象方法，下面的例子
+ *
+ *
+ *
+ *
+ *
  *
  *
  *

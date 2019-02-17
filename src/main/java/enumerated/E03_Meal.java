@@ -8,6 +8,12 @@ package enumerated;
 import com.sun.jmx.snmp.Enumerated;
 import net.mindview.util.Enums;
 
+
+/****
+  下面是random()方法的简单的示例
+
+
+ */
 interface Food {
     enum Appetizer implements Food {
         SALAD, SOUP, SPRING_ROLLS;
