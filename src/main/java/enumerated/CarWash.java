@@ -18,6 +18,22 @@ import static net.mindview.util.Print.print;
  *
  * 虽然，enum有一些限制，但是一般而言，我们可能将其看作是类
  *
+ * 与使用匿名内部类相比较，定义常量相关方法语法更高效，简洁
+ *
+ * 这个例子也展示了EnumSet了一些特性，因为它是一个集合，所以对于同一个元素而言，
+ *
+ *
+ * 我们可以看到Mail中有一个randomMail()方法，它负责随机的创建用于测试的邮件，而Generator()方法
+ * 生成一个Iterable对象，该对象在你调用next()方法时，在其内部使用random-mail()来创建Mail对象，这样的结构
+ * 使程序员可以调用mail.generator()方法，很容易 的构造出一个foreach循环
+ *
+ *
+ *
+ *
+ * 1
+ *
+ *
+ *
  *
  *
  */

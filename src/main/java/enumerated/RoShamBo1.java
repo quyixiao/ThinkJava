@@ -28,7 +28,11 @@ import static enumerated.Outcome.*;
  * 对应的方法是compete()和eval()二者都是同一个类型的成员，它们可能产生三种outcom实例中的一个作为结果
  * <p>
  * <p>
- * Item 是这几种类型的接口，将会
+ * Item 是这几种类型的接口，将会被用作多ShamBo1.match有两个Item参数，通过调用Item.compete()方法开始两路分发，
+ * 要判定a的类型，分发机制会在a的实际类型的compete()方法通过调用eval()来为另一个类型实现第二将分发，将我上
+ *
+ *
+ * 1
  */
 interface Item {
     Outcome compete(Item it);

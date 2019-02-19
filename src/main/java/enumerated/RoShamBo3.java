@@ -15,6 +15,12 @@ import static enumerated.Outcome.*;
  *  ，不能将其作为方法签名中的参数类型来使用，最好的办法是将enum用在swithch中
  *
  *
+ *
+ * 见下例
+ *
+ *
+ *
+ *
  */
 public enum RoShamBo3 implements Competitor<RoShamBo3> {
     PAPER {

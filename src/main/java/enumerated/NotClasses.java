@@ -5,12 +5,10 @@ import static net.mindview.util.Print.print;
 
 
 /**
- *
- *
  * 604 页
- *
- *
- *  在方法f1()
+ * <p>
+ * <p>
+ * 在方法f1()
  */
 enum LikeClasses {
     WINKEN {

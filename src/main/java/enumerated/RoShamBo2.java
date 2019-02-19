@@ -20,6 +20,9 @@ import static enumerated.Outcome.*;
  * 所以作为参数的类型，所以无法重载eval()方法，不过，还有很多的方式可以实现多路分发，并从enum中获益
  *
  *
+ * 1
+ *
+ *
  */
 public enum RoShamBo2 implements Competitor<RoShamBo2> {
   PAPER(DRAW, LOSE, WIN),
