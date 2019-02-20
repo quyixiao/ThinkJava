@@ -27,6 +27,9 @@ import java.util.ArrayList;
  * 业找到public方法，不包括static的那些，一旦找到我们所需的pulic 方法，就将其保存在一个ArrayList中，然后在一个.java
  * 文件中，创建新的接口的方法定义。
  *
+ *
+ * 我们测试有道
+ *
  * 注意，处理器类的构造器以AnnotationProcessorEnvironment对象为参数，通过该对象，我们就能知道apt正在处理的所有的类型，
  * 类定义，并且可以通过它获得Messager对象和Filer对象，Messager对象可以用来向用户报告信息，比如处理过程中，发生的任何的
  * 错误，以及错误的源代码中出现的位置等，Filer是一种PrintWriter，我们可通过它创建新的文件，不使用普通的PrintWriter而使用
@@ -46,6 +49,10 @@ import java.util.ArrayList;
  *
  *
  * 1
+ *
+ *
+ *
+ *
  *
  */
 public class InterfaceExtractorProcessor implements AnnotationProcessor {

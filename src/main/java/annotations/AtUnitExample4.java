@@ -1,33 +1,14 @@
 //: annotations/AtUnitExample4.java
 package annotations;
 
-import net.atunit.Test;
-import net.atunit.TestObjectCreate;
-import net.atunit.TestProperty;
+import net.mindview.atunit.Test;
+import net.mindview.atunit.TestObjectCreate;
+import net.mindview.atunit.TestProperty;
 import net.mindview.util.OSExecute;
 
 import java.util.*;
 
 import static net.mindview.util.Print.print;
-
-
-/*****
- *
- * 639页
- *
- * 加入的@testObjectCreate注解的方法声明为static,且必须返回一个你正在测试类型的对象，这一切都由@Unit负责确保成立。
- *
- * 有的时候，我们要向单元测试中添加额外的域，这时可以使用@TestProperty注解，由它注解的域表示只在单元测试中使用（因此
- * ，在我们将产品发布之前，他们应该被删除掉）在下面的例子中，一个String通过String.split()方法被，从其中读取一个值，这
- * 值将被用来测试对象。
- *
- *
- *
- *
- *
- *
- *
- */
 
 public class AtUnitExample4 {
     static String theory = "All brontosauruses " +
