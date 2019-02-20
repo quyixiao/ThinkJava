@@ -29,12 +29,13 @@ import java.lang.annotation.Target;
  *
  *
  *
+ * 1
  *
  *
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Constraints {
+public @interface  Constraints {
     boolean primaryKey() default false;
 
     boolean allowNull() default true;

@@ -25,12 +25,16 @@ import java.lang.annotation.Target;
  * 使用此元素的默认值。
  *
  *
+ * 1
+ *
+ *
 
  */
 
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface UseCase {
-  public int id();
-  public String description() default "no description";
+    public int id();
+
+    public String description() default "no description";
 } ///:~

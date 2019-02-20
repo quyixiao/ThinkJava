@@ -20,6 +20,9 @@ import java.util.ArrayList;
 /**
  * 631 页
  *
+ *
+ *
+ *
  * 所有的工作都在process()方法中完成，在分析一个类的时候，我们用MethodDeclaration类以及其上的getMOdifiers()方法
  * 业找到public方法，不包括static的那些，一旦找到我们所需的pulic 方法，就将其保存在一个ArrayList中，然后在一个.java
  * 文件中，创建新的接口的方法定义。
@@ -34,22 +37,32 @@ import java.util.ArrayList;
  * 确保其闭合，并且确保生成的代码语法正确
  *
  *
+ *
+ *      所有的工作都在process()方法中完成，在分析一个类的时候，我们用MethodDeclaration类似
+ *  一旦找到我们所需的public 方法，就将其保存在一个ArrayList中，然后在一个.java文件中，创建新的接口中定义
+ *
+ *
+ *
+ *
+ *
+ * 1
+ *
  */
 public class InterfaceExtractorProcessor implements AnnotationProcessor {
-    private final AnnotationProcessorEnvironment env;
-    private ArrayList<MethodDeclaration> interfaceMethods =
-            new ArrayList<MethodDeclaration>();
 
-    public InterfaceExtractorProcessor(
-            AnnotationProcessorEnvironment env) {
+
+    private final AnnotationProcessorEnvironment env;
+
+
+    private ArrayList<MethodDeclaration> interfaceMethods = new ArrayList<MethodDeclaration>();
+
+    public InterfaceExtractorProcessor(AnnotationProcessorEnvironment env) {
         this.env = env;
     }
 
     public void process() {
-        for (TypeDeclaration typeDecl :
-                env.getSpecifiedTypeDeclarations()) {
-            ExtractInterface annot =
-                    typeDecl.getAnnotation(ExtractInterface.class);
+        for (TypeDeclaration typeDecl : env.getSpecifiedTypeDeclarations()) {
+            ExtractInterface annot = typeDecl.getAnnotation(ExtractInterface.class);
             if (annot == null)
                 break;
             for (MethodDeclaration m : typeDecl.getMethods())
@@ -58,12 +71,9 @@ public class InterfaceExtractorProcessor implements AnnotationProcessor {
                     interfaceMethods.add(m);
             if (interfaceMethods.size() > 0) {
                 try {
-                    PrintWriter writer =
-                            env.getFiler().createSourceFile(annot.value());
-                    writer.println("package " +
-                            typeDecl.getPackage().getQualifiedName() + ";");
-                    writer.println("public interface " +
-                            annot.value() + " {");
+                    PrintWriter writer = env.getFiler().createSourceFile(annot.value());
+                    writer.println("package " + typeDecl.getPackage().getQualifiedName() + ";");
+                    writer.println("public interface " + annot.value() + " {");
                     for (MethodDeclaration m : interfaceMethods) {
                         writer.print("  public ");
                         writer.print(m.getReturnType() + " ");
@@ -86,4 +96,8 @@ public class InterfaceExtractorProcessor implements AnnotationProcessor {
             }
         }
     }
-} ///:~
+}
+
+
+
+///:~

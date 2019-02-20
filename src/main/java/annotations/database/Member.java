@@ -40,6 +40,8 @@ package annotations.database;
  * 注解不支持继承
  *
  *
+ * 1
+ *
  *
  */
 @DBTable(name = "MEMBER")

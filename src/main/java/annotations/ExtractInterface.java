@@ -35,6 +35,14 @@ import java.lang.annotation.Target;
  *
  *
  *
+ * 1
+ *
+ *
+ *
+ * 下面的类有一个公共的方法，我们将会把它抽到到一个有用的接口中
+ * 有用的接口中，
+ *
+ *
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
