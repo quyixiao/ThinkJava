@@ -108,42 +108,47 @@ import static net.mindview.util.Print.*;
  *      通常线程机制要非常仔细和保守，如果你的线程问题变得大而复杂，那么就应该
  *    考虑使用像Eralng这样的语言，这是专门的助于线程机制的几种函数型语言之一，你可以将这种语言用于
  *    程序中要求使用的线程机制的部分，前题是你经常使用线程机制，或者线程问题复杂度足以促使你这么做
+ *    测试
  *
+ *    测试
+ *
+ *
+ *
+ *
+ *
+ *
+ * 1
  *
  *
  */
 public class ActiveObjectDemo {
-    private ExecutorService ex =
-            Executors.newSingleThreadExecutor();
+    private ExecutorService ex = Executors.newSingleThreadExecutor();
     private Random rand = new Random(47);
 
     // Insert a random delay to produce the effect
     // of a calculation time:
     private void pause(int factor) {
         try {
-            TimeUnit.MILLISECONDS.sleep(
-                    100 + rand.nextInt(factor));
+            TimeUnit.MILLISECONDS.sleep(100 + rand.nextInt(factor));
         } catch (InterruptedException e) {
             print("sleep() interrupted");
         }
     }
 
-    public Future<Integer>
-    calculateInt(final int x, final int y) {
+    public Future<Integer> calculateInt(final int x, final int y) {
         return ex.submit(new Callable<Integer>() {
             public Integer call() {
-                print("starting " + x + " + " + y);
+                print("starting111111 " + x + " + " + y);
                 pause(500);
                 return x + y;
             }
         });
     }
 
-    public Future<Float>
-    calculateFloat(final float x, final float y) {
+    public Future<Float> calculateFloat(final float x, final float y) {
         return ex.submit(new Callable<Float>() {
             public Float call() {
-                print("starting " + x + " + " + y);
+                print("starting222222 " + x + " + " + y);
                 pause(2000);
                 return x + y;
             }
@@ -157,13 +162,16 @@ public class ActiveObjectDemo {
     public static void main(String[] args) {
         ActiveObjectDemo d1 = new ActiveObjectDemo();
         // Prevents ConcurrentModificationException:
-        List<Future<?>> results =
-                new CopyOnWriteArrayList<Future<?>>();
+        List<Future<?>> results = new CopyOnWriteArrayList<Future<?>>();
         for (float f = 0.0f; f < 1.0f; f += 0.2f)
             results.add(d1.calculateFloat(f, f));
         for (int i = 0; i < 5; i++)
             results.add(d1.calculateInt(i, i));
+
+
         print("All asynch calls made");
+
+
         while (results.size() > 0) {
             for (Future<?> f : results)
                 if (f.isDone()) {
@@ -177,7 +185,12 @@ public class ActiveObjectDemo {
         }
         d1.shutdown();
     }
-} /* Output: (85% match)
+}
+
+
+
+
+/* Output: (85% match)
 All asynch calls made
 starting 0.0 + 0.0
 starting 0.2 + 0.2

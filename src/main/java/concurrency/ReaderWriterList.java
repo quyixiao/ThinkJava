@@ -2,6 +2,7 @@ package concurrency;//: concurrency/ReaderWriterList.java
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -13,6 +14,10 @@ import static net.mindview.util.Print.print;
 
 
 /****
+ *
+ *
+ *
+ *
  *761页
  *    readWriteLock对象数据结构相对不频繁地写入，但是多个任务要读取这个数据结构
  * 的这个类情况进行优化，ReadWriteLock使得你可以同时有多个读取者，只要它们都不试图写入
@@ -31,17 +36,32 @@ import static net.mindview.util.Print.print;
  *  的方法时，才能应该用到它，你的程序的第一个草案应该使用还是直观的同步，并且只有在必需时引入ReadWriteLock
  *
  *
+ *
+ *
+ * 如果你在JDK文档中查看ReentrantReadWriteLock，就会发现还有大量的其他方法可用。
+ * 只有当你在搜索可以提高性能的方法时，才应该想到用它，你的程序的第一个草案应该使用更直观的同步，并且只有在
+ * 必需时再引入ReadWriteLock
+ *
+ *
+ *   ReadWriterList可以持有固定数量的任何类型的对象，你必须向构造器提供所希望的列表尺寸和组装这个列表时
+ *   所用的初始对象，set()方法要获取一个写锁，以调用底层的ArrayList.set()，
+ *   而get()方法要获取一个读锁，以调用底层的ArrayList.get()，另外，get()将检查是不已经有多个读取者获取了
+ *   读锁，如果是，则将显示这种读取者的数量，以证明可有多个读取者获得读锁。
+ *
+ *
+ *
+ * 1
+ *
+ *
  * @param <T>
  */
 public class ReaderWriterList<T> {
     private ArrayList<T> lockedList;
     // Make the ordering fair:
-    private ReentrantReadWriteLock lock =
-            new ReentrantReadWriteLock(true);
+    private ReentrantReadWriteLock lock = new ReentrantReadWriteLock(true);
 
     public ReaderWriterList(int size, T initialValue) {
-        lockedList = new ArrayList<T>(
-                Collections.nCopies(size, initialValue));
+        lockedList = new ArrayList<T>(Collections.nCopies(size, initialValue));
     }
 
     public T set(int index, T element) {
@@ -61,7 +81,7 @@ public class ReaderWriterList<T> {
             // Show that multiple readers
             // may acquire the read lock:
             if (lock.getReadLockCount() > 1)
-                print(lock.getReadLockCount());
+                print("============" + lock.getReadLockCount());
             return lockedList.get(index);
         } finally {
             rlock.unlock();
@@ -69,6 +89,10 @@ public class ReaderWriterList<T> {
     }
 
     public static void main(String[] args) throws Exception {
+
+
+
+
         new ReaderWriterListTest(30, 1);
     }
 }
@@ -77,8 +101,7 @@ class ReaderWriterListTest {
     ExecutorService exec = Executors.newCachedThreadPool();
     private final static int SIZE = 100;
     private static Random rand = new Random(47);
-    private ReaderWriterList<Integer> list =
-            new ReaderWriterList<Integer>(SIZE, 0);
+    private ReaderWriterList<Integer> list = new ReaderWriterList<Integer>(SIZE, 0);
 
     private class Writer implements Runnable {
         public void run() {
@@ -88,6 +111,7 @@ class ReaderWriterListTest {
                     TimeUnit.MILLISECONDS.sleep(100);
                 }
             } catch (InterruptedException e) {
+                e.printStackTrace();
                 // Acceptable way to exit
             }
             print("Writer finished, shutting down");
@@ -105,6 +129,7 @@ class ReaderWriterListTest {
                     }
                 }
             } catch (InterruptedException e) {
+                e.printStackTrace();
                 // Acceptable way to exit
             }
         }
