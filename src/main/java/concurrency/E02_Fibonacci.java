@@ -12,6 +12,18 @@ import net.mindview.util.Generator;
 
 import java.util.Arrays;
 
+
+/****
+ * 交给我generic/fibonacci.java的形式，创建一个任务，它可以产生由n个斐波纳契数字组成序列，其中
+ * n是通过任务的构造器而提供的，使用线程创建大量的这种任务并驱动他们
+ *
+ *
+ *
+ *
+ *
+ *
+ * 1
+ */
 class Fibonacci implements Generator<Integer>, Runnable {
     private int count;
     private final int n;
