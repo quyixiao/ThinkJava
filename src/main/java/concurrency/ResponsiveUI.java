@@ -29,6 +29,9 @@ package concurrency;//: concurrency/ResponsiveUI.java
  *
  *
  *
+ *
+ *
+ *
  */
 class UnresponsiveUI {
     private volatile double d = 1;
@@ -55,7 +58,7 @@ public class ResponsiveUI extends Thread {
     }
 
     public static void main(String[] args) throws Exception {
-        //! new UnresponsiveUI(); // Must kill this process
+       // new UnresponsiveUI(); // Must kill this process
         new ResponsiveUI();
         System.in.read();
         System.out.println(d); // Shows progress

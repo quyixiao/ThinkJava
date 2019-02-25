@@ -12,6 +12,24 @@ package concurrency;//: concurrency/SelfManaged.java
  *   从而Thread继承将不行
  *
  *
+ *
+ *
+ *  这与从Thread 继承并没有什么特别的差异，只是语法稍微晦涩了一些，但是，实现接口使得你可以继承另一个不同的类，
+ *  而从Thread继承将不行
+ *
+ *  注意，start()是在构造器中调用的，这个示例相当的简单，因此可能是安全的，但是你应该意识到，
+ *  在构造器中启动线程可能会变得很有问题，因为另一个任务可能会在构造器结束之前开始执行，
+ *  这意味着该任务能够访问qhgf不稳定状态的对象，这是优选Executor而不是显示 的创建Thread对象的另一个原因
+ *
+ *
+ *  有时通过使用内部类来钭线程代码隐藏在类中将很会有肜，就像下面一样的
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 public class SelfManaged implements Runnable {
     private int countDown = 5;

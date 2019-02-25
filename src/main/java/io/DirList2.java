@@ -27,7 +27,7 @@ public class DirList2 {
      * 范围之外的对象
      * 这个类设计有所改进，因为现在FilenameFilter 类紧密地和DirList2 绑定在一起，然而，我们可以
      * 进一步修改该方法，定义一个作为list() 参数的匿名内部类，这样一来程序会变得更小
-     *
+     * 这是一个问题， 因这这是一个问题的，这
      * @param regex
      * @return
      */
@@ -47,6 +47,7 @@ public class DirList2 {
             }
         }; // End of anonymous inner class
     }
+
 
 
     public static void main(String[] args) {

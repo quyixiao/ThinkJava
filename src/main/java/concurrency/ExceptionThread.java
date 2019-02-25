@@ -17,6 +17,10 @@ import java.util.concurrent.Executors;
  * 下面的任务总是抛出一个异常，该异常会传播到其他的run()方法的外部，并且 main() 展示了当你运行它时发生的事情
  *
  *
+ *
+ * 1
+ *
+ *
  */
 public class ExceptionThread implements Runnable {
     public void run() {

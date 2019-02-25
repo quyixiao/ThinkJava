@@ -3,11 +3,24 @@ package concurrency;//: concurrency/SimpleThread.java
 
 
 /****
+ *
+ *
+ * 665
  * 编码的变体
  *      到目前为止，在你所看到的示例中，任务类都实现了Runnable，在非常简单的情况下，你可能会希望使用直接的Thread
  * 继承这种直接从Thread继承这种可替换的方式。就像下面的这样。
  *
- */
+ *
+ * 就像下面这样
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ ***/
 public class SimpleThread extends Thread {
     private int countDown = 5;
     private static int threadCount = 0;

@@ -8,6 +8,10 @@ import java.util.concurrent.Executors;
  *
  * 673 页
  *
+ *
+ *
+ *
+ *
  * 将main()主体放到try-catch语句块中是没有作用的
  *
  * 这将产生前面的示例相同的结果，未捕获的异常
@@ -18,12 +22,15 @@ import java.util.concurrent.Executors;
  * 对象上附着一个Thread.uncaughtExceptionHandler,我们将这个工厂传递给Executors创建新的ExecutorService的方法。
  *
  *
+ * 1
+ *
+ *
+ *
  */
 public class NaiveExceptionHandling {
     public static void main(String[] args) {
         try {
-            ExecutorService exec =
-                    Executors.newCachedThreadPool();
+            ExecutorService exec = Executors.newCachedThreadPool();
             exec.execute(new ExceptionThread());
         } catch (RuntimeException ue) {
             // This statement will NOT execute!

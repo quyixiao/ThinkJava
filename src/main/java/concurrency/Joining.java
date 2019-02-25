@@ -29,6 +29,22 @@ import static net.mindview.util.Print.print;
  *        控制台用户界面的简单教学示例，下面的例子有两个版本，一个关注于运算，所以不能读取控制台输入，另一个把运算放在任务时单独
  *        运行，此时就可以在进行运算的同时监听控制台输入。
  *
+ *
+ *
+ * 测试数据迁移，我们测试的有道字典，是这样的哈，因为我觉得还是比较好的，因为这样的一个人
+ * 注意Java SE5的java.util.conconrrent类库包含诸如CyclicBarrier，本章稍后会展示，
+ *  这样的工具，它们可能比最初的线程类库的join()更加适合
+ *  测试有道，字典，是这样，因为，我觉得还是比较好的，因为，他是这样的哈。
+ *  个人觉得还是比较好的
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 class Sleeper extends Thread {
     private int duration;

@@ -7,6 +7,14 @@ import static net.mindview.util.Print.printnb;
 
 
 /****
+ *
+ *
+ *
+ * 664
+ *
+ *
+ *
+ *
  * daemon线程被设置成了后台模式，然后派生出了许多的子线程，这些线程并没有被显式的设置为后台模式，不过它们的确是
  * 后台的线程，接着，Daemon线程进入了无限循环，并在循环里调用yield()方法把控制权交给其他的进程。
  *
@@ -16,7 +24,31 @@ import static net.mindview.util.Print.printnb;
  *      这种行为是正确的，即便你基于前面对finally给出的承诺，并不希望这种行为，但情况仍将如此，当最后一个非后台线程
  * 终止时，后台线程将会突然 终止，因此一旦main退出，JVM将会立即关闭所有的后台线程，所以它们几乎不是一种好的思想，非后台的Executor通常
  * 是一种更好的方式，因为Executor控制的所有的任务可以同时被关闭，正如你将要在本章稍后看到的，在这种情况下，关闭将以有序的方式执行
+ *                                                         O
  *
+ *
+ * void main(){
+ *     test(){
+ *         // 是这样的一个人，我觉得还是比较好的，因这是是一个
+ *         void main(){
+ *
+ *             void main(){
+ *                 
+ *             }
+ *         }
+ *     }
+ * }
+ *
+ *
+ *
+ *
+ *  前台小伙伴，是这样的一个他是这样的，因为这是一中国人民是一个不估量的测试
+ *
+ *
+ *
+ *
+ *  
+ * 1
  *
  */
 class Daemon implements Runnable {
@@ -35,6 +67,8 @@ class Daemon implements Runnable {
             Thread.yield();
     }
 }
+
+
 
 class DaemonSpawn implements Runnable {
     public void run() {
