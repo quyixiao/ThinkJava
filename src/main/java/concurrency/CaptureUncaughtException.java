@@ -22,13 +22,29 @@ import java.util.concurrent.ThreadFactory;
  * 有了并发就可以同时做多件事情了，但是，两个或多个线程彼此互相干涉的问题也就应该，如果不防范这种冲突，就可能发生
  * 两个线程同时试图访问同一个银行账户，或向同一个打印改变同一个值等诸如引类的问题
  *
- * 
+ *
+ * 现在可以看到，未捕获的异常是通过uncaughtException来捕获的
+ * 上面的示例使得你可以按具体情况逐个，再调用defaultUncaughtExceptionHandler
+ *
+ *
+ * 如果你正在写一个变量，它可能接下来将被另一个线程读取，或者正在读取一个上一次已经
+ * 被另一个线程写过的变量，那么你必须使用同步，并且，读写线程都必须相同的的监视器锁同步
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 1
+ *
+ *
  *
  */
 class ExceptionThread2 implements Runnable {
     public void run() {
         Thread t = Thread.currentThread();
-        System.out.println("run() by " + t);
+        System.out.println("run() by " + t );
         System.out.println(
                 "eh = " + t.getUncaughtExceptionHandler());
         throw new RuntimeException();
@@ -57,11 +73,15 @@ class HandlerThreadFactory implements ThreadFactory {
 
 public class CaptureUncaughtException {
     public static void main(String[] args) {
-        ExecutorService exec = Executors.newCachedThreadPool(
-                new HandlerThreadFactory());
+        ExecutorService exec = Executors.newCachedThreadPool(new HandlerThreadFactory());
         exec.execute(new ExceptionThread2());
     }
-} /* Output: (90% match)
+}
+
+
+
+
+/* Output: (90% match)
 HandlerThreadFactory@de6ced creating new Thread
 created Thread[Thread-0,5,main]
 eh = MyUncaughtExceptionHandler@1fb8ee3
