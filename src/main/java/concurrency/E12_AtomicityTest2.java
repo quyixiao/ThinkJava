@@ -10,6 +10,20 @@ package concurrency;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+
+/****
+ *
+ *
+ * 684
+ *
+ * 使用synchronized来修复Atomictiy.java，你能证明它现在是安全的吗
+ *
+ *
+ *
+ *
+ *
+ *
+ */
 class AtomicityTest2 implements Runnable {
     private int i;
 

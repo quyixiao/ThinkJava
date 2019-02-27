@@ -6,6 +6,12 @@ import java.util.concurrent.Executors;
 
 
 /****
+ *
+ *
+ * 682
+ *
+ *
+ *
  * 如果 你盲目的应用原子性的概念，那么就会看到在下面程序中的getValue()符合上面的描述。
  * 但是，该程序将找到奇数值并终止，尽管return i 确实是原子性的操作，但是缺少同步使得其数值可以在牌不稳定的
  * 中间状态时被读取，除此之外，由于i也不是volatitle的，因此还存在可视性问题，getValue()和evenIncremtn()
@@ -28,7 +34,7 @@ import java.util.concurrent.Executors;
  *
  *  *
  *
- *
+ * 但是，该程序将找到奇数值并终止，以文害辞
  *
  *
  *

@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  * 操作来访问他们，对这个问题作出假设是棘手而危险的，最明智的做法就是遵循Brian的同步规则。
  *
  *
- *
+ *  1
  *
  *
  */
@@ -57,16 +57,13 @@ class CircularSet {
 
 public class SerialNumberChecker {
     private static final int SIZE = 10;
-    private static CircularSet serials =
-            new CircularSet(1000);
-    private static ExecutorService exec =
-            Executors.newCachedThreadPool();
+    private static CircularSet serials = new CircularSet(1000);
+    private static ExecutorService exec = Executors.newCachedThreadPool();
 
     static class SerialChecker implements Runnable {
         public void run() {
             while (true) {
-                int serial =
-                        SerialNumberGenerator.nextSerialNumber();
+                int serial = SerialNumberGenerator.nextSerialNumber();
                 if (serials.contains(serial)) {
                     System.out.println("Duplicate: " + serial);
                     System.exit(0);

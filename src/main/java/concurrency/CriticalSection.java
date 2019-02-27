@@ -50,6 +50,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  *
  *
+ * 1
+ *
+ *
  *
  */
 class Pair { // Not thread-safe
@@ -207,7 +210,12 @@ public class CriticalSection {
                 pman2 = new PairManager2();
         testApproaches(pman1, pman2);
     }
-} /* Output: (Sample)
+}
+
+
+
+
+/* Output: (Sample)
 pm1: Pair: x: 15, y: 15 checkCounter = 272565
 pm2: Pair: x: 16, y: 16 checkCounter = 3956974
 *///:~

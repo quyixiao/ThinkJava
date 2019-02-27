@@ -8,6 +8,13 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 /*****
+ *
+ * 685
+ *
+ *
+ *
+ *
+ *
  *      这里我们通过使用Atomicintege而消除了synchronized关键字，因为这个程序不会失败，所以添加一个Timer，以便在5
  * 秒钟之后自动的终止
  *      所以其他形式的同步再次通过使用AtomicInteger得到了根除
@@ -15,10 +22,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 即便使用了它们也土地成本发确保不存在其他的可能出现的问题，通常依赖于锁要更安全一些，要么是synchronized关键字
  * ，要么是显式的Lock对象
  *
+ *
+ * 1
+ *
  */
 public class AtomicEvenGenerator extends IntGenerator {
-    private AtomicInteger currentEvenValue =
-            new AtomicInteger(0);
+    private AtomicInteger currentEvenValue = new AtomicInteger(0);
 
     public int next() {
         return currentEvenValue.addAndGet(2);

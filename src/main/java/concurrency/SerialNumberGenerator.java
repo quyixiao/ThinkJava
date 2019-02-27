@@ -18,6 +18,9 @@ package concurrency;//: concurrency/SerialNumberGenerator.java
  * 原子性操作这一事实产生影响
  *
  *
+ * 1
+ *
+ *
  */
 public class SerialNumberGenerator {
 

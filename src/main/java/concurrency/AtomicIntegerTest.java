@@ -18,6 +18,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 来说，它们很少会派上用场，但是在涉及性能调优时，它们就大有用武之地了，例如，我们可以使用AomicInterge来重写AtomicCityTest.java
  *
  *
+ *
+ * 1
+ *
  */
 public class AtomicIntegerTest implements Runnable {
     private AtomicInteger i = new AtomicInteger(0);
