@@ -93,10 +93,8 @@ class ExplicitTripleSynch {
 
 public class E16_ExplicitSyncObject {
     public static void main(String[] args) throws Exception {
-        final ExplicitSingleSynch singleSync =
-                new ExplicitSingleSynch();
-        final ExplicitTripleSynch tripleSync =
-                new ExplicitTripleSynch();
+        final ExplicitSingleSynch singleSync = new ExplicitSingleSynch();
+        final ExplicitTripleSynch tripleSync = new ExplicitTripleSynch();
         print("Test ExplicitSingleSynch...");
         Thread t1 = new Thread() {
             public void run() {
@@ -110,7 +108,13 @@ public class E16_ExplicitSyncObject {
             }
         };
         t2.start();
+
+
+
         singleSync.h();
+
+
+
         t1.join();  // Wait for t1 to finish its work
         t2.join();  // Wait for t2 to finish its work
         print("Test ExplicitTripleSynch...");
@@ -125,6 +129,10 @@ public class E16_ExplicitSyncObject {
                 tripleSync.g();
             }
         }.start();
+
+
+
+
         tripleSync.h();
     }
 }

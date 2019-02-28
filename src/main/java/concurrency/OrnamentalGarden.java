@@ -50,6 +50,9 @@ import static net.mindview.util.Print.print;
  *  隐藏起来，因此在复审并发代码时，要格外上小心。
  *
  *
+ *
+ * 1
+ *
  */
 class Count {
     private int count = 0;
@@ -70,8 +73,7 @@ class Count {
 
 class Entrance implements Runnable {
     private static Count count = new Count();
-    private static List<Entrance> entrances =
-            new ArrayList<Entrance>();
+    private static List<Entrance> entrances = new ArrayList<Entrance>();
     private int number = 0;
     // Doesn't need synchronization to read:
     private final int id;
@@ -139,7 +141,12 @@ public class OrnamentalGarden {
         print("Total: " + Entrance.getTotalCount());
         print("Sum of Entrances: " + Entrance.sumEntrances());
     }
-} /* Output: (Sample)
+}
+
+
+
+
+/* Output: (Sample)
 Entrance 0: 1 Total: 1
 Entrance 2: 1 Total: 3
 Entrance 1: 1 Total: 2

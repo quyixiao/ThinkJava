@@ -28,6 +28,18 @@ import java.util.concurrent.TimeUnit;
  *
  *
  *
+ *      前面的某些示例中，cancle()和isCancleed()方法被放到了一个所有的任务都可以看到的类中，
+ *  这些任务通过检查isCanceled()来确定何时终止它们自己，对于这相问题来说，这是一种合理的方式
+ *  ，但是，在某些情况下，任务必须更加突然的终止，本节你将学习到有关的终止的种类话题和问题
+ *
+ *      首先，让我们观察一个示例，它不仅演示了终止问题，而且还是一个资源共享的示例
+ *
+ *
+ *
+ * *
+ * 1
+ *
+ *
  */
 class Accessor implements Runnable {
     private final int id;
@@ -72,7 +84,7 @@ public class ThreadLocalVariableHolder {
         ExecutorService exec = Executors.newCachedThreadPool();
         for (int i = 0; i < 5; i++)
             exec.execute(new Accessor(i));
-        TimeUnit.SECONDS.sleep(3);  // Run for a while
+        TimeUnit.SECONDS.sleep(1);  // Run for a while
         exec.shutdownNow();         // All Accessors will quit
     }
 } /* Output: (Sample)

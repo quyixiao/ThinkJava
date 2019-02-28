@@ -13,6 +13,18 @@ package concurrency;
 
 import static net.mindview.util.Print.print;
 
+
+/*&****
+
+创建一个类，它具有三个方法，这些方法包含一个临界区，所有的该临界区的同步都是同一个对象上的
+，创建多个任务来演示这些方法同时只能运行一个，现在修改这些
+方法，使得每个方法都在不同的对象上同步，并展示所有的三个方法可以同时运行
+
+
+1
+
+
+ */
 class SingleSynch {
     public synchronized void f() {
         for (int i = 0; i < 5; i++) {

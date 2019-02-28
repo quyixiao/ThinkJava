@@ -18,6 +18,16 @@ import static net.mindview.util.Print.print;
  *  点进行演示，因为main()线程是被用来调用g()的，从输出中可以看到，这两个方法在同时运行，
  *  因此任何一个方法都没有因为另一个方法的同步而被阻塞。
  *
+ *
+ *  因此，这两个同上是互相独立的，通过在main()中创建调用f()的Thread对这一点进行演示，因为
+ *  main()线程是被调用g()的，从输出可以看到，这两个方式在同时运行，因此任何一个方法都没有因为
+ *  另一个方法的同步而被阻塞
+ *
+ *
+ *  1
+ *
+ *
+ *
  */
 class DualSynch {
     private Object syncObject = new Object();
