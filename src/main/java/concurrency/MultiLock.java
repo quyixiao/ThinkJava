@@ -14,6 +14,11 @@ import static net.mindview.util.Print.print;
  *  阻塞，那么都有潜在的会锁住程序的可能，Java SE5并发类库中添加了一个特性，即在ReentrantLock
  *  上阻塞的任务具备可以被中断的能力，这与在synchronized方法或临界区阻塞的任务完全不同。
  *
+ *
+ *
+ *
+ *  1
+ *
  */
 public class MultiLock {
     public synchronized void f1(int count) {
@@ -39,6 +44,10 @@ public class MultiLock {
         }.start();
     }
 }
+
+
+
+
 
 
 

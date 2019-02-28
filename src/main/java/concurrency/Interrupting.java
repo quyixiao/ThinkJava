@@ -140,8 +140,7 @@ class SynchronizedBlocked implements Runnable {
 }
 
 public class Interrupting {
-    private static ExecutorService exec =
-            Executors.newCachedThreadPool();
+    private static ExecutorService exec = Executors.newCachedThreadPool();
 
     static void test(Runnable r) throws InterruptedException {
         Future<?> f = exec.submit(r);

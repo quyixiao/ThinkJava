@@ -28,6 +28,10 @@ import static net.mindview.util.Print.print;
  *  execute()来启动两个任务，并调用e.shutdownNow()将可以很容易地终止所有的事物，而对于
  *  捕获上面的示例中Future,只有将中断发送给一个线程，同时不发送给另一个线程时才是必需的
  *
+ *
+ *
+ *  1
+ *
  */
 class NIOBlocked implements Runnable {
     private final SocketChannel sc;
@@ -55,17 +59,33 @@ public class NIOInterruption {
     public static void main(String[] args) throws Exception {
         ExecutorService exec = Executors.newCachedThreadPool();
         ServerSocket server = new ServerSocket(8080);
-        InetSocketAddress isa =
-                new InetSocketAddress("localhost", 8080);
+        InetSocketAddress isa = new InetSocketAddress("localhost", 8080);
+
+
+
+
+
         SocketChannel sc1 = SocketChannel.open(isa);
         SocketChannel sc2 = SocketChannel.open(isa);
+
+
+
         Future<?> f = exec.submit(new NIOBlocked(sc1));
+
+
+
+
         exec.execute(new NIOBlocked(sc2));
         exec.shutdown();
+
+
         TimeUnit.SECONDS.sleep(1);
         // Produce an interrupt via cancel:
         f.cancel(true);
         TimeUnit.SECONDS.sleep(1);
+
+
+
         // Release the block by closing the channel:
         sc2.close();
     }

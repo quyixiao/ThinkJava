@@ -26,17 +26,28 @@ import static net.mindview.util.Print.print;
  *  资源被关闭，傻将解除阻塞，请注意，有一点很有趣，interrupt()看起来发生在关闭Socket而
  *  不是关闭System.in
  *
+ *
+ *
+ *  1
+ *
  */
 public class CloseResource {
     public static void main(String[] args) throws Exception {
         ExecutorService exec = Executors.newCachedThreadPool();
         ServerSocket server = new ServerSocket(8080);
-        InputStream socketInput =
-                new Socket("localhost", 8080).getInputStream();
+
+
+        InputStream socketInput = new Socket("localhost", 8080).getInputStream();
+
+
+
         exec.execute(new IOBlocked(socketInput));
         exec.execute(new IOBlocked(System.in));
         TimeUnit.MILLISECONDS.sleep(100);
         print("Shutting down all threads");
+
+
+
         exec.shutdownNow();
         TimeUnit.SECONDS.sleep(1);
         print("Closing " + socketInput.getClass().getName());

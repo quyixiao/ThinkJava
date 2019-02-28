@@ -16,6 +16,23 @@ import static net.mindview.util.Print.print;
  *  么将会因为Mutex不可获得而被阻塞，在Blocked2中，run()方法总是在调用blocked.f()地方
  *  停止，当运行这个程序时，你将会看到，与 I/O调用不同，interrupt()可以打断互斥阻塞的调用
  *
+ *
+ *  就像前面在不可中断的I/O中所观察到的那样，无论在任何时刻，只要任务以不可中断的方式被
+ *  阻塞，那么都有潜在的会锁住程序的可能，java SE5并发类库中添加了一个特性，即在
+ *  ReentrantLock上阻塞的任务些任务可以被中断的能力，这与在synchronized方法或临界区上的
+ *  阻塞的任务完全不同
+ *
+ *
+ *
+ *  1
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 class BlockedMutex {
     private Lock lock = new ReentrantLock();
@@ -49,13 +66,28 @@ class Blocked2 implements Runnable {
 
 public class Interrupting2 {
     public static void main(String[] args) throws Exception {
+
+
         Thread t = new Thread(new Blocked2());
         t.start();
+
+
+
         TimeUnit.SECONDS.sleep(1);
+
+
+
+
         System.out.println("Issuing t.interrupt()");
         t.interrupt();
     }
-} /* Output:
+}
+
+
+
+
+
+/* Output:
 Waiting for f() in BlockedMutex
 Issuing t.interrupt()
 Interrupted from lock acquisition in f()
