@@ -6,25 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="cir">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Blocked2.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Blocked2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/BlockedMutex.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/BlockedMutex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/CloseResource.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/CloseResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/E18_Interruption.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/E18_Interruption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Interrupting.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Interrupting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Interrupting2.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Interrupting2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/MultiLock$1.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/MultiLock$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/MultiLock.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/MultiLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/NIOBlocked.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/NIOBlocked.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/NIOInterruption.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/NIOInterruption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/NonTask.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/NonTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Task11.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Task11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Blocked3.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Blocked3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/InterruptingIdiom.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/InterruptingIdiom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/NeedsCleanup.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/NeedsCleanup.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/CloseResource.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/CloseResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/E18_Interruption.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/E18_Interruption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/Interrupting.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Interrupting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/Interrupting2.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Interrupting2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/MultiLock.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/MultiLock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/NIOInterruption.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/NIOInterruption.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,16 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadLocalVariableHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ThreadLocalVariableHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrnamentalGarden.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/OrnamentalGarden.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E17_RadiationCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1764">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,13 +90,11 @@
       <file leaf-file-name="Interrupting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Interrupting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="1974">
               <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
               <folding>
                 <element signature="e#3703#3704#0" expanded="true" />
                 <element signature="e#3726#3727#0" expanded="true" />
-                <element signature="e#4327#4450#0" expanded="true" />
-                <element signature="e#4449#4450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +103,8 @@
       <file leaf-file-name="CloseResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CloseResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            <state relative-caret-position="504">
+              <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -159,21 +133,28 @@
       <file leaf-file-name="MultiLock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MultiLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <element signature="e#1040#1144#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interrupting2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Interrupting2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Interrupting2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="399">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterruptingIdiom.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,7 +163,7 @@
       <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="3633">
               <caret line="214" column="34" lean-forward="false" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
               <folding />
             </state>
@@ -250,7 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/mindview/util/OSExecute.java" />
         <option value="$PROJECT_DIR$/src/main/java/annotations/AtUnitComposition.java" />
         <option value="$PROJECT_DIR$/src/main/java/annotations/AtUnitExample2.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/ActiveObjectDemo.java" />
@@ -301,6 +281,7 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrency/E18_Interruption.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/MultiLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/Interrupting2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java" />
       </list>
     </option>
   </component>
@@ -321,10 +302,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1853" />
-    <option name="y" value="-141" />
-    <option name="width" value="1735" />
-    <option name="height" value="999" />
+    <option name="x" value="-1891" />
+    <option name="y" value="-161" />
+    <option name="width" value="1634" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -364,9 +345,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -509,7 +489,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1074,19 +1055,21 @@
       <workItem from="1551189782568" duration="14000" />
       <workItem from="1551238797889" duration="7660000" />
       <workItem from="1551323589664" duration="310000" />
-      <workItem from="1551329705787" duration="10301000" />
+      <workItem from="1551329705787" duration="12294000" />
+      <workItem from="1551364674961" duration="123000" />
+      <workItem from="1551364802568" duration="565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="946071000" />
+    <option name="totallyTimeSpent" value="948752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1853" y="-141" width="1735" height="999" extended-state="0" />
+    <frame x="-1891" y="-161" width="1634" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647982" sideWeight="0.11934673" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1097,20 +1080,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250283" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3250283" sideWeight="0.49793267" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30804077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25026512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14609286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20791495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647982" sideWeight="0.88065326" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22173367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10208817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07359307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1118,9 +1099,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956064" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30804077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="-1757" y="-57" width="1623" height="769" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279603" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07359307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1144,13 +1127,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SleepingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/BufferedInputFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -1364,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,7 +1456,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="3633">
           <caret line="214" column="34" lean-forward="false" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
           <folding />
         </state>
@@ -1498,28 +1473,26 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E17_RadiationCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1764">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Interrupting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="1974">
           <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
           <folding>
             <element signature="e#3703#3704#0" expanded="true" />
             <element signature="e#3726#3727#0" expanded="true" />
-            <element signature="e#4327#4450#0" expanded="true" />
-            <element signature="e#4449#4450#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CloseResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="504">
+          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1542,19 +1515,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MultiLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#1040#1144#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Interrupting2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="399">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
