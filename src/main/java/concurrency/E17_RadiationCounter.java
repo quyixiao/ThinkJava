@@ -32,10 +32,13 @@ class Count111 {
 }
 
 class Sensor implements Runnable {
+
+
     private static Random rand = new Random(47);
     private static Count count = new Count();
-    private static List<Sensor> sensors =
-            new ArrayList<Sensor>();
+    private static List<Sensor> sensors = new ArrayList<Sensor>();
+
+
     private int number;
     private final int id;
     private static volatile boolean canceled = false;
@@ -91,9 +94,17 @@ public class E17_RadiationCounter {
         ExecutorService exec = Executors.newCachedThreadPool();
         for (int i = 0; i < 5; i++)
             exec.execute(new Sensor(i));
+
+
+
+
         TimeUnit.SECONDS.sleep(3);
+
+
         Sensor.cancel();
         exec.shutdown();
+
+
         if (!exec.awaitTermination(250, TimeUnit.MILLISECONDS))
             print("Some tasks were not terminated!");
         print("Total: " + Sensor.getTotalCount());
