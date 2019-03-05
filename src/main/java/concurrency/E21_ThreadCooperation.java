@@ -17,6 +17,27 @@ import java.util.concurrent.TimeUnit;
 
 import static net.mindview.util.Print.print;
 
+
+/****
+ *
+ *
+ *
+ *  706
+ *
+ *
+ *
+ *  创建两个Runnbalbel，其中一个run()方法启动并调用wait()，而第二个类应该
+ *  捕获第一个Runnable对象的引用，其run()方法应该在一定的秒数之后，为第一个任务调用
+ *  notifyAll()，从而使得第一个任务可以显示和条信息，使用Executor来测试你的类
+ *
+ *
+ *       使用Executor来测试你的类
+ *
+ *
+ *
+ *
+ *
+ */
 class Coop1 implements Runnable {
     public Coop1() {
         print("Constructed Coop1");
@@ -57,13 +78,20 @@ class Coop2 implements Runnable {
 
 public class E21_ThreadCooperation {
     public static void main(String args[]) throws Exception {
-        Runnable coop1 = new Coop1(),
-                coop2 = new Coop2(coop1);
+
+
+
+        Runnable coop1 = new Coop1(), coop2 = new Coop2(coop1);
+
         ExecutorService exec = Executors.newCachedThreadPool();
         exec.execute(coop1);
         exec.execute(coop2);
 
         Thread.yield();
         exec.shutdown();
+
+
+
+
     }
 }

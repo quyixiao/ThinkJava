@@ -139,7 +139,14 @@ public class Restaurant {
     public static void main(String[] args) {
         new Restaurant();
     }
-} /* Output:
+}
+
+
+
+
+
+
+/* Output:
 Order up! Waitperson got Meal 1
 Order up! Waitperson got Meal 2
 Order up! Waitperson got Meal 3

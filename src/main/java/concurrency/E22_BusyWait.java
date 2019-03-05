@@ -15,6 +15,27 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+
+/*****
+ *
+ * 706
+ *
+ *
+ *  创建一个忙等侍的示例，第一个任务休眠一段时间然后将一个标志设置为true,而第二个任务在一个while循环中
+ *  观察这个标志，这就是忙等待，并且当该标志为true时，将其设置为false,然后向控制台报告这个变化，请注意程序
+ *  在忙等待中浪费了多少时间，然后创建该程序的第二个版本，其中将使用wait()而不是忙等待
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 1
+ *
+ */
 public class E22_BusyWait {
     private static volatile boolean flag;
     private static int spins;

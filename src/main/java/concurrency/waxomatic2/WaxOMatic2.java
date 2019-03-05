@@ -31,10 +31,59 @@ import static net.mindview.util.Print.printnb;
  *  Condition对象只有在更加困难的多线程问题中才是必需的。
  *
  *
+ * 是不是这个问题的
+ *
+ *
+ *
+ * 会不会有问题的
+ *
+ *
+ *
+ * 是这样的一个问题的
+ * 因为我觉得还是这样的比较好的
+ *
+ *
+ * 每个对lock()调用都必须紧跟一个try-finally子句，用来保证所有的情况都可以释放锁，在使用内版本的时候，任务在可以调用
+ * await()，signal()或signalAll()之前，必须拥有这个锁
+ * 注意，在这个解决方案比前困难的多线程问题中才必需的
+ *
+ *
+ *
+ * 修改Restautrant.java，使其使用显式的Lock和condition对象
+ *
+ *
+ *
+ * wait()和notifyall()方法以一种非常你级的方式解决了任务互操作问题，即每次交互时都握手
+ * 在它是一个还可以使用ArrayBlockingQueue，它具有固定的尺寸，因此，你可以在它被阻塞
+ * 之前，向其中的放置有限数量的元素
+ *
+ *
+ * 如果消费者任务试图从队列中获取对象，而该队列此时为空，那么这些队列还可以挂起，并且当有更多的元素可用时
+ * 恢复消费者的任务，阻塞队列可以解决非常大量的问题，而其方式与wait()和notify()相比，则简单并可靠得多
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 1
+ *
+ *
+ *
+ *
  */
 class Car {
+
+
+
     private Lock lock = new ReentrantLock();
     private Condition condition = lock.newCondition();
+
+
+
+
     private boolean waxOn = false;
 
     public void waxed() {
@@ -126,14 +175,16 @@ public class WaxOMatic2 {
     public static void main(String[] args) throws Exception {
         Car car = new Car();
         ExecutorService exec = Executors.newCachedThreadPool();
+
+
         exec.execute(new WaxOff(car));
         exec.execute(new WaxOn(car));
+
+
         TimeUnit.SECONDS.sleep(5);
         exec.shutdownNow();
+
+
     }
-} /* Output: (90% match)
-Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Exiting via interrupt
-Ending Wax Off task
-Exiting via interrupt
-Ending Wax On task
-*///:~
+
+}

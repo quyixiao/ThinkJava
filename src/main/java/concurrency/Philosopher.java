@@ -17,6 +17,12 @@ import static net.mindview.util.Print.print;
  * 就在wait()这根Chopstick
  *
  *
+ *
+ *
+ *
+ *
+ * 1
+ *
  */
 public class Philosopher implements Runnable {
     private Chopstick left;

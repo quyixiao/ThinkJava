@@ -53,10 +53,12 @@ import static net.mindview.util.Print.print;
     代码，那又该怎么办呢，如果你只能通过阻塞用上抛出异常来退出，那么你就无法总是可以离开
  run()循环，因此，如果你调用intteruupt()以停止某个任务，
 
+ 被设计用来响应interrupt()的类必须 建立一种策略，来确保它将保持一致的状态，这通常意味
+ 着所有需要清理的对象创建操作的后面，都必须紧跟try-finaly子句，从而使得无论run()
 
 
-
-
+ wait()，notify()以有notifyALL()有一个比较特殊的方面，那算了就是这些方法在基类Object问他，而不是
+ 属于Thread的一部分，尽管开始年
 
  *
  *
@@ -71,6 +73,7 @@ class NeedsCleanup {
     public NeedsCleanup(int ident) {
         id = ident;
         print("NeedsCleanup " + id);
+
     }
 
     public void cleanup() {
@@ -79,6 +82,8 @@ class NeedsCleanup {
 }
 
 class Blocked3 implements Runnable {
+
+
     private volatile double d = 0.0;
 
     public void run() {
@@ -114,15 +119,15 @@ class Blocked3 implements Runnable {
     }
 }
 
+
+
 public class InterruptingIdiom {
     public static void main(String[] args) throws Exception {
-        if (args.length != 1) {
-            print("usage: java InterruptingIdiom delay-in-mS");
-            System.exit(1);
-        }
         Thread t = new Thread(new Blocked3());
         t.start();
-        TimeUnit.MILLISECONDS.sleep(new Integer(args[0]));
+        TimeUnit.MILLISECONDS.sleep(
+                1000
+        );
         t.interrupt();
     }
 }

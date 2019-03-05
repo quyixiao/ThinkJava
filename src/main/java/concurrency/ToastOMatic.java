@@ -20,6 +20,14 @@ import static net.mindview.util.Print.print;
  *  了，每片toast在任何时刻都只由一个任务在操作，因为队列的阻塞，使得处理过程将被自动的挂起
  *  和恢复，你可以，使得处理过程将被自动的挂起和恢复，你可以看到由BlockingQueue产生的简化的十分明显，在使用显式的wait()和
  *  notifyAll()时存在的类和类之间的耦合被消除，因为每个类都只和它的BlockingQueue通信。
+ *
+ *
+ *
+ *  1
+ *
+ *
+ *
+ *
  *      
  */
 class Toast {
@@ -54,6 +62,10 @@ class Toast {
 }
 
 class ToastQueue extends LinkedBlockingQueue<Toast> {
+
+
+
+
 }
 
 class Toaster implements Runnable {

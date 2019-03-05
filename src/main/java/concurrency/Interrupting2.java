@@ -24,7 +24,10 @@ import static net.mindview.util.Print.print;
  *
  *
  *
+ *
+ *
  *  1
+ *
  *
  *
  *
@@ -54,7 +57,8 @@ class BlockedMutex {
     }
 }
 
-class Blocked2 implements Runnable {
+class
+Blocked2 implements Runnable {
     BlockedMutex blocked = new BlockedMutex();
 
     public void run() {

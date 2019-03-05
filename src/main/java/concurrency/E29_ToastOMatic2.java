@@ -15,6 +15,24 @@ import java.util.concurrent.TimeUnit;
 
 import static net.mindview.util.Print.print;
 
+
+/*****
+ * 修改ToastOMatic.java 使用两个单独的组装线来创建涂有花生黄油和果冻的
+ * 吐司三明治，一个用于花生黄油，第二个助于果冻，然后所两条线合并
+ *
+ *
+ *
+ *
+ * 717
+ *
+ *
+ *
+ * 1
+ *
+ *
+ *
+ */
+
 class Toast11 {
     public enum Status {
         DRY,

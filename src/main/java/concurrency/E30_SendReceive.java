@@ -14,7 +14,29 @@ import java.util.concurrent.TimeUnit;
 import static net.mindview.util.Print.print;
 import static net.mindview.util.Print.printnb;
 
+
+/****
+ *
+ *
+ *
+ * 718
+ *
+ * 修改pipeldIO.java ，使其使用BlockingQueue而不是管道
+ *
+ *
+ *
+ *
+ *
+ *
+ * 1
+ *
+ *
+ *
+ */
 class CharQueue extends LinkedBlockingQueue<Character> {
+
+
+
 }
 
 class Sender22 implements Runnable {
@@ -62,6 +84,10 @@ public class E30_SendReceive {
         Sender22 sender = new Sender22();
         Receiver22 receiver = new Receiver22(sender);
         ExecutorService exec = Executors.newCachedThreadPool();
+
+
+
+
         exec.execute(sender);
         exec.execute(receiver);
         TimeUnit.SECONDS.sleep(4);

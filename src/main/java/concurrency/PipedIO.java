@@ -58,6 +58,15 @@ import static net.mindview.util.Print.printnb;
  *   时，这个哲学家必须同时得到左右两边的筷子，如果一个哲学家左边或右边已经有人在
  *   使用筷子了，那么这个哲学家就必须等待，直到可等到必需的筷子。
  *
+ *
+ *
+ *
+ *
+ *   1
+ *
+ *
+ *
+ *
  */
 class Sender implements Runnable {
     private Random rand = new Random(47);

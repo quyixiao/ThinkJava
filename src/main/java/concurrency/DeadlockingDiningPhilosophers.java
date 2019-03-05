@@ -48,6 +48,9 @@ import java.util.concurrent.TimeUnit;
  *  Philosopher拿起他们的Chopstick，在配合中，这就可以防止循环等待，这只是问题的解决方法之一，也可
  *  以通过破坏其他条件来防止死锁，具体细节请勇者更高级的计分线程的书籍。
  *
+ *
+ *  1
+ *
  */
 public class DeadlockingDiningPhilosophers {
     public static void main(String[] args) throws Exception {

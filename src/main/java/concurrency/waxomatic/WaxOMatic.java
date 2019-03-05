@@ -123,8 +123,9 @@ import static net.mindview.util.Print.printnb;
  }
     现在，如果T1首先执行，当控制返回t2时，它将发现条件发生了变化，从而不会进入wait()
     反过来，如果t2首先执行，那它将进入wait()，并且稍后会由f1唤醒，因此，信号，不会错失。
-    nofity 丐notifyAll()
+    nofity  notifyAll()
 
+ 1
 
  */
 class Car {

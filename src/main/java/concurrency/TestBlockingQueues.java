@@ -30,8 +30,21 @@ import static net.mindview.util.Print.print;
  *  注意，LiftOffrunner可以忽略同步问题，因为它们己经由BlockingQueue解决了。
  *
  *
+ * 各个任务main()放置到了BlockingQueue中，并且由LiftOffRunner从BlockingQueue中取出，
+ * 注意，LiftOffRunnner可能忽略同上问题，因为它们已经由BlokingQueue解决了
+ *
+ *
+ *
+ *
+ *
+ *
+ *  public void main(){
+ *  }
+ *
+ *
  */
 class LiftOffRunner implements Runnable {
+
     private BlockingQueue<LiftOff> rockets;
 
     public LiftOffRunner(BlockingQueue<LiftOff> queue) {
