@@ -23,6 +23,9 @@ import java.util.concurrent.TimeUnit;
  *
  *
  *
+ * 1
+ *
+ *
  *
  */
 public class FixedDiningPhilosophers {

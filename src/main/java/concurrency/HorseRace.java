@@ -12,6 +12,9 @@ import static net.mindview.util.Print.print;
 /******
  * 724页
  * CyclicBarrier
+ *
+ *
+ *
  *      CyclicBarrier适用于这样的情况，你希望创建一组任务，它们并行的执行工作，然后在进行
  *  下一个步骤之前等待，直至所有的任务完成（看起来像join()），它使得所有的任务都将
  *  在栅栏处列队，因此可以一致地向前移动，这非常的像CountDownLatch,只是CountDownLatch是
@@ -31,12 +34,25 @@ import static net.mindview.util.Print.print;
  *  展示出来。
  *
  *
+ *
+ *
+ *  1
+ *
+ *
+ *
+ *
  */
+
 class Horse implements Runnable {
+
     private static int counter = 0;
+
     private final int id = counter++;
+
     private int strides = 0;
+
     private static Random rand = new Random(47);
+
     private static CyclicBarrier barrier;
 
     public Horse(CyclicBarrier b) {
@@ -53,6 +69,7 @@ class Horse implements Runnable {
                 synchronized (this) {
                     strides += rand.nextInt(3); // Produces 0, 1 or 2
                 }
+                //它会一直阻塞在条件队列之上，之后某个线程调用对应的notify/signal方法，才会使得await/wait的线程回到就绪状态，也是不一定立即执行。
                 barrier.await();
             }
         } catch (InterruptedException e) {
@@ -76,12 +93,37 @@ class Horse implements Runnable {
     }
 }
 
+
 public class HorseRace {
     static final int FINISH_LINE = 75;
+
     private List<Horse> horses = new ArrayList<Horse>();
-    private ExecutorService exec =
-            Executors.newCachedThreadPool();
+
+    private ExecutorService exec = Executors.newCachedThreadPool();
+
     private CyclicBarrier barrier;
+
+
+    public static void clearConsole()
+    {
+        try
+        {
+            String os = System.getProperty("os.name");
+
+            if (os.contains("Windows"))
+            {
+                Runtime.getRuntime().exec("cls");
+            }
+            else
+            {
+                Runtime.getRuntime().exec("clear");
+            }
+        }
+        catch (Exception exception)
+        {
+            exception.printStackTrace();
+        }
+    }
 
     public HorseRace(int nHorses, final int pause) {
         barrier = new CyclicBarrier(nHorses, new Runnable() {
@@ -112,8 +154,11 @@ public class HorseRace {
         }
     }
 
+
+
+
     public static void main(String[] args) {
-        int nHorses = 7;
+        int nHorses = 10;
         int pause = 200;
         if (args.length > 0) { // Optional argument
             int n = new Integer(args[0]);
@@ -125,4 +170,14 @@ public class HorseRace {
         }
         new HorseRace(nHorses, pause);
     }
-} /* (Execute to see output) *///:~
+
+
+
+
+
+}
+
+
+
+
+/* (Execute to see output) *///:~
