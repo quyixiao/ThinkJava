@@ -15,6 +15,9 @@ import static net.mindview.util.Print.printnb;
 
 /******
  *  728页
+ *
+ *
+ *
  *      这是一个很基础的优先级队列，它具有可阻塞的读取操作，下面的一个示例，其中的优先级队列中
  * 的对象是按照优先级顺序从队列中出现的任务，PrioritizedTask被赋予了一个优先级数字 ，
  *  以此来提供这种顺序。
@@ -26,9 +29,13 @@ import static net.mindview.util.Print.printnb;
  *  同步，不必考虑当你从这种队列中读取时，其中是否有元素，因为这个队列在没有元素时，
  *  将直接阻塞读取者。
  *
+ *
+ *
+ *
+ *  1
+ *
  */
-class PrioritizedTask implements
-        Runnable, Comparable<PrioritizedTask> {
+class PrioritizedTask implements  Runnable, Comparable<PrioritizedTask> {
     private Random rand = new Random(47);
     private static int counter = 0;
     private final int id = counter++;
@@ -125,8 +132,7 @@ class PrioritizedTaskProducer implements Runnable {
 class PrioritizedTaskConsumer implements Runnable {
     private PriorityBlockingQueue<Runnable> q;
 
-    public PrioritizedTaskConsumer(
-            PriorityBlockingQueue<Runnable> q) {
+    public PrioritizedTaskConsumer(PriorityBlockingQueue<Runnable> q) {
         this.q = q;
     }
 
@@ -145,10 +151,16 @@ class PrioritizedTaskConsumer implements Runnable {
 public class PriorityBlockingQueueDemo {
     public static void main(String[] args) throws Exception {
         Random rand = new Random(47);
+
         ExecutorService exec = Executors.newCachedThreadPool();
-        PriorityBlockingQueue<Runnable> queue =
-                new PriorityBlockingQueue<Runnable>();
+
+        PriorityBlockingQueue<Runnable> queue = new PriorityBlockingQueue<Runnable>();
+
+
+
         exec.execute(new PrioritizedTaskProducer(queue, exec));
+
+
         exec.execute(new PrioritizedTaskConsumer(queue));
     }
 } /* (Execute to see output) *///:~

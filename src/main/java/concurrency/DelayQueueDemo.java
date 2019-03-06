@@ -13,6 +13,9 @@ import static net.mindview.util.Print.printnb;
 
 /*****
  *  726 页
+ *
+ *
+ *
  *      这是一个无界的BlockingQueue，用于放置实现了Delayed接口对象的，其中的对象只能在其到期才能
  *  从队列中取走，这种队列是有序的，即从队头对象到延迟到期的时间最长，如果没有
  *  任何延迟到期，那么就不会有任何头元素，并且poll（）将返回null(正因为这样，你不能将null放置到)
@@ -42,9 +45,10 @@ import static net.mindview.util.Print.printnb;
  *
  *
  *
- *
- *
  * 1
+ *
+ *
+ *
  */
 class DelayedTask implements Runnable, Delayed {
     private static int counter = 0;
@@ -129,16 +133,28 @@ public class DelayQueueDemo {
 
 
         ExecutorService exec = Executors.newCachedThreadPool();
+
+
         DelayQueue<DelayedTask> queue = new DelayQueue<DelayedTask>();
+
+
+
         // Fill with tasks that have random delays:
         for (int i = 0; i < 20; i++) {
             int a = rand.nextInt(5000);
             System.out.println("========================a========="+(i )+"=========================" + a );
             queue.put(new DelayedTask(a));
         }
+
+
+
         // Set the stopping point
-       queue.add(new DelayedTask.EndSentinel(5000, exec));
+        queue.add(new DelayedTask.EndSentinel(5000, exec));
         exec.execute(new DelayedTaskConsumer(queue));
+
+
+
+
     }
 }
 
