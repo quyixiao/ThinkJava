@@ -18,6 +18,32 @@ import java.util.concurrent.TimeUnit;
  *  Runnable对象设置为在将来的某个时刻执行，将下现的程序与在第10章中使用的方式相比，就
  *  会注意到，当你使用像ScheduledThreadPoolExecutor这样的预定义工具时，要简单许多。
  *
+ *
+ *  这是一个很基础的优先级队列，它具有可阻塞的读取操作，下面是一个示例，其中的优先
+ *  级队列中的对象是按照优先级有顺序从队列中出现的任务，PrioritizedTask被赋予了一个优先级
+ *  数字，以此来提供这种顺序
+ *
+ *
+ *
+ *
+ *
+ *
+ *  这是一个问题的，因为我觉得还是这样的一个有知道的这是一个这样的人，因为这是一测试这是一个很不好用的
+ *  因为这是这个，这是一个有觉得还是好的，因为这是一个他这个的，测试我们这是一个他个人的行为，这是一个
+ *  他们的这是一个他一个他们的这个人的行为这是样的，因为我们觉得还是这样的一个他们他们的这是一个他们的，
+ *  觉得还是好的，因为我们觉得还是这样的一个，人的觉得，哈哈中，我觉得还是一样的好的，因为我觉得还是一个
+ *   有道字典的，因为我同学是这样的一个，我觉得还是这样的
+ *
+ *   我觉得还是比较好的，
+ *
+ *   因为，我觉得还是一个比较好的
+
+ *
+ *
+ * 1
+ *
+ *
+ *
  */
 public class GreenhouseScheduler {
     private volatile boolean light = false;
@@ -32,17 +58,14 @@ public class GreenhouseScheduler {
         thermostat = value;
     }
 
-    ScheduledThreadPoolExecutor scheduler =
-            new ScheduledThreadPoolExecutor(10);
+    ScheduledThreadPoolExecutor scheduler = new ScheduledThreadPoolExecutor(10);
 
     public void schedule(Runnable event, long delay) {
         scheduler.schedule(event, delay, TimeUnit.MILLISECONDS);
     }
 
-    public void
-    repeat(Runnable event, long initialDelay, long period) {
-        scheduler.scheduleAtFixedRate(
-                event, initialDelay, period, TimeUnit.MILLISECONDS);
+    public void repeat(Runnable event, long initialDelay, long period) {
+        scheduler.scheduleAtFixedRate(event, initialDelay, period, TimeUnit.MILLISECONDS);
     }
 
     class LightOn implements Runnable {
