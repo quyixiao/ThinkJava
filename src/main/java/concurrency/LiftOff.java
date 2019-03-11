@@ -3,6 +3,8 @@ package concurrency;//: concurrency/LiftOff.java
 
 
 /****
+ *
+ *
  * 到目前为止，你学到的都是有关顺序编程的知识，即程序中所有的事物在任意时刻都只能执行一个步骤
  * 编程问题中相当大的一部分可以通过顺序编程来解决，然而对于某些问题，如果能够并行执行程序中的多个
  * 部分，则会变得非常方便甚至非常必要，因为这些部分要么看起来在并发执行，要么多处理器环境下可能同
@@ -118,17 +120,29 @@ package concurrency;//: concurrency/LiftOff.java
  *
  *
  *
+ *  1
+ *
+ *
+ *
+ *
  */
 public class LiftOff implements Runnable {
+
     protected int countDown = 10; // Default
+
     private static int taskCount = 0;
+
     private final int id = taskCount++;
 
     public LiftOff() {
+
+
     }
 
     public LiftOff(int countDown) {
+
         this.countDown = countDown;
+
     }
 
     public String status() {
@@ -136,10 +150,22 @@ public class LiftOff implements Runnable {
                 (countDown > 0 ? countDown : "Liftoff!") + "), ";
     }
 
+
     public void run() {
+
         while (countDown-- > 0) {
+
             System.out.print(status());
             Thread.yield();
+
         }
     }
-} ///:~
+
+
+
+}
+
+
+
+
+///:~

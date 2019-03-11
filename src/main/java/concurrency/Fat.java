@@ -14,6 +14,10 @@ package concurrency;//: concurrency/Fat.java
  *      这个示例依赖于Pool的客户端严格的并愿意签入所持有的对象，当其工作时，这是最简单的
  *  解决方案，如果你无法总是可以依赖于此，深入探讨了己经签出对象池的对象的管理方式。
  *
+ *
+ *
+ *  1
+ *
  */
 public class Fat {
     private volatile double d; // Prevent optimization

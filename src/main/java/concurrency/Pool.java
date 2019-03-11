@@ -28,6 +28,14 @@ import java.util.concurrent.Semaphore;
  *      为了创建一个示例，我们可以使用Fat，这是一种创建代价高昂的对象类型，因为它的构造器
  *  运行起来很耗时。
  *
+ *      在这个简化的形式中，构造器使用newInstance()来所马大元是加载到池中，如果你需要一个新的对象
+ *  那么可以调用checkout()，并且在使用完之后，将其递交给checkIn()
+ *      boolean类型的数组 CheckedOut可以被签出的对象，并且可以通过getItem()和
+ *  releaseItem()方法来管理，而这些都将由Semaphore类型的available来加以确保，因此，在
+ *  CheckOut中,如果没有任何信号量许可证可用，这意味着在池中没有更多的对象了，available将阻塞
+ *  调用过程，在checkoutIn()中，如果被签入的对象是有效，则会向信号返回一个许可证
+ *  为了创建一个示例，我们可以使用Fat，这是一种创建代价高昂的对象类型
+ *
  *
  *
  * @param <T>
