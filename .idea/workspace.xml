@@ -6,62 +6,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="cir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/CachedThreadPool.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/CachedThreadPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/ExchangerConsumer.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/ExchangerConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/ExchangerDemo.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/ExchangerDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/ExchangerProducer.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/ExchangerProducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Fat.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Fat.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/ADaemon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/DaemonsDontRunFinally.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/MoreBasicThreads.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SimplePriorities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/CallableDemo.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/CallableDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/DaemonFromFactory.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/DaemonFromFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/E05_FibonacciSum.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/E05_FibonacciSum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/FibonacciSum.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/FibonacciSum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/LiftOff.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/LiftOff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/Pool.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/Pool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$10.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$4.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$5.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$6.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$7.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$8.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$9.class" afterPath="$PROJECT_DIR$/target/classes/containers/E29_ListPerformance2$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E30_SortPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E30_SortPerformance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E31_StringContainer$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E31_StringContainer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E31_StringContainer$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E31_StringContainer$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E32_IntContainer$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E32_IntContainer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E32_IntContainer$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E32_IntContainer$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$4.class" afterPath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$5.class" afterPath="$PROJECT_DIR$/target/classes/containers/E33_ListPerformance3$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/E34_StringSetPerformance$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/E35_MapPerformance2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$10.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$4.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$5.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$6.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$7.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$8.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/ListPerformance$9.class" afterPath="$PROJECT_DIR$/target/classes/containers/ListPerformance$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapPerformance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapPerformance$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapPerformance$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/SetPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/SetPerformance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/SetPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/SetPerformance$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/SetPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/SetPerformance$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/SimpleDaemons.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/SimpleDaemons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/SingleThreadExecutor.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/SingleThreadExecutor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/SleepingTask.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/SleepingTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/Chef.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/Chef.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/Customer.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/Customer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/Restaurant.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/Restaurant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/RestaurantWithQueues.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/RestaurantWithQueues.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/WaitPerson.class" afterPath="$PROJECT_DIR$/target/classes/concurrency/restaurant2/WaitPerson.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/mindview/util/DaemonThreadPoolExecutor.class" afterPath="$PROJECT_DIR$/target/classes/net/mindview/util/DaemonThreadPoolExecutor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/ExchangerDemo.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/ExchangerDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/Fat.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Fat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/CallableDemo.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/CallableDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/E05_FibonacciSum.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/E05_FibonacciSum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/Pool.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Pool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/SimpleDaemons.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SimpleDaemons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/SingleThreadExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SingleThreadExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/SleepingTask.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/SleepingTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/restaurant2/RestaurantWithQueues.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/restaurant2/RestaurantWithQueues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadPoolExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadPoolExecutor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,6 +49,9 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ThinkJava$Test.coverage" NAME="Test Coverage Results" MODIFIED="1552284068404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>concurrency.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/ThinkJava$NestingInterfaces.coverage" NAME="NestingInterfaces Coverage Results" MODIFIED="1542023142443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>interfaces.*</FILTER>
     </SUITE>
@@ -121,105 +97,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GreenhouseScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/GreenhouseScheduler.java">
+      <file leaf-file-name="SimplePriorities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SimplePriorities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="292">
+              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDaemons.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SimpleDaemons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CachedThreadPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java">
+      <file leaf-file-name="DaemonFromFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            <state relative-caret-position="462">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Test.java">
+      <file leaf-file-name="DaemonThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/util/DaemonThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LiftOff.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java">
+      <file leaf-file-name="Daemons.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Daemons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2709">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Pool.java">
+      <file leaf-file-name="ADaemon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ADaemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaemonsDontRunFinally.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DaemonsDontRunFinally.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Fat.java">
+      <file leaf-file-name="DaemonThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="168">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExchangerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ExchangerDemo.java">
+      <file leaf-file-name="DaemonThreadFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/BasicGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="105">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exchanger.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/Exchanger.java">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="104" column="13" lean-forward="false" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+            <state relative-caret-position="4305">
+              <caret line="246" column="28" lean-forward="false" selection-start-line="246" selection-start-column="28" selection-end-line="246" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CopyOnWriteArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="119" column="11" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-              <folding>
-                <element signature="e#3636#3637#0" expanded="true" />
-                <element signature="e#3675#3676#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -285,19 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/SynchronizedEvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/MutexEvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/AttemptLocking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/AtomicityTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/SerialNumberChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/SerialNumberGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/E12_AtomicityTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/AtomicIntegerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/AtomicEvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/E14_ManyTimers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/CriticalSection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/SyncObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/E15_SyncObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/ExplicitCriticalSection.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/E16_ExplicitSyncObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/ThreadLocalVariableHolder.java" />
@@ -330,12 +294,25 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrency/DelayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/PriorityBlockingQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/GreenhouseScheduler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/Pool.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/Fat.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/ExchangerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/restaurant2/RestaurantWithQueues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/MoreBasicThreads.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SingleThreadExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/E05_FibonacciSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SleepingTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SimplePriorities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/SimpleDaemons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadPoolExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/DaemonsDontRunFinally.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/ADaemon.java" />
       </list>
     </option>
   </component>
@@ -356,8 +333,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1839" />
-    <option name="y" value="-166" />
+    <option name="x" value="-1897" />
+    <option name="y" value="-152" />
     <option name="width" value="1794" />
     <option name="height" value="1052" />
   </component>
@@ -399,6 +376,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -511,9 +491,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,7 +500,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/quyixiao/Desktop/source/ThinkJava/src/main/java/concurrency/E29_ToastOMatic2.java&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;placeOrderTicket&#9;PSI&#9;JAVA://concurrency.WaitPerson#placeOrderTicket&#10;print&#9;PSI&#9;JAVA://net.util.Print&#10;h&#9;PSI&#9;JAVA://interfaces.E.H" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/quyixiao/Desktop/source/ThinkJava/src/main/java/concurrency/SimplePriorities.java&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;placeOrderTicket&#9;PSI&#9;JAVA://concurrency.WaitPerson#placeOrderTicket&#10;print&#9;PSI&#9;JAVA://net.util.Print&#10;h&#9;PSI&#9;JAVA://interfaces.E.H" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/strings" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
@@ -558,15 +535,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="CachedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DaemonsDontRunFinally">
+    <configuration name="DaemonFromFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.CachedThreadPool" />
+      <option name="MAIN_CLASS_NAME" value="concurrency.DaemonFromFactory" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -578,14 +555,14 @@
       <module name="ThinkJava" />
       <envs />
     </configuration>
-    <configuration name="ExchangerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Daemons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.ExchangerDemo" />
+      <option name="MAIN_CLASS_NAME" value="concurrency.Daemons" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -597,14 +574,14 @@
       <module name="ThinkJava" />
       <envs />
     </configuration>
-    <configuration name="GreenhouseScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DaemonsDontRunFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.GreenhouseScheduler" />
+      <option name="MAIN_CLASS_NAME" value="concurrency.DaemonsDontRunFinally" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -616,14 +593,14 @@
       <module name="ThinkJava" />
       <envs />
     </configuration>
-    <configuration name="PriorityBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleDaemons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.PriorityBlockingQueueDemo" />
+      <option name="MAIN_CLASS_NAME" value="concurrency.SimpleDaemons" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -635,14 +612,14 @@
       <module name="ThinkJava" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePriorities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrency.Test" />
+      <option name="MAIN_CLASS_NAME" value="concurrency.SimplePriorities" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -735,19 +712,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PriorityBlockingQueueDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GreenhouseScheduler" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CachedThreadPool" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ExchangerDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SimplePriorities" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SimpleDaemons" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DaemonFromFactory" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Daemons" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DaemonsDontRunFinally" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CachedThreadPool" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExchangerDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GreenhouseScheduler" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PriorityBlockingQueueDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DaemonsDontRunFinally" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Daemons" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DaemonFromFactory" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimpleDaemons" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SimplePriorities" />
       </list>
     </recent_temporary>
   </component>
@@ -1091,15 +1068,21 @@
       <workItem from="1551926043086" duration="7109000" />
       <workItem from="1552055838660" duration="473000" />
       <workItem from="1552188798730" duration="4000" />
-      <workItem from="1552278424691" duration="2660000" />
+      <workItem from="1552278424691" duration="2709000" />
+      <workItem from="1552365825909" duration="701000" />
+      <workItem from="1552485034459" duration="740000" />
+      <workItem from="1552983484017" duration="4207000" />
+      <workItem from="1553084472608" duration="3549000" />
+      <workItem from="1553136110067" duration="4146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1006851000" />
+    <option name="totallyTimeSpent" value="1020243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1839" y="-166" width="1794" height="1052" extended-state="0" />
+    <frame x="-1897" y="-152" width="1794" height="1052" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895833" sideWeight="0.50432634" order="7" side_tool="true" content_ui="tabs" />
@@ -1113,17 +1096,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30235043" sideWeight="0.79845387" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18696581" sideWeight="0.79845387" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30448717" sideWeight="0.47404203" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895833" sideWeight="0.49567366" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24893162" sideWeight="0.49567366" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32604167" sideWeight="0.85311985" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17009133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17521368" sideWeight="0.85311985" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17522831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10208817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1160,179 +1143,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SyncObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/E15_StoringAndRecoveringAllData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E15_SyncObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1133">
-          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E16_ExplicitSyncObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ThreadLocalVariableHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E17_RadiationCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Interrupting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
-          <folding>
-            <element signature="e#3703#3704#0" expanded="false" />
-            <element signature="e#3726#3727#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CloseResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E18_Interruption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MultiLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/waxomatic/WaxOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/typeinfo/E25_HiddenMethodCalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/NIOInterruption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/NotifyVsNotifyAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="112" column="32" lean-forward="false" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
-          <folding>
-            <element signature="e#2559#2560#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/OrnamentalGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="74" column="36" lean-forward="false" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/waxomatic2/WaxOMatic2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="54" column="2" lean-forward="false" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Interrupting2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ToastOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E29_ToastOMatic2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1494,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1491">
           <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,14 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2709">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1534,10 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="119" column="11" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-          <folding>
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1545,7 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="104" column="13" lean-forward="false" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,18 +1360,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/restaurant2/RestaurantWithQueues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MainThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/BasicThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E08_MoreBasicDaemonThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MoreBasicThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CachedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/FixedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SingleThreadExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E04_Fibonacci2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E05_FibonacciSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="133" column="18" lean-forward="false" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SleepingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="41" column="59" lean-forward="false" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/E09_SimplePrioritiesTF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4305">
+          <caret line="246" column="28" lean-forward="false" selection-start-line="246" selection-start-column="28" selection-end-line="246" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SimplePriorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/SimpleDaemons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/mindview/util/DaemonThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DaemonFromFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/util/DaemonThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Daemons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ADaemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DaemonsDontRunFinally.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>

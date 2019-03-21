@@ -117,8 +117,7 @@ class Customer implements Runnable {
     private final int id = counter++;
     private final WaitPerson waitPerson;
     // Only one course at a time can be received:
-    private SynchronousQueue<Plate> placeSetting =
-            new SynchronousQueue<Plate>();
+    private SynchronousQueue<Plate> placeSetting = new SynchronousQueue<Plate>();
 
     public Customer(WaitPerson w) {
         waitPerson = w;
@@ -139,8 +138,7 @@ class Customer implements Runnable {
                 // Blocks until course has been delivered:
                 print(this + "eating " + placeSetting.take());
             } catch (InterruptedException e) {
-                print(this + "waiting for " +
-                        course + " interrupted");
+                print(this + "waiting for " + course + " interrupted");
                 break;
             }
         }
@@ -156,8 +154,7 @@ class WaitPerson implements Runnable {
     private static int counter = 0;
     private final int id = counter++;
     private final Restaurant restaurant;
-    BlockingQueue<Plate> filledOrders =
-            new LinkedBlockingQueue<Plate>();
+    BlockingQueue<Plate> filledOrders = new LinkedBlockingQueue<Plate>();
 
     public WaitPerson(Restaurant rest) {
         restaurant = rest;
@@ -195,6 +192,8 @@ class WaitPerson implements Runnable {
 }
 
 class Chef implements Runnable {
+
+
     private static int counter = 0;
     private final int id = counter++;
     private final Restaurant restaurant;
@@ -227,16 +226,18 @@ class Chef implements Runnable {
 }
 
 class Restaurant implements Runnable {
-    private List<WaitPerson> waitPersons =
-            new ArrayList<WaitPerson>();
+
+
+    private List<WaitPerson> waitPersons = new ArrayList<WaitPerson>();
     private List<Chef> chefs = new ArrayList<Chef>();
     private ExecutorService exec;
     private static Random rand = new Random(47);
-    BlockingQueue<Order>
-            orders = new LinkedBlockingQueue<Order>();
 
-    public Restaurant(ExecutorService e, int nWaitPersons,
-                      int nChefs) {
+
+
+    BlockingQueue<Order> orders = new LinkedBlockingQueue<Order>();
+
+    public Restaurant(ExecutorService e, int nWaitPersons, int nChefs) {
         exec = e;
         for (int i = 0; i < nWaitPersons; i++) {
             WaitPerson waitPerson = new WaitPerson(this);
@@ -254,8 +255,7 @@ class Restaurant implements Runnable {
         try {
             while (!Thread.interrupted()) {
                 // A new customer arrives; assign a WaitPerson:
-                WaitPerson wp = waitPersons.get(
-                        rand.nextInt(waitPersons.size()));
+                WaitPerson wp = waitPersons.get(rand.nextInt(waitPersons.size()));
                 Customer c = new Customer(wp);
                 exec.execute(c);
                 TimeUnit.MILLISECONDS.sleep(100);
@@ -270,8 +270,13 @@ class Restaurant implements Runnable {
 public class RestaurantWithQueues {
     public static void main(String[] args) throws Exception {
         ExecutorService exec = Executors.newCachedThreadPool();
-        Restaurant restaurant = new Restaurant(exec, 5, 2);
+
+        Restaurant restaurant = new Restaurant(exec, 10, 5);
+
+
         exec.execute(restaurant);
+
+
         if (args.length > 0) // Optional argument
             TimeUnit.SECONDS.sleep(new Integer(args[0]));
         else {
@@ -280,7 +285,13 @@ public class RestaurantWithQueues {
         }
         exec.shutdownNow();
     }
-} /* Output: (Sample)
+}
+
+
+
+
+
+/* Output: (Sample)
 WaitPerson 0 received SPRING_ROLLS delivering to Customer 1
 Customer 1 eating SPRING_ROLLS
 WaitPerson 3 received SPRING_ROLLS delivering to Customer 0

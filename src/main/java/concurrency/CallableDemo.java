@@ -37,17 +37,19 @@ public class CallableDemo {
     public static void main(String[] args) {
         ExecutorService exec = Executors.newCachedThreadPool();
         ArrayList<Future<String>> results = new ArrayList<Future<String>>();
-        for (int i = 0; i < 10; i++)
+
+
+        for (int i = 0; i < 10; i++) {
             results.add(exec.submit(new TaskWithResult(i)));
+        }
+
+
+
         for (Future<String> fs : results)
             try {
                 // get() blocks until completion: 先调用具有超时的get()，或者调用isDone()来查看任务是否完成
 
                 // 修改练习，使得计算所有的斐波纳契数字的数值总和的任务成为callable，创建多个任务并显示结果
-
-
-
-
 
                 System.out.println(fs.get());
             } catch (InterruptedException e) {
@@ -59,7 +61,15 @@ public class CallableDemo {
                 exec.shutdown();
             }
     }
-} /* Output:
+}
+
+
+
+
+
+
+
+/* Output:
 result of TaskWithResult 0
 result of TaskWithResult 1
 result of TaskWithResult 2

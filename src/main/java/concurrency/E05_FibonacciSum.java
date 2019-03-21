@@ -13,6 +13,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+
+/***
+ * 修改练习2，使用计算所有的斐波纳契数字的数值总和的任务成为Callable，创建多个任务并显示结果
+ *
+ *
+ *
+ */
 class FibonacciSum
         implements Generator<Integer>, Callable<Integer> {
     private int count;
@@ -44,7 +51,7 @@ public class E05_FibonacciSum {
         ExecutorService exec = Executors.newCachedThreadPool();
         ArrayList<Future<Integer>> results =
                 new ArrayList<Future<Integer>>();
-        for (int i = 1; i <= 5; i++)
+        for (int i = 1; i <= 10; i++)
             results.add(exec.submit(new FibonacciSum(i)));
         Thread.yield();
         exec.shutdown();

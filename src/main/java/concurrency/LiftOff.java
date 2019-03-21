@@ -116,6 +116,9 @@ package concurrency;//: concurrency/LiftOff.java
  *  定义任务。
  *      线程可以驱动任务，因此你需要一种描述任务的方式，这可以由Runnable接口并编写run()方法，使得该任务可以执行你的命令，例如，下面的LiftOff
  *  任务将显示发射之前的倒计时：
+ *符id
+ *
+ * 标识可以用来区分任务的多个实例，它是final的，因为它一旦被初始化之后，就不希望被修改
  *
  *
  *
@@ -150,6 +153,11 @@ public class LiftOff implements Runnable {
                 (countDown > 0 ? countDown : "Liftoff!") + "), ";
     }
 
+
+    /***
+     * 你更加有可能会看到任务的换进换出的证据
+     *
+     */
 
     public void run() {
 

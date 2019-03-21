@@ -19,6 +19,10 @@ import static net.mindview.util.Print.print;
  * 每个静态的ExecutorService 创建方法都被重载为接受一个TreadFactory对象，而这个对象将被用来创作
  * 新的线程。
  *
+ *  这与普通的ThreadFactory的唯一的差异就是它将后台状态全部设置为了true,你现在可以调用一个
+ *  新的DaemonThreadFactory作为参数传递给Executor.newCachedThreadPool()
+ *
+ *
  */
 public class DaemonFromFactory implements Runnable {
     public void run() {
@@ -33,10 +37,10 @@ public class DaemonFromFactory implements Runnable {
     }
 
     public static void main(String[] args) throws Exception {
-        ExecutorService exec = Executors.newCachedThreadPool(
-                new DaemonThreadFactory());
-        for (int i = 0; i < 10; i++)
+        ExecutorService exec = Executors.newCachedThreadPool(new DaemonThreadFactory());
+        for (int i = 0; i < 10; i++) {
             exec.execute(new DaemonFromFactory());
+        }
         print("All daemons started");
         TimeUnit.MILLISECONDS.sleep(500); // Run for a while
     }
