@@ -32,6 +32,14 @@ import java.util.concurrent.ThreadFactory;
  *
  *
  *
+ * 上面的示例非公开发行是你可以按照具体情况逐个地设置处理器，如果你知道将要在代码中处处使用
+ * 用相同异常处理器，那么更加简单的方式是在Thead类中设置一个静态域，并将这个处理器设置为显示这个的未捕获异常处理器
+ *
+ *  有了并发就可以同是做多件事情了，但是，两相或多个线程彼此互相干涉的问题也就出现了，
+ *  如果不防范这种冲突，就可能发生两线程同时试图访问同一个银行账户，或向同一个打印机
+ *  打印，改变同一个值待诸如些类问题
+ *
+ *
  *
  *
  *
@@ -44,7 +52,7 @@ import java.util.concurrent.ThreadFactory;
 class ExceptionThread2 implements Runnable {
     public void run() {
         Thread t = Thread.currentThread();
-        System.out.println("run() by " + t );
+        System.out.println("run() by ——————————————————————" + t );
         System.out.println(
                 "eh = " + t.getUncaughtExceptionHandler());
         throw new RuntimeException();
@@ -60,13 +68,13 @@ class MyUncaughtExceptionHandler implements
 
 class HandlerThreadFactory implements ThreadFactory {
     public Thread newThread(Runnable r) {
-        System.out.println(this + " creating new Thread");
+        System.out.println(this + " =========creating new Thread");
         Thread t = new Thread(r);
-        System.out.println("created " + t);
+        System.out.println("created ++++++++++++++" + t);
         t.setUncaughtExceptionHandler(
                 new MyUncaughtExceptionHandler());
         System.out.println(
-                "eh = " + t.getUncaughtExceptionHandler());
+                "eh = --------------------" + t.getUncaughtExceptionHandler());
         return t;
     }
 }
@@ -74,7 +82,7 @@ class HandlerThreadFactory implements ThreadFactory {
 public class CaptureUncaughtException {
     public static void main(String[] args) {
         ExecutorService exec = Executors.newCachedThreadPool(new HandlerThreadFactory());
-        exec.execute(new ExceptionThread2());
+       exec.execute(new ExceptionThread2());
     }
 }
 

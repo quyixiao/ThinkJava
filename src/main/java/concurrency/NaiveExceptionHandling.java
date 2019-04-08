@@ -26,6 +26,11 @@ import java.util.concurrent.Executors;
  *
  *
  *
+ *
+ * 这将产生丐前面示例相同的结果，未捕获的异常
+ *
+ *
+ *
  */
 public class NaiveExceptionHandling {
     public static void main(String[] args) {

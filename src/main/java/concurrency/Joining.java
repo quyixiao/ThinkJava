@@ -39,6 +39,31 @@ import static net.mindview.util.Print.print;
  *
  *
  *
+ *  Sleeprer 是一个Thread类型，它要一段 时间，这段时间是骑过构造器传进来的参数所指，
+ *  定的，在run()中，sleep()方法有可能在指定的时间期满时返回，但也可能被中断，在Catch子句中
+ *  ，将根据isInterrupted()的返回值报告这个中断，当另一个线程在该线程上调用interupt()时，
+ *  将给该线程设定一个标志，表明该线程已经被中断，然而异常被捕获时将清理这个标志，所以在catch子句中
+ *  ，在这被捕获时候这个标志部是为假，除上，这个标志还可以用于其他情况，比如线程可能查其中断状态
+ *  joiner 线程将通过在Sleepre对象上调用join()方法来等会Sleeper醒来，在main()里面，每个Sleeper()
+ *  都有一个Joiner，这可以在输出中发现，如果Sleepr()被中断或者是正常结束，Joiner将和Sleeper一同结束
+ *
+ *
+ *  注意，在Java SE5的java.uitl.concurrent类库包含诸如CyclicBarrier（本章稍后会展示）这个
+ *  的工具，它们可能比最初中类型就四号中的join()更加适合
+ *
+ *
+ * 创建有响应的用户界面
+ *    如前所述，使用线程的动机之一就是建立有响应的用户界面，尽管我们要到22音才接触到图形用户界面，
+ *    但下面还是给出了一个基于控制台用户界面的简单教学示例，下面的例子有有两个版本，一个关注于运算，
+ *    所以不能读取控制台输入，不能控制台输入了这个东西的，因为这是一个东西的，个人觉得还是好的，因为这个东西
+ *    因为这是一个东西，个人觉得还是好的，因为这是一个爱其艺，
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  *
  *
  *
@@ -94,7 +119,11 @@ public class Joining {
         Joiner
                 dopey = new Joiner("Dopey", sleepy),
                 doc = new Joiner("Doc", grumpy);
+
+
         grumpy.interrupt();
+
+
     }
 } /* Output:
 Grumpy was interrupted. isInterrupted(): false
