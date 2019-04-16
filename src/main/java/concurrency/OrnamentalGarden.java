@@ -77,6 +77,13 @@ class Entrance implements Runnable {
     private int number = 0;
     // Doesn't need synchronization to read:
     private final int id;
+    /***
+     * 因为Entrance.canceled是一个volatile布尔标志，而它只会被读取和赋值，不会与其他域组合在一起读取，所以不需要同步对其的访问，就可以
+     * 安全的操作它，如果你对诸如此类的情况有任何疑虑，那么最好是使用synchronized
+     *
+     *
+     *
+     */
     private static volatile boolean canceled = false;
 
     // Atomic operation on a volatile field:
