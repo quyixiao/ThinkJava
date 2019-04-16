@@ -36,7 +36,6 @@ public class CloseResource {
         ExecutorService exec = Executors.newCachedThreadPool();
         ServerSocket server = new ServerSocket(8080);
 
-
         InputStream socketInput = new Socket("localhost", 8080).getInputStream();
 
 
@@ -57,6 +56,8 @@ public class CloseResource {
         System.in.close(); // Releases blocked thread
     }
 }
+
+
 
 
 /* Output: (85% match)

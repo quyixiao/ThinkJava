@@ -17,7 +17,7 @@ import static net.mindview.util.Print.print;
  *      map与数组和其他的Collection一样，可以很容易的扩展成多维，而我们只需要将其设置为
  * Map(这些Map的值可以是其他的容器，甚至是其他的Map),因此，我们能够很容易的将容器组合起来
  * 从而快速的生成强大的数据结构，例如，假设你正在跟踪拥有多个宠物的人，你所需要只是一个Map
- * Map<Persion,List<Pet>>
+ * Map<Person,List<Pet>>
  *
  *
  * 1

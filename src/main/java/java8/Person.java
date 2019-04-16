@@ -16,7 +16,7 @@ package java8;
  *      anewarray:表示创建一个引用类型的（如类，接口，数组）数组，并将其引用值在压入栈顶
  *      newarray:表示创建一个指定的原始类型（如 int,float ,char 等）数组，并将其引用值在压入栈顶
  */
-public class Persion {
+public class Person {
 
 
 }
