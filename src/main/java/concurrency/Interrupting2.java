@@ -71,13 +71,10 @@ Blocked2 implements Runnable {
 public class Interrupting2 {
     public static void main(String[] args) throws Exception {
 
-
         Thread t = new Thread(new Blocked2());
         t.start();
 
-
-
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
 
 
 
@@ -86,10 +83,6 @@ public class Interrupting2 {
         t.interrupt();
     }
 }
-
-
-
-
 
 /* Output:
 Waiting for f() in BlockedMutex
