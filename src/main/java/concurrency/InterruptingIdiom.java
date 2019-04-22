@@ -61,6 +61,9 @@ import static net.mindview.util.Print.print;
  属于Thread的一部分，尽管开始年
 
  *
+ *  正如你所见到的，当你使用线程同时运行多个任务时，可以通过使用锁（互斥）来同步两个任务的行为，
+ *  从而使用是一个任务不会干涉另一个任务的资源，也就是说，如果两个任务在交替着步入某项共享资源
+ *  通常是内存，你可以使用互斥来使用是任何时刻只有一个任务访问这项资源
  *
  *
  *  1
@@ -126,7 +129,7 @@ public class InterruptingIdiom {
         Thread t = new Thread(new Blocked3());
         t.start();
         TimeUnit.MILLISECONDS.sleep(
-                1000
+                1
         );
         t.interrupt();
     }
