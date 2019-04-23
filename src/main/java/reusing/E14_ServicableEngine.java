@@ -4,7 +4,7 @@ package reusing;
 
 
 /****************** Exercise 14 *****************
- * In Car.java add a service() method to Engine
+ * In Car_override_print.java add a service() method to Engine
  * and call this method in main().
  ***********************************************/
 

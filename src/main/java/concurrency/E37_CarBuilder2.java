@@ -56,7 +56,7 @@ class Car2 {
     }
 
     public synchronized String toString() {
-        return "Car " + id + " [" + " engine: " + engine
+        return "Car_override_print " + id + " [" + " engine: " + engine
                 + " driveTrain: " + driveTrain
                 + " wheels: " + wheels
                 + " exhaust system: " + exhaustSystem

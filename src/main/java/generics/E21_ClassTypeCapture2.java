@@ -57,6 +57,6 @@ public class E21_ClassTypeCapture2 {
         print(ctt.createNew("Building").getClass());
         print(ctt.createNew("House").getClass());
         ctt.createNew("Product");
-        ctt.createNew("Car");
+        ctt.createNew("Car_override_print");
     }
 }
