@@ -6,8 +6,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="cir">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/BiFunctionTest1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/BinaryOperatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/FunctionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/FunctionTest2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/Java8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/MethodRefernceDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/MyInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/PersonTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/PredicateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/PredicateTest2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/StringComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/StudentTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/SupplierTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/SwingTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/Test1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/Test2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/Test3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/autocloseable/AutoCloseAbleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/collector/MySetCollector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/collector/MySetCollector2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest10_comparing_reverseOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest11_comparing_reverseOrder_reverseOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest1_collections_sort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest2_comparingInt_asc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest3_comparingInt_reversed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest4_comparingInt_String_reversed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest5_comparingInt_Boolean_Object_reversed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest6_comparingInt_Boolean_Object_reversed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest7_comparingInt_length_case_insensitive_order_reversed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest8_comparingInt_length_ignore_upandlower_reversed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/comparator/ComparatorTest9_comparing_reverseOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/dto/Company.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/dto/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/dto/MyStudent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/dto/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/dto/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/methodrefrence/MethodReferenceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/methodrefrence/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/methodrefrence/StudentComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/myInterface1/MyClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/myInterface1/MyInterface1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/myInterface1/MyInterface2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/optional/OptionalTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/optional/OptionalTest2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest10_Distinct_Limit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest11_parallelStream_sorted.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest12_findFirst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest13_termination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest14_flatMap_distinct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest15_flatMap_combine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest16_GroupingBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest17_Counting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest18_AveragingDouble.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest19_PartitioningBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest2_ForEach.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest3_Reduce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest6_FlatMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest7_Generate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest8_Iterate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream/StreamTest9_Termination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest10_partitioningBy_partitioningBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest11_partitioningBy_counting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest12_partitioningBy_sumingInt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest13_groupingBy_collectingAndThen_minBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest14_try_catch_on_close.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest15_try_catch_on_close.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest16_try_catch_on_close.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest1_counting_count.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest2_minBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest3_maxBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest4_averagingDouble.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest5_summingInt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest6_summarizingInt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest7_joining.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest8_groupingBy_groupingBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream2/StreamTest9_partitioningBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream3/StreamTest1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/java8/stream3/TaggedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/AdminResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/HtmlCleanerDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/MultiValueMapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/MysqlMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/ParserAirport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/FieldBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtil2ShowCreateTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtil2ShowTables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtilTable2Bean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtilTable2Contoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtilTable2Mapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtilTable2Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/MysqlUtilTable2XML.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mysql/generator/mysql/TablesBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/rsa/KingPlatformDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +172,8 @@
       <file leaf-file-name="E09_PostOffice2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/enumerated/E09_PostOffice2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="756">
+              <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,18 +182,78 @@
       <file leaf-file-name="InterruptingIdiom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="93" column="43" lean-forward="true" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+            <state relative-caret-position="1869">
+              <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaxOMatic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WaxOMatic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/waxomatic/WaxOMatic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2321">
+            <state relative-caret-position="3990">
               <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/markdown/index.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KingPlatformDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/rsa/KingPlatformDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodRefernceDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/java8/MethodRefernceDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryOperatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/java8/BinaryOperatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PredicateTest2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/java8/PredicateTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/java8/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -114,7 +270,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Init String</find>
       <find>[2]</find>
       <find>numArray</find>
       <find>.draw()</find>
@@ -144,6 +299,7 @@
       <find>sys</find>
       <find>Waiting for read()</find>
       <find>Alternator</find>
+      <find>filter</find>
     </findStrings>
     <replaceStrings>
       <replace>2</replace>
@@ -235,7 +391,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1388" />
+    <option name="x" value="9" />
+    <option name="width" value="1379" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -276,7 +433,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +456,23 @@
               <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="rsa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
@@ -308,42 +480,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="E03_Meal.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="E09_PostOffice2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="E11_VendingMachine3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkJava" type="b2602c69:ProjectViewProjectNode" />
@@ -377,9 +513,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,11 +542,11 @@
       <recent name="typeinfo.factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/test/markdown" />
       <recent name="$PROJECT_DIR$/src/main/java/concurrency" />
       <recent name="$PROJECT_DIR$/src/main/java/annotations" />
       <recent name="$PROJECT_DIR$/src/main/java/enumerated" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -988,14 +1125,16 @@
       <workItem from="1555578325245" duration="2191000" />
       <workItem from="1555580659577" duration="23000" />
       <workItem from="1555851527548" duration="2298000" />
+      <workItem from="1555945460615" duration="1354000" />
+      <workItem from="1555982031899" duration="453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1077361000" />
+    <option name="totallyTimeSpent" value="1079168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1388" height="900" extended-state="6" />
+    <frame x="9" y="0" width="1379" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1012,17 +1151,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39540815" sideWeight="0.79845387" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3008299" sideWeight="0.47404203" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24688797" sideWeight="0.49567366" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.85311985" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21099554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06122449" sideWeight="0.85311985" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21241586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10208817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07261411" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1030,10 +1169,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956064" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3008299" sideWeight="0.47404203" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="-1757" y="-57" width="1623" height="769" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747602" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07261411" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1057,48 +1196,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/jvm/MyTest10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/jvm/Mytest11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28665">
-          <caret line="1365" column="29" lean-forward="false" selection-start-line="1365" selection-start-column="29" selection-end-line="1365" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/jvm/MyTest12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/jvm/MyTest13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/jvm/MyTest14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/EventChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
@@ -1306,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,7 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1387,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,26 +1490,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enumerated/E09_PostOffice2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="1869">
+          <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/InterruptingIdiom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/enumerated/E09_PostOffice2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="93" column="43" lean-forward="true" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+        <state relative-caret-position="756">
+          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/waxomatic/WaxOMatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2321">
+        <state relative-caret-position="3990">
           <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/markdown/index.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/rsa/KingPlatformDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/java8/MethodRefernceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/java8/BinaryOperatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/java8/PredicateTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/java8/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding />
         </state>
       </provider>
