@@ -51,7 +51,12 @@
 
 
 
-
+        <!--Lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
+        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
