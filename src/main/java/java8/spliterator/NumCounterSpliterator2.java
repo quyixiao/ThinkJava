@@ -3,6 +3,9 @@ package java8.spliterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
+/***
+ *
+ */
 public class NumCounterSpliterator2 implements Spliterator<Character> {
 
     private char[] str;

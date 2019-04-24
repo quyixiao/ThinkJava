@@ -1,7 +1,10 @@
 package java8.stream;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
+
+import static java.util.stream.Collectors.joining;
 
 
 /****
@@ -16,6 +19,17 @@ public class StreamTest3_Reduce {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         //集合中所有的元素*2 再累加
         System.out.println(list.stream().map(i -> i * 2).reduce(0, Integer::sum));
+
+
+        Borrow borrow1 = new Borrow(new BigDecimal(1),new BigDecimal(2));
+        Borrow borrow2 = new Borrow(new BigDecimal(3),new BigDecimal(4));
+        List<Borrow> list1 = Arrays.asList(borrow1,borrow2);
+        //集合中所有的元素*2 再累加
+        BigDecimal c = list1.stream().map(i ->
+            BigDecimalUtil.add(i.getA(),i.getB())
+        ).reduce(BigDecimal.ZERO, BigDecimal::add);
+
+        System.out.println(c);
 
 
     }

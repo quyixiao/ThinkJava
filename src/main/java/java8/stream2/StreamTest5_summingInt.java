@@ -62,7 +62,7 @@ public class StreamTest5_summingInt {
         List<Student> students = Arrays.asList(student1, student2, student3, student4);
 
 
-        System.out.println(students.stream().collect(summingInt(Student::getAge)));
+        System.out.println(students.stream().collect(summingInt(item -> item.getAge())));
 
 
     }
