@@ -55,9 +55,33 @@ Git文件
 已提交
     将已经暂存文件执行Git提交操作，将文件存入版本库(是自己本机的版本库)
 
+git rm 删除文件操作
+    1.删除一个文件
+    2.将被删除的文件纳入到暂存区（stage,index）
+若想恢复被删除的文件，需要进行两个操作：
+    git reset HEAD test2.txt        将待删除的文件从暂存区恢复到工作区
+    git checkout -- test2.txt       将工作区中的修改丢弃掉
+
+将test2.txt删除，这时，被删除的文件并没有添加到暂存区中，
+如果要放入到暂存区中，我们要用git add 命令
+
+git mv 命令 将当前这个目录移动到另一个目录
+git mv test.txt text2.txt
+git reset HEAD test2.txt
+git checkout -- test2.txt
 
 
 
+git add . 将当前目录的所有的文件纳入到暂存区中
+git log
+    -p :展示显示最近n次更新
+    -n :仅显示每次提交的内容差异
+    --stat: 仅显示知道要的增改行数据统计
+    --pretty=online
+    --pretty=format:"%h-%an,%ar:%s"
+
+git help config
+man git config
 
 
 
