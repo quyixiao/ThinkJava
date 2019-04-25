@@ -13,7 +13,7 @@ import static net.mindview.util.Print.print;
 /*****
  *
  *
- * 716页
+ * 714页
  *      wait()和notifyAll()方法以一种非常低级的方式解决了任务的操作问题，即每次交互的时都握
  *  手，在许多情况下，你可以瞄向更高的抽象级别，使用同步队列来解决任务协作问题，同步队
  *  列在任何时刻只允许一个任务插入或移除元素，在java.util.concurrent.BlockingQueue接口中
