@@ -75,8 +75,8 @@
       <file leaf-file-name="SpliteratorInArrayListStudy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="488">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1153,12 +1153,12 @@
       <workItem from="1556108585741" duration="4987000" />
       <workItem from="1556119381949" duration="312000" />
       <workItem from="1556156050192" duration="2543000" />
-      <workItem from="1556177387090" duration="12072000" />
+      <workItem from="1556177387090" duration="12115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1119348000" />
+    <option name="totallyTimeSpent" value="1119391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-180" width="1920" height="1080" extended-state="0" />
@@ -1613,8 +1613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="488">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
