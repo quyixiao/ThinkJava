@@ -6,8 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="cir">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/PipedIO.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/PipedIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java" afterPath="$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java" afterPath="$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,70 +72,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpliteratorInArrayListStudy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpliteratorInArrayListStudy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="614">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25494">
-              <caret line="1282" column="43" lean-forward="false" selection-start-line="1282" selection-start-column="23" selection-end-line="1282" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSpliterator1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSpliterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3084#3114#1" expanded="true" />
-                <element signature="e#3836#3866#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBlockingQueues.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PipedIO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/PipedIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -283,13 +226,13 @@
         <option value="$PROJECT_DIR$/src/main/java/java8/stream/StreamTest3_Reduce.java" />
         <option value="$PROJECT_DIR$/src/test/markdown/git_" />
         <option value="$PROJECT_DIR$/src/main/java/java8/spliterator2/MyThread4Spliterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/spliterator3/ArrayListSpliterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/spliterator3/ArrayListSpliterator1.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator1.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrency/PipedIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java" />
       </list>
     </option>
   </component>
@@ -1210,12 +1153,12 @@
       <workItem from="1556108585741" duration="4987000" />
       <workItem from="1556119381949" duration="312000" />
       <workItem from="1556156050192" duration="2543000" />
-      <workItem from="1556177387090" duration="11942000" />
+      <workItem from="1556177387090" duration="12072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1119218000" />
+    <option name="totallyTimeSpent" value="1119348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-180" width="1920" height="1080" extended-state="0" />
@@ -1586,47 +1529,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/ArrayListSpliterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25494">
-          <caret line="1282" column="43" lean-forward="false" selection-start-line="1282" selection-start-column="23" selection-end-line="1282" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/ArrayListSpliterator1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3084#3114#1" expanded="true" />
-            <element signature="e#3836#3866#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1654,14 +1557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/LiftOff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1672,9 +1567,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/PipedIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+        <state relative-caret-position="2078">
+          <caret line="178" column="54" lean-forward="true" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/TestBlockingQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3084#3114#1" expanded="true" />
+            <element signature="e#3836#3866#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator3/TestSpliterator1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="1282" column="43" lean-forward="false" selection-start-line="1282" selection-start-column="23" selection-end-line="1282" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/spliterator2/SpliteratorInArrayListStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

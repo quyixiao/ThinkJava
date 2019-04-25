@@ -30,4 +30,6 @@ public class SpliteratorInArrayListStudy {
         t03.start();
         //t04.start();
     }
+
+
 }
