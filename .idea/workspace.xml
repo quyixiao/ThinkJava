@@ -6,10 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="cir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/java8/stream/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapPerformance$1.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapPerformance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapPerformance$2.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapPerformance$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/containers/MapPerformance$3.class" afterPath="$PROJECT_DIR$/target/classes/containers/MapPerformance$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/markdown/git_" afterPath="$PROJECT_DIR$/src/test/markdown/git_" />
     </list>
@@ -77,31 +73,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StreamTest4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/stream/StreamTest4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="19" column="75" lean-forward="false" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git_" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/markdown/git_">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DelayQueueDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DelayQueueDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DelayQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state relative-caret-position="2761">
+              <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git_" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/markdown/git_">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="264" column="24" lean-forward="false" selection-start-line="264" selection-start-column="24" selection-end-line="264" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -292,10 +278,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1115,12 +1101,16 @@
       <workItem from="1556156050192" duration="2543000" />
       <workItem from="1556177387090" duration="13284000" />
       <workItem from="1556209946991" duration="1732000" />
-      <workItem from="1556241558278" duration="1351000" />
+      <workItem from="1556241558278" duration="2520000" />
+      <workItem from="1556244896180" duration="2452000" />
+      <workItem from="1556247357599" duration="753000" />
+      <workItem from="1556248114126" duration="38000" />
+      <workItem from="1556248168566" duration="16341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1123643000" />
+    <option name="totallyTimeSpent" value="1144396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-180" width="1920" height="1080" extended-state="0" />
@@ -1146,7 +1136,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51452285" sideWeight="0.49567366" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1587137" sideWeight="0.85311985" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22364217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2257721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10208817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1561,18 +1551,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/markdown/git_">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DelayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        <state relative-caret-position="2761">
+          <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/DelayQueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/markdown/git_">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="264" column="24" lean-forward="false" selection-start-line="264" selection-start-column="24" selection-end-line="264" selection-end-column="24" />
           <folding />
         </state>
       </provider>
