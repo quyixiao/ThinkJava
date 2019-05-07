@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b25c39-7cc7-442b-9747-910aea6804c6" name="Default" comment="cir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/markdown/2019-05-06" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/markdown/2019-05-05" afterPath="$PROJECT_DIR$/src/test/markdown/2019-05-05" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/markdown/2019-05-06" afterPath="$PROJECT_DIR$/src/test/markdown/2019-05-06" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,8 +130,8 @@
       <file leaf-file-name="2019-05-06" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/markdown/2019-05-06">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+            <state relative-caret-position="654">
+              <caret line="138" column="4" lean-forward="false" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -181,7 +180,7 @@
       <file leaf-file-name="TestDate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xml/TestDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="231">
               <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -375,6 +374,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,10 +477,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1224,12 +1223,13 @@
       <workItem from="1557106363389" duration="3846000" />
       <workItem from="1557145993028" duration="3312000" />
       <workItem from="1557152140324" duration="1020000" />
-      <workItem from="1557192715149" duration="11715000" />
+      <workItem from="1557192715149" duration="11765000" />
+      <workItem from="1557212644222" duration="6877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1281244000" />
+    <option name="totallyTimeSpent" value="1288171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-180" width="1920" height="1080" extended-state="0" />
@@ -1582,7 +1582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xml/TestDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="231">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1656,8 +1656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/markdown/2019-05-06">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        <state relative-caret-position="654">
+          <caret line="138" column="4" lean-forward="false" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
           <folding />
         </state>
       </provider>
