@@ -1,6 +1,7 @@
 package java8.optional;
 
 import java.util.Optional;
+import java.util.function.Consumer;
 
 /***
  * 解决NullException
@@ -22,7 +23,12 @@ public class OptionalTest {
 
         optional.ifPresent(System.out::println);
 
-        optional.ifPresent(item -> System.out.println(item));
+        optional.ifPresent(new Consumer<String>() {
+            @Override
+            public void accept(String item) {
+                System.out.println(item);
+            }
+        });
 
         System.out.println(optional.orElse("world"));
 

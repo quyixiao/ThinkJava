@@ -43,7 +43,7 @@ import java.util.concurrent.Executors;
  其中泛型参数C表示容器的类型。
  我们向构造器提供了各种有关的测试的信息，参数标识符应该是自解释的，然后它会以调用runTest()方法
  repetitions次，runTest()将建一个contDownLatch(因此测试可以知道所有任何何时完成)初始体可视化
- 容器，然后调用startReadersAndWriters，并等待它们全部完成
+ docker，然后调用startReadersAndWriters，并等待它们全部完成
     每个Reader和Writer类者基于TestTask，它可以计划里其抽象的方法的执行时间，然后在一个synchronized
  块中调用putResults()去存储度量结果
     为了使用这个框架，其中你可以识别出模版方法设计模式，我们必须让想要测试可以知道所有的任何何时完成
@@ -53,7 +53,7 @@ import java.util.concurrent.Executors;
  ，duration被存在来起来，result也是一样，这样可以为防止这些计算被优化掉，startResultderAndWriters()被
  定义为创建和执行具体的Readers和Writers
     一旦创建了ListTest,它就必须被进一步继承，以覆盖containerInitializer()，从而可以创建和初始化具体的测试
- 容器
+ docker
     在main()中，你可以看到各种测试变体，它们具有不同的数量的读取者和写入者，由于存在对
  Testter.initMain(args)的调用，所以你可以使用命令行参数来改变测试变量
     默认行是为每个测试运行10次，这有助于稳定输出，而输出是可以变化 的，因为存在着诸如
